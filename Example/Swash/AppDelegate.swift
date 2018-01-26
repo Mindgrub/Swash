@@ -3,7 +3,7 @@
 //  Swash
 //
 //  Created by Sam Francis on 01/26/2018.
-//  Copyright (c) 2018 Sam Francis. All rights reserved.
+//  Copyright (c) 2018 Mindgrub. All rights reserved.
 //
 
 import UIKit

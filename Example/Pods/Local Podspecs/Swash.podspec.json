@@ -1,0 +1,22 @@
+{
+  "name": "Swash",
+  "version": "0.1.0",
+  "summary": "A short description of Swash.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sam Francis/Swash",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sam Francis": "samfrancis.dev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Sam Francis/Swash.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Swash/Classes/**/*"
+}

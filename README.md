@@ -1,6 +1,5 @@
 # Swash
 
-[![CI Status](http://img.shields.io/travis/Sam Francis/Swash.svg?style=flat)](https://travis-ci.org/Sam Francis/Swash)
 [![Version](https://img.shields.io/cocoapods/v/Swash.svg?style=flat)](http://cocoapods.org/pods/Swash)
 [![License](https://img.shields.io/cocoapods/l/Swash.svg?style=flat)](http://cocoapods.org/pods/Swash)
 [![Platform](https://img.shields.io/cocoapods/p/Swash.svg?style=flat)](http://cocoapods.org/pods/Swash)
@@ -19,10 +18,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'Swash'
 ```
-
-## Author
-
-Sam Francis, samfrancis.dev@gmail.com
 
 ## License
 

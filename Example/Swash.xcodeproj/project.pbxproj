@@ -41,11 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8C3767C36751450CC510CFBE /* Pods-Swash_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swash_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swash_Example/Pods-Swash_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A353CCD158BB7D230E3B2C05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A353CCD158BB7D230E3B2C05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A80975E0EBF5EF4289C38667 /* Pods-Swash_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swash_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swash_Tests/Pods-Swash_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C20A37E9D28C7BF11AE73524 /* Pods-Swash_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swash_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swash_Tests/Pods-Swash_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C4FACEE11EC76DD7C023D5E9 /* Swash.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Swash.podspec; path = ../Swash.podspec; sourceTree = "<group>"; };
-		D1626C742FF8DCA5CD3DF5DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C4FACEE11EC76DD7C023D5E9 /* Swash.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Swash.podspec; path = ../Swash.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1626C742FF8DCA5CD3DF5DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F82C6DBA613D6ACA9ED0C43D /* Pods-Swash_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swash_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swash_Example/Pods-Swash_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
