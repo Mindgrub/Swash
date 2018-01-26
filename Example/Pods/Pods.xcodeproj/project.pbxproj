@@ -10,6 +10,7 @@
 		05515F0095CEDB4818F9C0514DCEE843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3ACC327BE177D562EEF5691659681E4D /* Pods-Swash_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1B23B7D6E433520B39A066D9FB2903 /* Pods-Swash_Tests-dummy.m */; };
 		487D1EBAFB7456F3E1E4F53F455FAAC8 /* Swash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0EC471D10ECD92E98C57745FFE02A4 /* Swash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82EB15DA201BCDF400E6FC7F /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB15D9201BCDF400E6FC7F /* Font.swift */; };
 		B3D00DCC3AFD7245A877E5CA298E7995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		BE9D500F0861D4394E5E17067F8EAE1C /* Pods-Swash_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8594DE674402B689141ECDFF990AE39 /* Pods-Swash_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFFFD2C527FFD66295E7FD1D7EFACFA1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A55EF241C96C62E6E4D3E039190F2A /* ReplaceMe.swift */; };
@@ -43,6 +44,7 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B4322AF14F9DF0C6D44B5A34E3939A0 /* Pods-Swash_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7A74331DB4D94D983AAD9C8F3ABD3BF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EB15D9201BCDF400E6FC7F /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Font.swift; path = Swash/Classes/Font.swift; sourceTree = "<group>"; };
 		8C3633282C3A7318F71D6B941642C643 /* Pods-Swash_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94C42ED8054A1B5E197FF6D18A287FD4 /* Pods_Swash_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swash_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +137,7 @@
 		7B2DA417CE198EB0B434FB1B89B4148C /* Swash */ = {
 			isa = PBXGroup;
 			children = (
+				82EB15D9201BCDF400E6FC7F /* Font.swift */,
 				26A55EF241C96C62E6E4D3E039190F2A /* ReplaceMe.swift */,
 				96A95F5728E114D289D461C42FF19741 /* Pod */,
 				9871E5C03950A734A4035FF9A3A8A011 /* Support Files */,
@@ -353,6 +356,7 @@
 			files = (
 				BFFFD2C527FFD66295E7FD1D7EFACFA1 /* ReplaceMe.swift in Sources */,
 				D65DCAD086A99F991EABF92AD79A023A /* Swash-dummy.m in Sources */,
+				82EB15DA201BCDF400E6FC7F /* Font.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,7 +514,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Swash/Swash-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Swash/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Swash/Swash.modulemap";
 				PRODUCT_NAME = Swash;
@@ -664,7 +668,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Swash/Swash-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Swash/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Swash/Swash.modulemap";
 				PRODUCT_NAME = Swash;
