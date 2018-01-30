@@ -10,11 +10,11 @@
 		05515F0095CEDB4818F9C0514DCEE843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3ACC327BE177D562EEF5691659681E4D /* Pods-Swash_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1B23B7D6E433520B39A066D9FB2903 /* Pods-Swash_Tests-dummy.m */; };
 		487D1EBAFB7456F3E1E4F53F455FAAC8 /* Swash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0EC471D10ECD92E98C57745FFE02A4 /* Swash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		826154A2202019EE00178C48 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826154A1202019EE00178C48 /* Utils.swift */; };
 		82EB15DA201BCDF400E6FC7F /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB15D9201BCDF400E6FC7F /* Font.swift */; };
 		82EB15DC201BD72300E6FC7F /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EB15DB201BD72300E6FC7F /* SystemFont.swift */; };
 		B3D00DCC3AFD7245A877E5CA298E7995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		BE9D500F0861D4394E5E17067F8EAE1C /* Pods-Swash_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8594DE674402B689141ECDFF990AE39 /* Pods-Swash_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFFFD2C527FFD66295E7FD1D7EFACFA1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A55EF241C96C62E6E4D3E039190F2A /* ReplaceMe.swift */; };
 		D65DCAD086A99F991EABF92AD79A023A /* Swash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6951D8B37E5CC773B2E93FAEC4D9341 /* Swash-dummy.m */; };
 		EAB65DEAFE6CE713B3A851EC3F429FA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F14AB4760A3320AF01A3A5F0F763C4B1 /* Pods-Swash_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CEA68FE32620C31B982227536892EA /* Pods-Swash_Example-dummy.m */; };
@@ -34,7 +34,6 @@
 /* Begin PBXFileReference section */
 		196019BCE9DD6B81DC13313FB9A5EAB5 /* Pods-Swash_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_Example-resources.sh"; sourceTree = "<group>"; };
 		1C68C103A0BF33C06E436BB8C1FAEB14 /* Pods-Swash_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swash_Tests-umbrella.h"; sourceTree = "<group>"; };
-		26A55EF241C96C62E6E4D3E039190F2A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Swash/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2CF1B098AC3752C6A491E0BF158E499F /* Swash.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Swash.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3A4BD032335229F4F8997387CCD3B30E /* Pods_Swash_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swash_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C78C0C7F3C3C6618DE86C634353FC5 /* Pods-Swash_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swash_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B4322AF14F9DF0C6D44B5A34E3939A0 /* Pods-Swash_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7A74331DB4D94D983AAD9C8F3ABD3BF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826154A1202019EE00178C48 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Swash/Classes/Utils.swift; sourceTree = "<group>"; };
 		82EB15D9201BCDF400E6FC7F /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Font.swift; path = Swash/Classes/Font.swift; sourceTree = "<group>"; };
 		82EB15DB201BD72300E6FC7F /* SystemFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SystemFont.swift; path = Swash/Classes/SystemFont.swift; sourceTree = "<group>"; };
 		8C3633282C3A7318F71D6B941642C643 /* Pods-Swash_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -140,10 +140,10 @@
 			isa = PBXGroup;
 			children = (
 				82EB15D9201BCDF400E6FC7F /* Font.swift */,
-				26A55EF241C96C62E6E4D3E039190F2A /* ReplaceMe.swift */,
+				82EB15DB201BD72300E6FC7F /* SystemFont.swift */,
+				826154A1202019EE00178C48 /* Utils.swift */,
 				96A95F5728E114D289D461C42FF19741 /* Pod */,
 				9871E5C03950A734A4035FF9A3A8A011 /* Support Files */,
-				82EB15DB201BD72300E6FC7F /* SystemFont.swift */,
 			);
 			name = Swash;
 			path = ../..;
@@ -357,10 +357,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFFFD2C527FFD66295E7FD1D7EFACFA1 /* ReplaceMe.swift in Sources */,
 				D65DCAD086A99F991EABF92AD79A023A /* Swash-dummy.m in Sources */,
 				82EB15DA201BCDF400E6FC7F /* Font.swift in Sources */,
 				82EB15DC201BD72300E6FC7F /* SystemFont.swift in Sources */,
+				826154A2202019EE00178C48 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

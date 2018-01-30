@@ -8,7 +8,6 @@
 import UIKit
 
 // System font implementation, with extra methods to support dynamic type
-@available(iOS 8.2, *)
 public enum SystemFont {
     case ultraLight, thin, light, regular, medium, semibold, bold, heavy, black, italic, semiboldItalic, condensed
     
@@ -42,10 +41,10 @@ public enum SystemFont {
         case .traits(let traits):
             if let descriptor = UIFont.systemFont(ofSize: size).fontDescriptor.withSymbolicTraits(traits) {
                 return UIFont(descriptor: descriptor, size: size)
+            } else {
+                return .systemFont(ofSize: size)
             }
         }
-        
-        return .systemFont(ofSize: size)
     }
     
     public func of(textStyle: UIFontTextStyle) -> UIFont {

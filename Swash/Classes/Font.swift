@@ -7,7 +7,6 @@
 
 import UIKit
 
-@available(iOS 8.2, *)
 public protocol Font {
     func of(size: CGFloat) -> UIFont?
     
@@ -24,10 +23,13 @@ public protocol Font {
     func of(textStyle: UIFontTextStyle, maxSize: CGFloat) -> UIFont?
 }
 
-@available(iOS 8.2, *)
 public extension Font where Self: RawRepresentable, Self.RawValue == String {
     public func of(size: CGFloat) -> UIFont? {
-        return UIFont(name: rawValue, size: size)
+        guard let font = UIFont(name: rawValue, size: size) else {
+            debugLog("Font not found: \(rawValue)")
+            return nil
+        }
+        return font
     }
     
     @available(iOS 11.0, *)
