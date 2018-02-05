@@ -13,7 +13,7 @@ public protocol Font {
     @available(iOS 11.0, *)
     func of(textStyle: UIFontTextStyle, defaultSize: CGFloat, maxSize: CGFloat?) -> UIFont?
     
-    @available(iOS, introduced: 8.2, deprecated: 11.0, message: "In iOS 11+, you must specify a default size for custom FontTypes")
+    @available(iOS, introduced: 8.2, deprecated: 11.0, message: "In iOS 11+, you must specify a default size for custom fonts.")
     func of(textStyle: UIFontTextStyle, maxSize: CGFloat?) -> UIFont?
 }
 
@@ -38,7 +38,7 @@ public extension Font where Self: RawRepresentable, Self.RawValue == String {
         }
     }
     
-    @available(iOS, introduced: 8.2, deprecated: 11.0, message: "In iOS 11+, you must specify a default size for custom FontTypes")
+    @available(iOS, introduced: 8.2, deprecated: 11.0, message: "In iOS 11+, you must specify a default size for custom fonts.")
     public func of(textStyle: UIFontTextStyle, maxSize: CGFloat? = nil) -> UIFont? {
         let pointSize = UIFont.preferredFont(forTextStyle: textStyle).pointSize
         
