@@ -47,16 +47,13 @@ public enum SystemFont {
         }
     }
     
-    public func of(textStyle: UIFontTextStyle) -> UIFont {
-        return of(size: UIFont.preferredFont(forTextStyle: textStyle).pointSize)
-    }
-    
-    public func of(textStyle: UIFontTextStyle, maxSize: CGFloat) -> UIFont {
-        let font = of(textStyle: textStyle)
-        if font.pointSize <= maxSize {
-            return font
-        } else {
+    public func of(textStyle: UIFontTextStyle, maxSize: CGFloat? = nil) -> UIFont {
+        let pointSize = UIFont.preferredFont(forTextStyle: textStyle).pointSize
+        
+        if let maxSize = maxSize, pointSize > maxSize {
             return of(size: maxSize)
+        } else {
+            return of(size: pointSize)
         }
     }
     
