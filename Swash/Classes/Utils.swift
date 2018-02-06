@@ -7,16 +7,12 @@
 
 import UIKit
 
-public enum FontManager {
+public enum Swash {
     
-    public enum LogLevel {
-        case none, debug
-    }
-    
-    /// Set the log level to `debug` to log when custom
-    /// fonts are not loaded properly. `none` is the default,
+    /// Set this property to `true` to log when custom
+    /// fonts are not loaded properly. `false` is the default,
     /// and is recommended for release builds.
-    public static var logLevel: LogLevel = .none
+    public static var logFontFailures: Bool = false
     
     /// Call this function to log an attempt at generating
     /// custom font boilerplate.
@@ -35,11 +31,5 @@ public enum FontManager {
                 str += "\n}"
                 print(str)
         }
-    }
-}
-
-func debugLog(_ message: String) {
-    if FontManager.logLevel == .debug {
-        print(message)
     }
 }
