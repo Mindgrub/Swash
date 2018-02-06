@@ -21,7 +21,7 @@ public extension Font where Self: RawRepresentable, Self.RawValue == String {
     public func of(size: CGFloat) -> UIFont? {
         guard let font = UIFont(name: rawValue, size: size) else {
             if Swash.logFontFailures {
-                debugLog("Font not found: \(rawValue)")
+                print("Font not found: \(rawValue)")
             }
             return nil
         }
