@@ -8,12 +8,6 @@
 import UIKit
 
 public enum Swash {
-    
-    /// Set this property to `true` to log when custom
-    /// fonts are not loaded properly. `false` is the default,
-    /// and is recommended for release builds.
-    public static var logFontFailures: Bool = false
-    
     /// Call this function to log an attempt at generating
     /// custom font boilerplate.
     ///

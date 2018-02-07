@@ -20,9 +20,8 @@ public protocol Font {
 public extension Font where Self: RawRepresentable, Self.RawValue == String {
     public func of(size: CGFloat) -> UIFont? {
         guard let font = UIFont(name: rawValue, size: size) else {
-            if Swash.logFontFailures {
-                print("Font not found: \(rawValue)")
-            }
+            // If font not found, crash debug builds
+            assertionFailure("Font not found: \(rawValue)")
             return nil
         }
         return font
