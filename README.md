@@ -47,7 +47,7 @@ label.font = Papyrus.condensed.of(textStyle: .body, maxSize: 30)
 ```
 
 #### System Font
-You can use the system font to support dynamic type for different weights and further unify the font syntax in your project.
+You can use `SystemFont` to support dynamic type for different weights and further unify the font syntax in your project.
 ```swift
 label.font = SystemFont.light.of(size: 17)
 label.font = SystemFont.semibold.of(textStyle: .body)
@@ -76,7 +76,7 @@ enum GillSans: String, Font {
 Just copy-paste the output into your project. You'll probably still need to doctor the case names a bit.
 
 #### Debug Crashing
-If your custom font cannot be initialized, `assertionFailure()` is called. This will crash debug builds with the default `None` compiler optimization set. This is to help identify failed font initializations which can otherwise be hard to catch. **Release builds with higher optimization levels will NOT crash**, so you don't have to worry about your app crashing in production over a silly font.
+If your custom font fails to initialize, `assertionFailure()` is called. This will crash debug builds with the default `None` compiler optimization set. This is to help identify failed font initializations which can otherwise be hard to catch. **Release builds with higher optimization levels will NOT crash**, so you don't have to worry about your app crashing in production over a silly font.
 
 ## License
 
