@@ -40,6 +40,8 @@ label1.font = Papyrus.condensed.of(textStyle: .headline, defaultSize: 17)
 // Optional size cutoff
 label2.font = GillSans.bold.of(textStyle: .title1, defaultSize: 28, maxSize: 38)
 ```
+![Dynamic Type Demo](https://raw.githubusercontent.com/Mindgrub/Swash/v1.0.0/Swash/Assets/dynamic_type_demo.gif)
+
 #### Dynamic Type (Before iOS 11)
 Uses system font scaling, no default size value. [`adjustsFontForContentSizeCategory`](https://developer.apple.com/documentation/uikit/uicontentsizecategoryadjusting/1771731-adjustsfontforcontentsizecategor) requires the use of [`UIFontMetrics`](https://developer.apple.com/documentation/uikit/uifontmetrics), so it is of no use for custom fonts before iOS 11. You'll have to update the fonts manually, either in [`traitCollectionDidChange(_:)`](https://developer.apple.com/documentation/uikit/uitraitenvironment/1623516-traitcollectiondidchange) or by observing the [`UIContentSizeCategoryDidChange`](https://developer.apple.com/documentation/foundation/nsnotification.name/1622948-uicontentsizecategorydidchange) notification.
 ```swift
@@ -47,7 +49,6 @@ label.font = Papyrus.condensed.of(textStyle: .headline)
 // Optional size cutoff
 label.font = GillSans.bold.of(textStyle: .title1, maxSize: 30)
 ```
-![Dynamic Type Demo](https://raw.githubusercontent.com/Mindgrub/Swash/v1.0.0/Swash/Assets/dynamic_type_demo.gif)
 
 #### System Font
 You can use `SystemFont` to support dynamic type for different weights and further unify the font syntax in your project.
