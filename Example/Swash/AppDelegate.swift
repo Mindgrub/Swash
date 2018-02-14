@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        Swash.logFontBoilerplate(filter: "gill sans")
+        Swash.logFontBoilerplate(filter: "gill")
         return true
     }
     

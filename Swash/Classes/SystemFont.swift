@@ -7,17 +7,18 @@
 
 import UIKit
 
-// System font implementation, with extra methods to support dynamic type
+// System font implementation
 public enum SystemFont {
-    case ultraLight, thin, light, regular, medium, semibold, bold, heavy, black, italic, semiboldItalic, condensed
+    case preferred, ultraLight, thin, light, regular, medium, semibold, bold, heavy, black, italic, semiboldItalic, condensed
     
     private enum Style {
         case weight(UIFont.Weight)
         case traits(UIFontDescriptorSymbolicTraits)
     }
     
-    private var style: Style {
+    private var style: Style? {
         switch self {
+        case .preferred: return nil
         case .ultraLight: return .weight(.ultraLight)
         case .thin: return .weight(.thin)
         case .light: return .weight(.light)
@@ -35,6 +36,10 @@ public enum SystemFont {
     }
     
     public func of(size: CGFloat) -> UIFont {
+        guard let style = style else {
+            return .systemFont(ofSize: size)
+        }
+        
         switch style {
         case .weight(let weight):
             return .systemFont(ofSize: size, weight: weight)
@@ -47,7 +52,14 @@ public enum SystemFont {
         }
     }
     
+    /// NOTE: The `adjustsFontForContentSizeCategory` property on `UILabel`, `UITextView`, etc. only works
+    /// for the `preferred` weight with a nil `maxSize` value. In any other case, you will need to update the font
+    /// either in `traitCollectionDidChange()` or by observing the `UIContentSizeCategoryDidChange` notification.
     public func of(textStyle: UIFontTextStyle, maxSize: CGFloat? = nil) -> UIFont {
+        if self == .preferred && maxSize == nil {
+            return .preferredFont(forTextStyle: textStyle)
+        }
+        
         let pointSize = UIFont.preferredFont(forTextStyle: textStyle).pointSize
         
         if let maxSize = maxSize, pointSize > maxSize {

@@ -8,34 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Swash'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A simple, safe, and expressive abstraction of UIFont with baked-in support for dynamic type.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = 'Swash is a simple, safe, and expressive abstraction of UIFont with baked-in support for dynamic type.'
-
   s.homepage         = 'https://github.com/Mindgrub/Swash'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Mindgrub' => 'https://mindgrub.com' }
+  s.author           = 'Mindgrub'
   s.source           = { :git => 'https://github.com/Mindgrub/Swash.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/mindgrub'
 
   s.ios.deployment_target = '8.2'
   s.swift_version = '4.0'
 
   s.source_files = 'Swash/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Swash' => ['Swash/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
