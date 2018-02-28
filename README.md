@@ -31,7 +31,7 @@ label.font = Papyrus.regular.of(size: 17)
 ```
 
 #### Dynamic Type (iOS 11+)
-Uses [`UIFontMetrics`](https://developer.apple.com/documentation/uikit/uifontmetrics) for scaling. Setting [`adjustsFontForContentSizeCategory`](https://developer.apple.com/documentation/uikit/uicontentsizecategoryadjusting/1771731-adjustsfontforcontentsizecategor) to `true` tells the label to automatically update the font when the user changes their content size preference. See our [blogpost](https://mindgrub.com/blog) for guidance on choosing default sizes for text styles.
+Uses [`UIFontMetrics`](https://developer.apple.com/documentation/uikit/uifontmetrics) for scaling. Setting [`adjustsFontForContentSizeCategory`](https://developer.apple.com/documentation/uikit/uicontentsizecategoryadjusting/1771731-adjustsfontforcontentsizecategor) to `true` tells the label to automatically update the font when the user changes their content size preference. See our [blog post](https://blog.mindgrub.com/custom-fonts-in-ios-made-simple-yet-powerful) for guidance on choosing default sizes for text styles.
 ```swift
 label1.adjustsFontForContentSizeCategory = true
 label2.adjustsFontForContentSizeCategory = true
