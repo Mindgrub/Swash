@@ -13,7 +13,7 @@ public enum SystemFont {
     
     private enum Style {
         case weight(UIFont.Weight)
-        case traits(UIFontDescriptorSymbolicTraits)
+        case traits(UIFontDescriptor.SymbolicTraits)
     }
     
     private var style: Style? {
@@ -55,7 +55,7 @@ public enum SystemFont {
     /// NOTE: The `adjustsFontForContentSizeCategory` property on `UILabel`, `UITextView`, etc. only works
     /// for the `preferred` weight with a nil `maxSize` value. In any other case, you will need to update the font
     /// either in `traitCollectionDidChange()` or by observing the `UIContentSizeCategoryDidChange` notification.
-    public func of(textStyle: UIFontTextStyle, maxSize: CGFloat? = nil) -> UIFont {
+    public func of(textStyle: UIFont.TextStyle, maxSize: CGFloat? = nil) -> UIFont {
         if self == .preferred && maxSize == nil {
             return .preferredFont(forTextStyle: textStyle)
         }

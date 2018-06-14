@@ -13,7 +13,7 @@ public enum Swash {
     ///
     /// - Parameter filter: Used to narrow the log to your desired fonts.
     public static func logFontBoilerplate(filter: String = "") {
-        let trimmedFilter = filter.trimmingCharacters(in: CharacterSet.whitespaces).lowercased()
+        let trimmedFilter = filter.trimmingCharacters(in: .whitespaces).lowercased()
         UIFont.familyNames
             .filter { $0.lowercased().contains(trimmedFilter) || trimmedFilter == "" }
             .forEach { familyName in

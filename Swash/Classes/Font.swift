@@ -11,10 +11,10 @@ public protocol Font {
     func of(size: CGFloat) -> UIFont?
     
     @available(iOS 11.0, *)
-    func of(textStyle: UIFontTextStyle, defaultSize: CGFloat, maxSize: CGFloat?) -> UIFont?
+    func of(textStyle: UIFont.TextStyle, defaultSize: CGFloat, maxSize: CGFloat?) -> UIFont?
     
     @available(iOS, introduced: 8.2, deprecated: 11.0, message: "In iOS 11+, you must specify a default size for custom fonts.")
-    func of(textStyle: UIFontTextStyle, maxSize: CGFloat?) -> UIFont?
+    func of(textStyle: UIFont.TextStyle, maxSize: CGFloat?) -> UIFont?
 }
 
 public extension Font where Self: RawRepresentable, Self.RawValue == String {
@@ -28,7 +28,7 @@ public extension Font where Self: RawRepresentable, Self.RawValue == String {
     }
     
     @available(iOS 11.0, *)
-    public func of(textStyle: UIFontTextStyle, defaultSize: CGFloat, maxSize: CGFloat? = nil) -> UIFont? {
+    public func of(textStyle: UIFont.TextStyle, defaultSize: CGFloat, maxSize: CGFloat? = nil) -> UIFont? {
         guard let font = of(size: defaultSize) else { return nil }
         let fontMetrics = UIFontMetrics(forTextStyle: textStyle)
         
@@ -40,7 +40,7 @@ public extension Font where Self: RawRepresentable, Self.RawValue == String {
     }
     
     @available(iOS, introduced: 8.2, deprecated: 11.0, message: "In iOS 11+, you must specify a default size for custom fonts.")
-    public func of(textStyle: UIFontTextStyle, maxSize: CGFloat? = nil) -> UIFont? {
+    public func of(textStyle: UIFont.TextStyle, maxSize: CGFloat? = nil) -> UIFont? {
         let pointSize = UIFont.preferredFont(forTextStyle: textStyle).pointSize
         
         if let maxSize = maxSize, pointSize > maxSize {
