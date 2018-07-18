@@ -1,16 +1,16 @@
 PODS:
-  - Swash (0.1.0)
+  - Swash (1.0.0)
 
 DEPENDENCIES:
   - Swash (from `../`)
 
 EXTERNAL SOURCES:
   Swash:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Swash: 90a9845ce211587f7b84f6e01e630a61369a482f
+  Swash: a0d96b61f6dd7414e6dff81d4b4706b01550ab8a
 
 PODFILE CHECKSUM: 6a4253037f9e961b224dc207926fb43a0d316772
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
