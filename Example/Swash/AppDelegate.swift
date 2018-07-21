@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        Swash.logFontBoilerplate(filter: "gill")
+        // Log boilerplate for only the GillSans font family
+        Swash.logBoilerplate(forFontsWithFamilyNamesContaining: "gill")
         return true
     }
     

@@ -7,9 +7,17 @@
 
 import UIKit
 
-// System font implementation
+/**
+ A type that represents the system font and can generate a `UIFont` object.
+ */
 public enum SystemFont {
-    case preferred, ultraLight, thin, light, regular, medium, semibold, bold, heavy, black, italic, semiboldItalic, condensed
+    /**
+     Represents the "preferred" system font.
+     
+     For this case, `of(size:)` returns the direct result of `UIFont.systemFont(ofSize:)`. In addition, `of(textStyle:maxSize:)` returns the direct result of `UIFont.preferredFont(forTextStyle:)` when `maxSize` is `nil`. This is the only case which allows for labels and text views to automatically resize if `adjustsFontForContentSizeCategory` is `true`.
+     */
+    case preferred
+    case ultraLight, thin, light, regular, medium, semibold, bold, heavy, black, italic, semiboldItalic, condensed
     
     private enum Style {
         case weight(UIFont.Weight)
@@ -19,6 +27,7 @@ public enum SystemFont {
     private var style: Style? {
         switch self {
         case .preferred: return nil
+            
         case .ultraLight: return .weight(.ultraLight)
         case .thin: return .weight(.thin)
         case .light: return .weight(.light)
@@ -35,6 +44,15 @@ public enum SystemFont {
         }
     }
     
+    /**
+     Creates a system font object of the specified size.
+     
+     Instead of using this method to get a font, it’s often more appropriate to use `of(textStyle:maxSize:)` because that method respects the user’s selected content size category.
+     
+     - Parameter size: The text size for the font.
+     
+     - Returns: A system font object of the specified size.
+     */
     public func of(size: CGFloat) -> UIFont {
         guard let style = style else {
             return .systemFont(ofSize: size)
@@ -52,9 +70,19 @@ public enum SystemFont {
         }
     }
     
-    /// NOTE: The `adjustsFontForContentSizeCategory` property on `UILabel`, `UITextView`, etc. only works
-    /// for the `preferred` weight with a nil `maxSize` value. In any other case, you will need to update the font
-    /// either in `traitCollectionDidChange()` or by observing the `UIContentSizeCategoryDidChange` notification.
+    /**
+     Creates a dynamic font object sized based on the given parameters.
+     
+     When used to set the text value of a label or text view, set `adjustsFontForContentSizeCategory` to `true`.
+     
+     - Important: The `adjustsFontForContentSizeCategory` property on `UILabel`, `UITextView`, etc. only works for the `preferred` weight with a nil `maxSize` value. In any other case, you will need to update the font either in `traitCollectionDidChange()` or by observing the `UIContentSizeCategoryDidChange` notification.
+     
+     - Parameters:
+        - textStyle: The text style used to scale the text.
+        - maxSize: Size which the text may not exceed.
+     
+     - Returns: A system font object corresponding to the given parameters.
+     */
     public func of(textStyle: UIFont.TextStyle, maxSize: CGFloat? = nil) -> UIFont {
         if self == .preferred && maxSize == nil {
             return .preferredFont(forTextStyle: textStyle)
