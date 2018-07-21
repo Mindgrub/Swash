@@ -25,6 +25,6 @@ enum GillSans: String, Font {
     case lightItalic = "GillSans-LightItalic"
 }
 
-enum BogusFont: String, Font {
-    case crashDebugBuilds = "😈"
+enum InvalidFont: String, Font {
+    case doesNotExist = "😈"
 }

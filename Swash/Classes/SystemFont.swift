@@ -65,6 +65,7 @@ public enum SystemFont {
             if let descriptor = UIFont.systemFont(ofSize: size).fontDescriptor.withSymbolicTraits(traits) {
                 return UIFont(descriptor: descriptor, size: size)
             } else {
+                // Should never be reached
                 return .systemFont(ofSize: size)
             }
         }

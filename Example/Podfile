@@ -1,11 +1,10 @@
+platform :ios, '12.0'
 use_frameworks!
 
 target 'Swash_Example' do
   pod 'Swash', :path => '../'
+end
 
-  target 'Swash_Tests' do
-    inherit! :search_paths
-
-    
-  end
+target 'Swash_Tests' do
+    pod 'Swash', :path => '../'
 end
