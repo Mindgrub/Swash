@@ -12,9 +12,10 @@ import Swash
 class CustomFontTests: XCTestCase {
     
     //MARK: - Of Size
+    
     func testOfSize() {
         guard let font = GillSans.regular.of(size: 23) else {
-            return XCTFail()
+            return XCTFail("GillSans font failed to initialize.")
         }
         XCTAssertEqual(font.pointSize, 23)
         XCTAssertEqual(font.fontName, "GillSans")
@@ -25,6 +26,7 @@ class CustomFontTests: XCTestCase {
     }
     
     //MARK: - Of Text Style
+    
     func testOfTextStyle() {
         XCTAssertNotNil(GillSans.boldItalic.of(textStyle: .title1))
     }
@@ -42,6 +44,7 @@ class CustomFontTests: XCTestCase {
     }
     
     //MARK: - Deprecated in iOS 11
+    
     func testOfStyle() {
         XCTAssertNotNil(Papyrus.regular.of(style: .title3))
     }
