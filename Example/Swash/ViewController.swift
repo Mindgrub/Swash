@@ -24,10 +24,10 @@ class ViewController: UIViewController {
         label3.font = SystemFont.preferred.of(textStyle: .caption1)
         label4.font = SystemFont.heavy.of(textStyle: .body)
         
-        label1.text = "\(label1.font.fontDescriptor.postscriptName)"
-        label2.text = "\(label2.font.fontDescriptor.postscriptName)"
-        label3.text = "\(label3.font.fontDescriptor.postscriptName)"
-        label4.text = "\(label4.font.fontDescriptor.postscriptName)"
+        label1.text = label1.font.fontName
+        label2.text = label2.font.fontName
+        label3.text = label3.font.fontName
+        label4.text = label4.font.fontName
     }
     
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {

@@ -11,7 +11,7 @@ import Swash
 
 class SystemFontTests: XCTestCase {
     
-    //MARK: - Different Weights/Styles
+    //MARK: - Of Size - Different Weights/Styles
     
     func testSystemPreferredOfSize() {
         let font = SystemFont.preferred.of(size: 12)

@@ -25,7 +25,7 @@ class CustomFontTests: XCTestCase {
         XCTAssertNil(InvalidFont.doesNotExist.of(size: 12))
     }
     
-    //MARK: - Of Text Style
+    //MARK: - Dynamic Type
     
     func testOfTextStyle() {
         XCTAssertNotNil(GillSans.boldItalic.of(textStyle: .title1))
@@ -43,7 +43,7 @@ class CustomFontTests: XCTestCase {
         XCTAssertNil(InvalidFont.doesNotExist.of(textStyle: .footnote))
     }
     
-    //MARK: - Deprecated in iOS 11
+    //MARK: - Dynamic Type - Deprecated in iOS 11
     
     func testOfStyle() {
         XCTAssertNotNil(Papyrus.regular.of(style: .title3))
