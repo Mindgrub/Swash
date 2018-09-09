@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2218FE112102F8DD007B0C84 /* SystemFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2218FE102102F8DD007B0C84 /* SystemFontTests.swift */; };
+		2282AD7A2144748A00E20C3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2282AD792144748A00E20C3E /* AppDelegate.swift */; };
+		2282AD7C2144748A00E20C3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2282AD7B2144748A00E20C3E /* ViewController.swift */; };
+		2282AD7F2144748A00E20C3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2282AD7D2144748A00E20C3E /* Main.storyboard */; };
+		2282AD812144748C00E20C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2282AD802144748C00E20C3E /* Assets.xcassets */; };
+		2282AD8C2144748C00E20C3E /* Swash_tvOS_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2282AD8B2144748C00E20C3E /* Swash_tvOS_ExampleTests.swift */; };
+		2282ADBA21449DCD00E20C3E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D74F8202A5D8C00DE3217 /* Fonts.swift */; };
+		2282ADBB21449DCE00E20C3E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D74F8202A5D8C00DE3217 /* Fonts.swift */; };
 		58AAC87BAB1F9209D6717BC7 /* Pods_Swash_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC78E673D8536B257CF5B88 /* Pods_Swash_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -18,9 +25,17 @@
 		829D74F9202A5D8C00DE3217 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D74F8202A5D8C00DE3217 /* Fonts.swift */; };
 		829D74FA202A5D8C00DE3217 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D74F8202A5D8C00DE3217 /* Fonts.swift */; };
 		86B8FB7D08688AC1C52F9290 /* Pods_Swash_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053C130EB89BF07513DB5D2B /* Pods_Swash_Tests.framework */; };
+		D70D7B49F898494E05E837B4 /* Pods_Swash_tvOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2781A5B33B758A6D5EFBB27 /* Pods_Swash_tvOS_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2282AD882144748C00E20C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2282AD762144748A00E20C3E;
+			remoteInfo = Swash_tvOS_Example;
+		};
 		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
@@ -33,6 +48,16 @@
 /* Begin PBXFileReference section */
 		053C130EB89BF07513DB5D2B /* Pods_Swash_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swash_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2218FE102102F8DD007B0C84 /* SystemFontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFontTests.swift; sourceTree = "<group>"; };
+		2282AD772144748A00E20C3E /* Swash_tvOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swash_tvOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2282AD792144748A00E20C3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2282AD7B2144748A00E20C3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2282AD7E2144748A00E20C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2282AD802144748C00E20C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2282AD822144748C00E20C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2282AD872144748C00E20C3E /* Swash_tvOS_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swash_tvOS_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2282AD8B2144748C00E20C3E /* Swash_tvOS_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swash_tvOS_ExampleTests.swift; sourceTree = "<group>"; };
+		2282AD8D2144748C00E20C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434528DDAC36783025408DC2 /* Pods-Swash_tvOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swash_tvOS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swash_tvOS_Example/Pods-Swash_tvOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4FC78E673D8536B257CF5B88 /* Pods_Swash_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swash_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Swash_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swash_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +71,8 @@
 		607FACEB1AFB9204008FA782 /* CustomFontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontTests.swift; sourceTree = "<group>"; };
 		829D74F8202A5D8C00DE3217 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		8C3767C36751450CC510CFBE /* Pods-Swash_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swash_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swash_Example/Pods-Swash_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9174975EB70568A92B5479FE /* Pods-Swash_tvOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swash_tvOS_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swash_tvOS_Example/Pods-Swash_tvOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A2781A5B33B758A6D5EFBB27 /* Pods_Swash_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swash_tvOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A353CCD158BB7D230E3B2C05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A80975E0EBF5EF4289C38667 /* Pods-Swash_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swash_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swash_Tests/Pods-Swash_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C20A37E9D28C7BF11AE73524 /* Pods-Swash_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swash_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swash_Tests/Pods-Swash_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -55,6 +82,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2282AD742144748A00E20C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70D7B49F898494E05E837B4 /* Pods_Swash_tvOS_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2282AD842144748C00E20C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,12 +116,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2282AD782144748A00E20C3E /* Swash_tvOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2282AD792144748A00E20C3E /* AppDelegate.swift */,
+				2282AD7B2144748A00E20C3E /* ViewController.swift */,
+				2282AD7D2144748A00E20C3E /* Main.storyboard */,
+				2282AD802144748C00E20C3E /* Assets.xcassets */,
+				2282AD822144748C00E20C3E /* Info.plist */,
+			);
+			path = Swash_tvOS_Example;
+			sourceTree = "<group>";
+		};
+		2282AD8A2144748C00E20C3E /* Swash_tvOS_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2282AD8B2144748C00E20C3E /* Swash_tvOS_ExampleTests.swift */,
+				2282AD8D2144748C00E20C3E /* Info.plist */,
+			);
+			path = Swash_tvOS_ExampleTests;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for Swash */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				2282AD782144748A00E20C3E /* Swash_tvOS_Example */,
+				2282AD8A2144748C00E20C3E /* Swash_tvOS_ExampleTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				708624D5E83BA85187485EC4 /* Pods */,
 				74DCD28153788F10351E588E /* Frameworks */,
@@ -91,6 +156,8 @@
 			children = (
 				607FACD01AFB9204008FA782 /* Swash_Example.app */,
 				607FACE51AFB9204008FA782 /* Swash_Tests.xctest */,
+				2282AD772144748A00E20C3E /* Swash_tvOS_Example.app */,
+				2282AD872144748C00E20C3E /* Swash_tvOS_ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +220,8 @@
 				F82C6DBA613D6ACA9ED0C43D /* Pods-Swash_Example.release.xcconfig */,
 				C20A37E9D28C7BF11AE73524 /* Pods-Swash_Tests.debug.xcconfig */,
 				A80975E0EBF5EF4289C38667 /* Pods-Swash_Tests.release.xcconfig */,
+				434528DDAC36783025408DC2 /* Pods-Swash_tvOS_Example.debug.xcconfig */,
+				9174975EB70568A92B5479FE /* Pods-Swash_tvOS_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,6 +231,7 @@
 			children = (
 				4FC78E673D8536B257CF5B88 /* Pods_Swash_Example.framework */,
 				053C130EB89BF07513DB5D2B /* Pods_Swash_Tests.framework */,
+				A2781A5B33B758A6D5EFBB27 /* Pods_Swash_tvOS_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,6 +239,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2282AD762144748A00E20C3E /* Swash_tvOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2282AD922144748C00E20C3E /* Build configuration list for PBXNativeTarget "Swash_tvOS_Example" */;
+			buildPhases = (
+				CE067DC30CF63CBA95FAB14A /* [CP] Check Pods Manifest.lock */,
+				2282AD732144748A00E20C3E /* Sources */,
+				2282AD742144748A00E20C3E /* Frameworks */,
+				2282AD752144748A00E20C3E /* Resources */,
+				9F8507D4C7A4FAFDCB60BCCF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swash_tvOS_Example;
+			productName = Swash_tvOS_Example;
+			productReference = 2282AD772144748A00E20C3E /* Swash_tvOS_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2282AD862144748C00E20C3E /* Swash_tvOS_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2282AD932144748C00E20C3E /* Build configuration list for PBXNativeTarget "Swash_tvOS_ExampleTests" */;
+			buildPhases = (
+				2282AD832144748C00E20C3E /* Sources */,
+				2282AD842144748C00E20C3E /* Frameworks */,
+				2282AD852144748C00E20C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2282AD892144748C00E20C3E /* PBXTargetDependency */,
+			);
+			name = Swash_tvOS_ExampleTests;
+			productName = Swash_tvOS_ExampleTests;
+			productReference = 2282AD872144748C00E20C3E /* Swash_tvOS_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		607FACCF1AFB9204008FA782 /* Swash_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Swash_Example" */;
@@ -214,10 +321,20 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					2282AD762144748A00E20C3E = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+					2282AD862144748C00E20C3E = {
+						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = YY7FKCXAZ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2282AD762144748A00E20C3E;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -244,11 +361,29 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* Swash_Example */,
 				607FACE41AFB9204008FA782 /* Swash_Tests */,
+				2282AD762144748A00E20C3E /* Swash_tvOS_Example */,
+				2282AD862144748C00E20C3E /* Swash_tvOS_ExampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2282AD752144748A00E20C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2282AD812144748C00E20C3E /* Assets.xcassets in Resources */,
+				2282AD7F2144748A00E20C3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2282AD852144748C00E20C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,7 +411,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Swash_Example/Pods-Swash_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Swash/Swash.framework",
+				"${BUILT_PRODUCTS_DIR}/Swash-iOS/Swash.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -312,7 +447,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Swash_Tests/Pods-Swash_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Swash/Swash.framework",
+				"${BUILT_PRODUCTS_DIR}/Swash-iOS/Swash.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -321,6 +456,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swash_Tests/Pods-Swash_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F8507D4C7A4FAFDCB60BCCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Swash_tvOS_Example/Pods-Swash_tvOS_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Swash-tvOS/Swash.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swash.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swash_tvOS_Example/Pods-Swash_tvOS_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B33FC91DFB0862D11D6246FC /* [CP] Check Pods Manifest.lock */ = {
@@ -341,9 +494,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CE067DC30CF63CBA95FAB14A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swash_tvOS_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2282AD732144748A00E20C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2282AD7C2144748A00E20C3E /* ViewController.swift in Sources */,
+				2282ADBA21449DCD00E20C3E /* Fonts.swift in Sources */,
+				2282AD7A2144748A00E20C3E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2282AD832144748C00E20C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2282ADBB21449DCE00E20C3E /* Fonts.swift in Sources */,
+				2282AD8C2144748C00E20C3E /* Swash_tvOS_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +557,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2282AD892144748C00E20C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2282AD762144748A00E20C3E /* Swash_tvOS_Example */;
+			targetProxy = 2282AD882144748C00E20C3E /* PBXContainerItemProxy */;
+		};
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* Swash_Example */;
@@ -375,6 +570,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2282AD7D2144748A00E20C3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2282AD7E2144748A00E20C3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -394,6 +597,124 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2282AD8E2144748C00E20C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434528DDAC36783025408DC2 /* Pods-Swash_tvOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Swash_tvOS_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindgrub.Swash-tvOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2282AD8F2144748C00E20C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9174975EB70568A92B5479FE /* Pods-Swash_tvOS_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Swash_tvOS_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindgrub.Swash-tvOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		2282AD902144748C00E20C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YY7FKCXAZ6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Swash_tvOS_ExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindgrub.Swash-tvOS-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swash_tvOS_Example.app/Swash_tvOS_Example";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2282AD912144748C00E20C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YY7FKCXAZ6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Swash_tvOS_ExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindgrub.Swash-tvOS-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swash_tvOS_Example.app/Swash_tvOS_Example";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -564,6 +885,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2282AD922144748C00E20C3E /* Build configuration list for PBXNativeTarget "Swash_tvOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2282AD8E2144748C00E20C3E /* Debug */,
+				2282AD8F2144748C00E20C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2282AD932144748C00E20C3E /* Build configuration list for PBXNativeTarget "Swash_tvOS_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2282AD902144748C00E20C3E /* Debug */,
+				2282AD912144748C00E20C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Swash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

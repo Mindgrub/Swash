@@ -13,7 +13,7 @@ import UIKit
 public protocol Font: RawRepresentable where Self.RawValue == String {
     func of(size: CGFloat) -> UIFont?
     
-    @available(iOS 11.0, *)
+    @available(iOS 11.0, tvOS 11.0, *)
     func of(textStyle: UIFont.TextStyle, maxSize: CGFloat?, defaultSize: CGFloat?) -> UIFont?
     
     @available(iOS, introduced: 8.2, deprecated: 11.0, message: "Use `of(textStyle:maxSize:defaultSize:)` instead")
@@ -57,7 +57,7 @@ public extension Font {
      
      - Returns: A dynamic font object corresponding to the given parameters. `nil` if the font cannot be initialized.
      */
-    @available(iOS 11.0, *)
+    @available(iOS 11.0, tvOS 11.0, *)
     public func of(textStyle: UIFont.TextStyle,
                    maxSize: CGFloat? = nil,
                    defaultSize: CGFloat? = nil) -> UIFont? {
@@ -100,6 +100,7 @@ public extension Font {
 /**
  Default text sizes taken from Apple's [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/). These sizes correspond to `UIContentSizeCategory.large`, the default category used by `UIFontMetrics` for dynamic type.
  */
+#if os(iOS)
 @available(iOS 11.0, *)
 fileprivate let defaultSizes: [UIFont.TextStyle: CGFloat] = [.caption2: 11,
                                                              .caption1: 12,
@@ -112,3 +113,17 @@ fileprivate let defaultSizes: [UIFont.TextStyle: CGFloat] = [.caption2: 11,
                                                              .title2: 22,
                                                              .title1: 28,
                                                              .largeTitle: 34]
+
+#elseif os(tvOS)
+@available(tvOS 11.0, *)
+fileprivate let defaultSizes: [UIFont.TextStyle: CGFloat] = [.caption2: 11,
+                                                             .caption1: 12,
+                                                             .footnote: 13,
+                                                             .subheadline: 15,
+                                                             .callout: 16,
+                                                             .body: 17,
+                                                             .headline: 17,
+                                                             .title3: 20,
+                                                             .title2: 22,
+                                                             .title1: 28]
+#endif

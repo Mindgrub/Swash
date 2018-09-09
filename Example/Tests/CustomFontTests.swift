@@ -14,11 +14,11 @@ class CustomFontTests: XCTestCase {
     //MARK: - Of Size
     
     func testOfSize() {
-        guard let font = GillSans.regular.of(size: 23) else {
-            return XCTFail("GillSans font failed to initialize.")
+        guard let font = Avenir.roman.of(size: 23) else {
+            return XCTFail("Avenir font failed to initialize.")
         }
         XCTAssertEqual(font.pointSize, 23)
-        XCTAssertEqual(font.fontName, "GillSans")
+        XCTAssertEqual(font.fontName, "Avenir-Roman")
     }
     
     func testInvalidOfSize() {
@@ -28,15 +28,15 @@ class CustomFontTests: XCTestCase {
     //MARK: - Dynamic Type
     
     func testOfTextStyle() {
-        XCTAssertNotNil(GillSans.boldItalic.of(textStyle: .title1))
+        XCTAssertNotNil(Avenir.blackOblique.of(textStyle: .title1))
     }
     
     func testOfTextStyleMax() {
-        XCTAssertNotNil(GillSans.light.of(textStyle: .title2, maxSize: 30))
+        XCTAssertNotNil(Avenir.light.of(textStyle: .title2, maxSize: 30))
     }
     
     func testOfTextStyleMaxDefault() {
-        XCTAssertNotNil(Papyrus.condensed.of(textStyle: .body, maxSize: 30, defaultSize: 17))
+        XCTAssertNotNil(Futura.condensedMedium.of(textStyle: .body, maxSize: 30, defaultSize: 17))
     }
     
     func testInvalidOfTextStyle() {
@@ -46,11 +46,11 @@ class CustomFontTests: XCTestCase {
     //MARK: - Dynamic Type - Deprecated in iOS 11
     
     func testOfStyle() {
-        XCTAssertNotNil(Papyrus.regular.of(style: .title3))
+        XCTAssertNotNil(Futura.medium.of(style: .title3))
     }
     
     func testOfStyleMax() {
-        XCTAssertNotNil(Papyrus.regular.of(style: .title3, maxSize: 10))
+        XCTAssertNotNil(Futura.medium.of(style: .title3, maxSize: 10))
     }
     
     func testInvalidOfStyle() {

@@ -19,8 +19,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        label1.font = Papyrus.condensed.of(textStyle: .headline, maxSize: 24)
-        label2.font = GillSans.bold.of(style: .title1)
+        label1.font = Futura.condensedMedium.of(textStyle: .headline, maxSize: 24)
+        label2.font = Avenir.light.of(style: .title1)
         label3.font = SystemFont.preferred.of(textStyle: .caption1)
         label4.font = SystemFont.heavy.of(textStyle: .body)
         
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         if traitCollection.preferredContentSizeCategory != previousTraitCollection?.preferredContentSizeCategory {
-            label2.font = GillSans.bold.of(style: .title1)
+            label2.font = Avenir.light.of(style: .title1)
             label4.font = SystemFont.heavy.of(textStyle: .body)
         }
     }

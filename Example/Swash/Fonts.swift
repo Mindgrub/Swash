@@ -8,21 +8,27 @@
 
 import Swash
 
-enum Papyrus: String, Font {
-    case regular = "Papyrus"
-    case condensed = "Papyrus-Condensed"
+enum Avenir: String, Font {
+    case book = "Avenir-Book"
+    case heavy = "Avenir-Heavy"
+    case blackOblique = "Avenir-BlackOblique"
+    case black = "Avenir-Black"
+    case lightOblique = "Avenir-LightOblique"
+    case bookOblique = "Avenir-BookOblique"
+    case light = "Avenir-Light"
+    case medium = "Avenir-Medium"
+    case heavyOblique = "Avenir-HeavyOblique"
+    case oblique = "Avenir-Oblique"
+    case roman = "Avenir-Roman"
+    case mediumOblique = "Avenir-MediumOblique"
 }
 
-enum GillSans: String, Font {
-    case italic = "GillSans-Italic"
-    case semiBold = "GillSans-SemiBold"
-    case ultraBold = "GillSans-UltraBold"
-    case light = "GillSans-Light"
-    case bold = "GillSans-Bold"
-    case regular = "GillSans"
-    case semiBoldItalic = "GillSans-SemiBoldItalic"
-    case boldItalic = "GillSans-BoldItalic"
-    case lightItalic = "GillSans-LightItalic"
+enum Futura: String, Font {
+    case bold = "Futura-Bold"
+    case mediumItalic = "Futura-MediumItalic"
+    case condensedExtraBold = "Futura-CondensedExtraBold"
+    case condensedMedium = "Futura-CondensedMedium"
+    case medium = "Futura-Medium"
 }
 
 enum InvalidFont: String, Font {

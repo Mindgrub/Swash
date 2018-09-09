@@ -14,8 +14,9 @@
   },
   "social_media_url": "https://twitter.com/mindgrub",
   "platforms": {
-    "ios": "8.2"
+    "ios": "8.2",
+    "tvos": "9.0"
   },
-  "swift_version": "4.0",
+  "swift_version": "4.2",
   "source_files": "Swash/Classes/**/*"
 }
