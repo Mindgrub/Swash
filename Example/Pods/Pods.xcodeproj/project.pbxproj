@@ -7,27 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BE2761DD20265AC2922403528F92436 /* Swash-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F738F73C2EBE8656B0DF6B7B04BBDEA3 /* Swash-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D28B8CB1F01BD62E9EC3F052A6A99E9 /* Pods-Swash_tvOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC11879F2B0FE2D94EC50CAEF8904085 /* Pods-Swash_tvOS_Example-dummy.m */; };
-		1FE7772A794118C971489649F60AB376 /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F656641875DDBD10312D0E48DF894D8 /* SystemFont.swift */; };
-		24F098344DAD8A809F3B32F88932ED0C /* Pods-Swash_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BBC100D7D8C56499AD520F83B9064C9 /* Pods-Swash_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BD7BDA7B527F176AFD7BA310AA0A37E /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12F56EF662FBA50D1AFE2187E02819 /* Font.swift */; };
-		34C9F8CFE58B6D78779AAF2261EEE40B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC58A2C77DE13F624C687C3247034C /* Utils.swift */; };
-		391ED9A1AB4898C4233CE4B9D9DA915C /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F656641875DDBD10312D0E48DF894D8 /* SystemFont.swift */; };
-		4718B7566114B2D77EAA285C1DC33F92 /* Swash-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02655EDB9915010485DB72D377B9AD0E /* Swash-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52FB6779366BD82F994BDA272F7F5C7E /* Swash-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 417E8EA2F915A9EA42B62B8B506D4B69 /* Swash-iOS-dummy.m */; };
-		62F90A03E28C0539302D20AA1621DF3E /* Pods-Swash_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 950DFAAF3D123E7FCBB94071CC6DF9DD /* Pods-Swash_Example-dummy.m */; };
-		7E5D67F6F6A582D089D05A1ED2AFF623 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED12F56EF662FBA50D1AFE2187E02819 /* Font.swift */; };
-		939C77D9BE94E7C837DCA4045A8A2726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
-		AA652DE583F856C0C858A3321C74DCC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
-		B15528D63666EDD0ADC54ADDC9D48073 /* Pods-Swash_tvOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0172BDF9E8352E2448DA93FCDDC2CE /* Pods-Swash_tvOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDE901A9AF67ADEE788B4B732C07C9AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
-		D1502E3FB4F31D07C726269FEDE21D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
-		D261001ADC4C4BD9C814849267A7E7F5 /* Swash-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA43FF1AE520C69E74452BE68EFE4ED /* Swash-tvOS-dummy.m */; };
-		E4FD7B8500DFBBCE2D1786C40D9139D9 /* Pods-Swash_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C2201B1569B20D15676637E347F1054 /* Pods-Swash_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E837EA30E20884281A566795A8F9BA70 /* Pods-Swash_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9213B8642249C504B9785937548F6B6A /* Pods-Swash_Tests-dummy.m */; };
-		ED1C7330DDC490AA03D8D50DB0466703 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC58A2C77DE13F624C687C3247034C /* Utils.swift */; };
-		EED918D23988E977377606EED5C6B39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		002186000D910114AF7ECDCAB489C2DF /* Swash-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1656A4141236B8571EC0C33962BB1A5 /* Swash-watchOS-dummy.m */; };
+		1BE2761DD20265AC2922403528F92436 /* Swash-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF84900EF5D6ADAB3B9AF8E4BA5284D /* Swash-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D28B8CB1F01BD62E9EC3F052A6A99E9 /* Pods-Swash_tvOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C08A40A975A3377FE7E9B4187F8682F /* Pods-Swash_tvOS_Example-dummy.m */; };
+		1FE7772A794118C971489649F60AB376 /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F38DD6DEC28EDA52A9638472929112D /* SystemFont.swift */; };
+		24F098344DAD8A809F3B32F88932ED0C /* Pods-Swash_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8CCFE1C87138749C20B1A2A37EFB834 /* Pods-Swash_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		277A0B16A85F9D663B473EE64A62BAAE /* Pods-Swash_watchOS_Example Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 877C51BE15E4EDD0CE25FF9F1DEDE69F /* Pods-Swash_watchOS_Example Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD7BDA7B527F176AFD7BA310AA0A37E /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD61B08BC8408409AF54DE2EE22AE75 /* Font.swift */; };
+		34C9F8CFE58B6D78779AAF2261EEE40B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF28FE2CD174D9CA7669D9267337C37 /* Utils.swift */; };
+		391ED9A1AB4898C4233CE4B9D9DA915C /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F38DD6DEC28EDA52A9638472929112D /* SystemFont.swift */; };
+		4718B7566114B2D77EAA285C1DC33F92 /* Swash-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA990CFC3B0B2A2BEFEBDFDD5F35830 /* Swash-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52FB6779366BD82F994BDA272F7F5C7E /* Swash-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCCB5B101752B4EF2B6D9B0FB6AD9A /* Swash-iOS-dummy.m */; };
+		62F90A03E28C0539302D20AA1621DF3E /* Pods-Swash_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB84CFA456110B98F2EBDCCCF1B2A00 /* Pods-Swash_Example-dummy.m */; };
+		7E5D67F6F6A582D089D05A1ED2AFF623 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD61B08BC8408409AF54DE2EE22AE75 /* Font.swift */; };
+		87462D9424C489710BF4C21DA4E9E864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4FF81B92149622508E028C0801E207 /* Foundation.framework */; };
+		939C77D9BE94E7C837DCA4045A8A2726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BD18536CEBA1BA2EF2567175719C5A /* Foundation.framework */; };
+		AA652DE583F856C0C858A3321C74DCC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D736508F81C90331AF2F1FC481C42B /* Foundation.framework */; };
+		AC4CA3118A1501BAA441BCE523D655AE /* Swash-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF403CF556B9E1D1C7BE03373ABFC624 /* Swash-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF06CD9383DAD4FB5CDC5EA4903A456A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4FF81B92149622508E028C0801E207 /* Foundation.framework */; };
+		B15528D63666EDD0ADC54ADDC9D48073 /* Pods-Swash_tvOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD66D1E77B57BCF2EBD23D91A0A1E7CE /* Pods-Swash_tvOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE901A9AF67ADEE788B4B732C07C9AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D736508F81C90331AF2F1FC481C42B /* Foundation.framework */; };
+		C4CF71B3EDA072A1148F5E8FDC3C27BF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF28FE2CD174D9CA7669D9267337C37 /* Utils.swift */; };
+		C71ED19E84BF0595F467137D2E06ABDB /* Pods-Swash_watchOS_Example Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3453C7352E04629037D171CF6A2A72 /* Pods-Swash_watchOS_Example Extension-dummy.m */; };
+		D1502E3FB4F31D07C726269FEDE21D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D736508F81C90331AF2F1FC481C42B /* Foundation.framework */; };
+		D261001ADC4C4BD9C814849267A7E7F5 /* Swash-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF020BFA5D37C297D08DDA7DD210D5A5 /* Swash-tvOS-dummy.m */; };
+		D78CCF72F703240BB513B80E9B9483F7 /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F38DD6DEC28EDA52A9638472929112D /* SystemFont.swift */; };
+		E4FD7B8500DFBBCE2D1786C40D9139D9 /* Pods-Swash_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B24BA4DD558A2D6E0A5D318DD753797 /* Pods-Swash_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E837EA30E20884281A566795A8F9BA70 /* Pods-Swash_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCA57C8C105C18F76C2B58703F56812 /* Pods-Swash_Tests-dummy.m */; };
+		ED1C7330DDC490AA03D8D50DB0466703 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF28FE2CD174D9CA7669D9267337C37 /* Utils.swift */; };
+		EED918D23988E977377606EED5C6B39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BD18536CEBA1BA2EF2567175719C5A /* Foundation.framework */; };
+		FF01BCED161CD0C3DCF2A6FAC9BB6C09 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD61B08BC8408409AF54DE2EE22AE75 /* Font.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,65 +61,91 @@
 			remoteGlobalIDString = CBB3B0099BC1BA12ACEBE2703804DF94;
 			remoteInfo = "Swash-iOS";
 		};
+		C5B6B7C58F9E4A558DCE6D1387BA8E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94CEFF7EBA3DB63B6F842E6E5AEB7D08;
+			remoteInfo = "Swash-watchOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02655EDB9915010485DB72D377B9AD0E /* Swash-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Swash-tvOS-umbrella.h"; path = "../Swash-tvOS/Swash-tvOS-umbrella.h"; sourceTree = "<group>"; };
-		0E95E48C03BAF03F9C4048AC8651FC8F /* Pods-Swash_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1AA43FF1AE520C69E74452BE68EFE4ED /* Swash-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Swash-tvOS-dummy.m"; path = "../Swash-tvOS/Swash-tvOS-dummy.m"; sourceTree = "<group>"; };
-		1CC5628EEAD37C41102C4B4D6F877621 /* Pods_Swash_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swash_Tests.framework; path = "Pods-Swash_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B3219418AB678988C4BB8D217C41419 /* Pods_Swash_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swash_Example.framework; path = "Pods-Swash_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2F19195855616399FDF794A41B784D18 /* Swash-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swash-iOS-prefix.pch"; sourceTree = "<group>"; };
-		3085F4E742C081F0BC6B08DD95007BAD /* Pods-Swash_tvOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swash_tvOS_Example.modulemap"; sourceTree = "<group>"; };
-		3324566FE12C814F59B0306AFDCA3089 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		34195F3A4A38334E9A4D277C25C95D22 /* Pods-Swash_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3C55A339F63A5971B93BE6F24F38E526 /* Pods-Swash_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swash_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3D37C372500B5365B2FAC65B6EA2DD6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		417E8EA2F915A9EA42B62B8B506D4B69 /* Swash-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swash-iOS-dummy.m"; sourceTree = "<group>"; };
-		428619B0586E18F71C9105C5BB9D73E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		44DD95780FF929AEF3681FAA839A1B0D /* Pods_Swash_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swash_tvOS_Example.framework; path = "Pods-Swash_tvOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AD43DBB710538D6B17F04B42C3B6DC5 /* Pods-Swash_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_Example-resources.sh"; sourceTree = "<group>"; };
-		4C2201B1569B20D15676637E347F1054 /* Pods-Swash_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swash_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4C63E7F4C88C1E6219BB24E1D3E25544 /* Pods-Swash_tvOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swash_tvOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4E2957A5BE62D5B219F20EE5A3CB09AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Swash-tvOS/Info.plist"; sourceTree = "<group>"; };
-		4E6B6FDB54CDAA45C1423EC581867D7D /* Swash-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Swash-iOS.modulemap"; sourceTree = "<group>"; };
-		4F656641875DDBD10312D0E48DF894D8 /* SystemFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemFont.swift; path = Swash/Classes/SystemFont.swift; sourceTree = "<group>"; };
-		572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		57BC58A2C77DE13F624C687C3247034C /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Swash/Classes/Utils.swift; sourceTree = "<group>"; };
-		5944BCBBBD7E2B0F142F53F8ADA50A3A /* Swash-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Swash-tvOS.xcconfig"; path = "../Swash-tvOS/Swash-tvOS.xcconfig"; sourceTree = "<group>"; };
-		5E315B2C0FCE1E3216E6E43EC2D777AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69C4FE82FC4E1A9FE6BEA23A3924D22B /* Pods-Swash_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swash_Tests.modulemap"; sourceTree = "<group>"; };
-		7BBC100D7D8C56499AD520F83B9064C9 /* Pods-Swash_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swash_Example-umbrella.h"; sourceTree = "<group>"; };
-		840062DDF763E33B7E649AE71B6527C8 /* Pods-Swash_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_Example-frameworks.sh"; sourceTree = "<group>"; };
-		88C0DCD50C95050518B766F303A64A39 /* Pods-Swash_tvOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_tvOS_Example-resources.sh"; sourceTree = "<group>"; };
-		8B1092405CB1168AC1E206F67C2BC8B8 /* Pods-Swash_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swash_Example.modulemap"; sourceTree = "<group>"; };
-		90F26A12C015F2310C04BAB300B14A91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9213B8642249C504B9785937548F6B6A /* Pods-Swash_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swash_Tests-dummy.m"; sourceTree = "<group>"; };
+		0BD61B08BC8408409AF54DE2EE22AE75 /* Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Font.swift; path = Swash/Classes/Font.swift; sourceTree = "<group>"; };
+		0C4FF81B92149622508E028C0801E207 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0CF5A9D356B56737D56A85CDA8480E01 /* Swash-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Swash-tvOS-prefix.pch"; path = "../Swash-tvOS/Swash-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		16BFD264DEA4278EA854A9AF468D3138 /* Pods-Swash_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swash_Example.modulemap"; sourceTree = "<group>"; };
+		1BAE7F565AE1D42D5A09ED5096CF4430 /* Pods-Swash_tvOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_tvOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1D8035ABEF4D7A4B27723AFFB77F3F37 /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swash.framework; path = "Swash-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F38DD6DEC28EDA52A9638472929112D /* SystemFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemFont.swift; path = Swash/Classes/SystemFont.swift; sourceTree = "<group>"; };
+		22FA9AFC4FFFC5C215D2C8B5B48627A1 /* Pods-Swash_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2397A39277B9941406A92B5FA9F305EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Swash-watchOS/Info.plist"; sourceTree = "<group>"; };
+		23F93FDC86FE0863272D7D43B9C06172 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		260695D1F66518C745BA9952ECCC5EC5 /* Pods-Swash_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swash_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D3453C7352E04629037D171CF6A2A72 /* Pods-Swash_watchOS_Example Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swash_watchOS_Example Extension-dummy.m"; sourceTree = "<group>"; };
+		2DD7945DFC713119A21CD44BF231F801 /* Pods-Swash_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		356893DF9A2AE0C3376F19AEEC7A5684 /* Pods-Swash_tvOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_tvOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		37D72947505600C0667F0E80345BDC62 /* Swash-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swash-iOS-prefix.pch"; sourceTree = "<group>"; };
+		3A203277A0EF2FB1ECC3B8964DF86DFA /* Pods-Swash_watchOS_Example Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swash_watchOS_Example Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B84A8FCCD1C33A0EA7E2A7CF5763A1D /* Pods-Swash_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_Example.release.xcconfig"; sourceTree = "<group>"; };
+		414F6CF953E0BB91F17110B7F0333A6E /* Swash-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Swash-iOS.modulemap"; sourceTree = "<group>"; };
+		43F2948AA2A34D25333284D859CEB1BD /* Swash-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Swash-tvOS.modulemap"; path = "../Swash-tvOS/Swash-tvOS.modulemap"; sourceTree = "<group>"; };
+		47F9BF23B4D4CC5C356B99C66115C9E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4BCA78CB7F6BA528997E748E20ECFBBE /* Pods-Swash_tvOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swash_tvOS_Example.modulemap"; sourceTree = "<group>"; };
+		4C08A40A975A3377FE7E9B4187F8682F /* Pods-Swash_tvOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swash_tvOS_Example-dummy.m"; sourceTree = "<group>"; };
+		510234D7856B3190EB326B3072034BF4 /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swash.framework; path = "Swash-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFA83910B511C020C52D99222471C46 /* Pods-Swash_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_Tests-resources.sh"; sourceTree = "<group>"; };
+		5B13AF49690FCF1F5FE1B7265069BA02 /* Pods-Swash_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swash_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A9B07FB9A7BF963A90302EDD04E549C /* Pods-Swash_tvOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swash_tvOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D8ADCC93F1AEE1E7FE3671A2A5FB2CD /* Pods-Swash_watchOS_Example Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swash_watchOS_Example Extension.modulemap"; sourceTree = "<group>"; };
+		73FF05A866554849CC1C5BD74C2D8672 /* Pods-Swash_watchOS_Example Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_watchOS_Example Extension-resources.sh"; sourceTree = "<group>"; };
+		80BD18536CEBA1BA2EF2567175719C5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		815F058BA350E95D2C82A20FCB54E9F5 /* Swash.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Swash.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8295E12426DB08DFA2AFF3C52FE293B0 /* Pods-Swash_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swash_Tests.modulemap"; sourceTree = "<group>"; };
+		82E444E36C5443DAA588EE48BFB553C0 /* Swash-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Swash-watchOS-prefix.pch"; path = "../Swash-watchOS/Swash-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		84D736508F81C90331AF2F1FC481C42B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		877C51BE15E4EDD0CE25FF9F1DEDE69F /* Pods-Swash_watchOS_Example Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swash_watchOS_Example Extension-umbrella.h"; sourceTree = "<group>"; };
+		878268266AC5CD8AFC00FEF9DE0314E9 /* Pods-Swash_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swash_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89CFF85B4F57F9DF4C8E3965CAE3352F /* Pods-Swash_tvOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_tvOS_Example-resources.sh"; sourceTree = "<group>"; };
+		8B841BAACF66D1ED35A3F5AA4A8F2E13 /* Pods_Swash_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swash_Tests.framework; path = "Pods-Swash_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDCEEA5555465A2771A1B66EE37830C /* Pods-Swash_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8BEEB479F9A5983815E185B58A3E496D /* Swash-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Swash-tvOS.xcconfig"; path = "../Swash-tvOS/Swash-tvOS.xcconfig"; sourceTree = "<group>"; };
+		8CA5D22AE6DD9FDF739214FE801F4CCE /* Swash-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Swash-watchOS.xcconfig"; path = "../Swash-watchOS/Swash-watchOS.xcconfig"; sourceTree = "<group>"; };
+		8FA990CFC3B0B2A2BEFEBDFDD5F35830 /* Swash-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Swash-tvOS-umbrella.h"; path = "../Swash-tvOS/Swash-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94C4CE56EA39DB7BCCCDC3AD65A11AF3 /* Pods-Swash_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		950DFAAF3D123E7FCBB94071CC6DF9DD /* Pods-Swash_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swash_Example-dummy.m"; sourceTree = "<group>"; };
-		9C315A5D7BBC6887BE9268A7A675B182 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D0172BDF9E8352E2448DA93FCDDC2CE /* Pods-Swash_tvOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swash_tvOS_Example-umbrella.h"; sourceTree = "<group>"; };
-		9DC5F93EEB8C3CA04723E03AC0DB30CC /* Pods-Swash_tvOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_tvOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9E228D9895BA8A8E547B63BC06AB1438 /* Pods-Swash_tvOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_tvOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B0864910BA375F744DAE359D4EB623BC /* Pods-Swash_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_Tests-resources.sh"; sourceTree = "<group>"; };
-		B1F089851352F069FC8E250C257C15FD /* Swash-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Swash-tvOS-prefix.pch"; path = "../Swash-tvOS/Swash-tvOS-prefix.pch"; sourceTree = "<group>"; };
-		B305B31C1F2419269535931DADC74A45 /* Pods-Swash_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swash_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B5EF61DEB8157230E73CC264ED17C62B /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swash.framework; path = "Swash-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8F2312AD83CC8A3576A4F4AAAD728DA /* Pods-Swash_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CC11879F2B0FE2D94EC50CAEF8904085 /* Pods-Swash_tvOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swash_tvOS_Example-dummy.m"; sourceTree = "<group>"; };
-		CC171E6B54B179105FFCEEB0A06505EE /* Swash.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Swash.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DCF415785D99CFFFF054A10A09903DD6 /* Pods-Swash_tvOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_tvOS_Example-frameworks.sh"; sourceTree = "<group>"; };
-		ECFA4EAF1CF8ECA8CC53E02D22DD2328 /* Pods-Swash_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swash_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		ED12F56EF662FBA50D1AFE2187E02819 /* Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Font.swift; path = Swash/Classes/Font.swift; sourceTree = "<group>"; };
-		F00E1F2640876A221756B0CF32251E95 /* Pods-Swash_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F0B944C92092AE3265830E5DD76976C5 /* Swash-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Swash-iOS.xcconfig"; sourceTree = "<group>"; };
-		F620B39FAC945534C7A7CA3BAE092E53 /* Pods-Swash_tvOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swash_tvOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F738F73C2EBE8656B0DF6B7B04BBDEA3 /* Swash-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swash-iOS-umbrella.h"; sourceTree = "<group>"; };
-		FD68725CE8C48207438DF685B01908FA /* Swash-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Swash-tvOS.modulemap"; path = "../Swash-tvOS/Swash-tvOS.modulemap"; sourceTree = "<group>"; };
-		FE738EADD4E273EAFC8734734C1BF9D7 /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swash.framework; path = "Swash-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF25F3F74F6403A7319679A32E373B82 /* Pods-Swash_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swash_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9907FBE6787C12770C276C491FA9A91F /* Pods-Swash_watchOS_Example Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_watchOS_Example Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		9B24BA4DD558A2D6E0A5D318DD753797 /* Pods-Swash_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swash_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9FCA57C8C105C18F76C2B58703F56812 /* Pods-Swash_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swash_Tests-dummy.m"; sourceTree = "<group>"; };
+		A25139FE94B7A208C5D63E5FE1B26218 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Swash-tvOS/Info.plist"; sourceTree = "<group>"; };
+		AD66D1E77B57BCF2EBD23D91A0A1E7CE /* Pods-Swash_tvOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swash_tvOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		AF020BFA5D37C297D08DDA7DD210D5A5 /* Swash-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Swash-tvOS-dummy.m"; path = "../Swash-tvOS/Swash-tvOS-dummy.m"; sourceTree = "<group>"; };
+		B1656A4141236B8571EC0C33962BB1A5 /* Swash-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Swash-watchOS-dummy.m"; path = "../Swash-watchOS/Swash-watchOS-dummy.m"; sourceTree = "<group>"; };
+		BDF28FE2CD174D9CA7669D9267337C37 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Swash/Classes/Utils.swift; sourceTree = "<group>"; };
+		BF10892EC4929A67EC95F81B43BAF4FC /* Pods-Swash_watchOS_Example Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_watchOS_Example Extension-frameworks.sh"; sourceTree = "<group>"; };
+		BFD967E4D6E273710A5C83205295B183 /* Pods_Swash_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swash_Example.framework; path = "Pods-Swash_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07DE6DB1FC139FEDF347E6AFD395ED3 /* Pods_Swash_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swash_tvOS_Example.framework; path = "Pods-Swash_tvOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D96B6845CDC731713CCDFD32B14C4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C3DDDB30F846E92B0255746DB65B9658 /* Pods-Swash_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4AB6C6D82709B69135FAF96A818184E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58568441506222DC040D5977216DA11 /* Pods-Swash_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_Example-resources.sh"; sourceTree = "<group>"; };
+		C84221730ECE13A7D2E3908FF9C6AA09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8CCFE1C87138749C20B1A2A37EFB834 /* Pods-Swash_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swash_Example-umbrella.h"; sourceTree = "<group>"; };
+		C9ECAD048028A4B4990F8ED9B75B91E8 /* Swash-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Swash-watchOS.modulemap"; path = "../Swash-watchOS/Swash-watchOS.modulemap"; sourceTree = "<group>"; };
+		D3422C7EA8E88B9E74C8CBFE45200DEF /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swash.framework; path = "Swash-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43BE9E4B3F135273F7BDA32643051C3 /* Pods-Swash_watchOS_Example Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_watchOS_Example Extension.release.xcconfig"; sourceTree = "<group>"; };
+		D6AEDE28E9597EFBB80FC89D562C07E0 /* Pods-Swash_tvOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swash_tvOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D767886F578C118F260AFE41069AFE84 /* Swash-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Swash-iOS.xcconfig"; sourceTree = "<group>"; };
+		DBF84900EF5D6ADAB3B9AF8E4BA5284D /* Swash-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swash-iOS-umbrella.h"; sourceTree = "<group>"; };
+		DC59C3D6576DC100418096811698348C /* Pods-Swash_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swash_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DD6B7D6EF556FF114EF46FC4E3C8E226 /* Pods-Swash_watchOS_Example Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swash_watchOS_Example Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE102E29A667DC7DA27CD2400635DE60 /* Pods_Swash_watchOS_Example_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swash_watchOS_Example_Extension.framework; path = "Pods-Swash_watchOS_Example Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CCCB5B101752B4EF2B6D9B0FB6AD9A /* Swash-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swash-iOS-dummy.m"; sourceTree = "<group>"; };
+		E5A7AD5996891016A1E2E4C6BCA0795C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB84CFA456110B98F2EBDCCCF1B2A00 /* Pods-Swash_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swash_Example-dummy.m"; sourceTree = "<group>"; };
+		F0A49A9427280BE3C141A0232A87FFE9 /* Pods-Swash_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swash_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F615841B22F727BCED091A4E8841026A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF017C5543CD79231D76DEAF41BA50E3 /* Pods-Swash_tvOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swash_tvOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FF403CF556B9E1D1C7BE03373ABFC624 /* Swash-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Swash-watchOS-umbrella.h"; path = "../Swash-watchOS/Swash-watchOS-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +154,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1502E3FB4F31D07C726269FEDE21D34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59028554A7E4E7F75919BC7623FC9232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF06CD9383DAD4FB5CDC5EA4903A456A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +189,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CCCF0B1F30694B06C6934F5DE82799C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87462D9424C489710BF4C21DA4E9E864 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4AA6EF901E381A539326E955D6CACDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,56 +208,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01470103E9784A714D6476D091588AB5 /* Targets Support Files */ = {
+		108FAA6EFE0046F1309A50AE540A5293 /* Pods-Swash_watchOS_Example Extension */ = {
 			isa = PBXGroup;
 			children = (
-				ABCC55EE92718C00744D1A2B0A5DBE3F /* Pods-Swash_Example */,
-				39334296959A796D190CA8731D22DB5D /* Pods-Swash_Tests */,
-				8B4431F8F78886B23B84144DABE6084D /* Pods-Swash_tvOS_Example */,
+				E5A7AD5996891016A1E2E4C6BCA0795C /* Info.plist */,
+				6D8ADCC93F1AEE1E7FE3671A2A5FB2CD /* Pods-Swash_watchOS_Example Extension.modulemap */,
+				3A203277A0EF2FB1ECC3B8964DF86DFA /* Pods-Swash_watchOS_Example Extension-acknowledgements.markdown */,
+				DD6B7D6EF556FF114EF46FC4E3C8E226 /* Pods-Swash_watchOS_Example Extension-acknowledgements.plist */,
+				2D3453C7352E04629037D171CF6A2A72 /* Pods-Swash_watchOS_Example Extension-dummy.m */,
+				BF10892EC4929A67EC95F81B43BAF4FC /* Pods-Swash_watchOS_Example Extension-frameworks.sh */,
+				73FF05A866554849CC1C5BD74C2D8672 /* Pods-Swash_watchOS_Example Extension-resources.sh */,
+				877C51BE15E4EDD0CE25FF9F1DEDE69F /* Pods-Swash_watchOS_Example Extension-umbrella.h */,
+				9907FBE6787C12770C276C491FA9A91F /* Pods-Swash_watchOS_Example Extension.debug.xcconfig */,
+				D43BE9E4B3F135273F7BDA32643051C3 /* Pods-Swash_watchOS_Example Extension.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Swash_watchOS_Example Extension";
+			path = "Target Support Files/Pods-Swash_watchOS_Example Extension";
 			sourceTree = "<group>";
 		};
-		20F731AE46C73F232AF0C168DC383CF9 /* tvOS */ = {
+		28D529E0008C6528422731CD7704C662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */,
+				84D736508F81C90331AF2F1FC481C42B /* Foundation.framework */,
 			);
-			name = tvOS;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		39334296959A796D190CA8731D22DB5D /* Pods-Swash_Tests */ = {
+		2C794FCDF8C5A50625FBA4C59FDF35A4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3D37C372500B5365B2FAC65B6EA2DD6C /* Info.plist */,
-				69C4FE82FC4E1A9FE6BEA23A3924D22B /* Pods-Swash_Tests.modulemap */,
-				FF25F3F74F6403A7319679A32E373B82 /* Pods-Swash_Tests-acknowledgements.markdown */,
-				3C55A339F63A5971B93BE6F24F38E526 /* Pods-Swash_Tests-acknowledgements.plist */,
-				9213B8642249C504B9785937548F6B6A /* Pods-Swash_Tests-dummy.m */,
-				0E95E48C03BAF03F9C4048AC8651FC8F /* Pods-Swash_Tests-frameworks.sh */,
-				B0864910BA375F744DAE359D4EB623BC /* Pods-Swash_Tests-resources.sh */,
-				4C2201B1569B20D15676637E347F1054 /* Pods-Swash_Tests-umbrella.h */,
-				94C4CE56EA39DB7BCCCDC3AD65A11AF3 /* Pods-Swash_Tests.debug.xcconfig */,
-				F00E1F2640876A221756B0CF32251E95 /* Pods-Swash_Tests.release.xcconfig */,
+				C2D96B6845CDC731713CCDFD32B14C4E /* LICENSE */,
+				47F9BF23B4D4CC5C356B99C66115C9E9 /* README.md */,
+				815F058BA350E95D2C82A20FCB54E9F5 /* Swash.podspec */,
 			);
-			name = "Pods-Swash_Tests";
-			path = "Target Support Files/Pods-Swash_Tests";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4339D048BCCA569FDB0ACED6B9618327 /* Swash */ = {
+			isa = PBXGroup;
+			children = (
+				0BD61B08BC8408409AF54DE2EE22AE75 /* Font.swift */,
+				1F38DD6DEC28EDA52A9638472929112D /* SystemFont.swift */,
+				BDF28FE2CD174D9CA7669D9267337C37 /* Utils.swift */,
+				2C794FCDF8C5A50625FBA4C59FDF35A4 /* Pod */,
+				C0CDDD0283089515A09541F4C6067A7A /* Support Files */,
+			);
+			name = Swash;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		442BB3A42D0F6DBAF877D26D28C3253E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8BCCA90B6C99C0D9D0F5571C2EDCB39C /* Swash */,
+				4339D048BCCA569FDB0ACED6B9618327 /* Swash */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		58996781A54EE964D7111D73083A18A5 /* iOS */ = {
+		63B0E6BE22BC7E830697F7A76ABEA131 /* Pods-Swash_tvOS_Example */ = {
 			isa = PBXGroup;
 			children = (
-				2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */,
+				C4AB6C6D82709B69135FAF96A818184E /* Info.plist */,
+				4BCA78CB7F6BA528997E748E20ECFBBE /* Pods-Swash_tvOS_Example.modulemap */,
+				D6AEDE28E9597EFBB80FC89D562C07E0 /* Pods-Swash_tvOS_Example-acknowledgements.markdown */,
+				6A9B07FB9A7BF963A90302EDD04E549C /* Pods-Swash_tvOS_Example-acknowledgements.plist */,
+				4C08A40A975A3377FE7E9B4187F8682F /* Pods-Swash_tvOS_Example-dummy.m */,
+				356893DF9A2AE0C3376F19AEEC7A5684 /* Pods-Swash_tvOS_Example-frameworks.sh */,
+				89CFF85B4F57F9DF4C8E3965CAE3352F /* Pods-Swash_tvOS_Example-resources.sh */,
+				AD66D1E77B57BCF2EBD23D91A0A1E7CE /* Pods-Swash_tvOS_Example-umbrella.h */,
+				FF017C5543CD79231D76DEAF41BA50E3 /* Pods-Swash_tvOS_Example.debug.xcconfig */,
+				1BAE7F565AE1D42D5A09ED5096CF4430 /* Pods-Swash_tvOS_Example.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-Swash_tvOS_Example";
+			path = "Target Support Files/Pods-Swash_tvOS_Example";
+			sourceTree = "<group>";
+		};
+		718AA62F846050FA14C8EB44CC0B172B /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				0C4FF81B92149622508E028C0801E207 /* Foundation.framework */,
+			);
+			name = watchOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -214,110 +296,115 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				442BB3A42D0F6DBAF877D26D28C3253E /* Development Pods */,
-				A42F72DC1D780481325DD00969B19BB6 /* Frameworks */,
-				847506B58ED043B2FBAD5EBDCE5129DC /* Products */,
-				01470103E9784A714D6476D091588AB5 /* Targets Support Files */,
+				E6CFD8EDE4986335A49682875A8F8C27 /* Frameworks */,
+				CCA609768686A35F12EE0FA29773C4D1 /* Products */,
+				B2DA3B4D4C58C73D0BB25119DE928705 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		847506B58ED043B2FBAD5EBDCE5129DC /* Products */ = {
+		9D1FDFD8962A7BBEA03E810AF28C328F /* Pods-Swash_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				2B3219418AB678988C4BB8D217C41419 /* Pods_Swash_Example.framework */,
-				1CC5628EEAD37C41102C4B4D6F877621 /* Pods_Swash_Tests.framework */,
-				44DD95780FF929AEF3681FAA839A1B0D /* Pods_Swash_tvOS_Example.framework */,
-				B5EF61DEB8157230E73CC264ED17C62B /* Swash.framework */,
-				FE738EADD4E273EAFC8734734C1BF9D7 /* Swash.framework */,
+				23F93FDC86FE0863272D7D43B9C06172 /* Info.plist */,
+				8295E12426DB08DFA2AFF3C52FE293B0 /* Pods-Swash_Tests.modulemap */,
+				260695D1F66518C745BA9952ECCC5EC5 /* Pods-Swash_Tests-acknowledgements.markdown */,
+				5B13AF49690FCF1F5FE1B7265069BA02 /* Pods-Swash_Tests-acknowledgements.plist */,
+				9FCA57C8C105C18F76C2B58703F56812 /* Pods-Swash_Tests-dummy.m */,
+				DC59C3D6576DC100418096811698348C /* Pods-Swash_Tests-frameworks.sh */,
+				5AFA83910B511C020C52D99222471C46 /* Pods-Swash_Tests-resources.sh */,
+				9B24BA4DD558A2D6E0A5D318DD753797 /* Pods-Swash_Tests-umbrella.h */,
+				C3DDDB30F846E92B0255746DB65B9658 /* Pods-Swash_Tests.debug.xcconfig */,
+				2DD7945DFC713119A21CD44BF231F801 /* Pods-Swash_Tests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-Swash_Tests";
+			path = "Target Support Files/Pods-Swash_Tests";
 			sourceTree = "<group>";
 		};
-		85390EC324D14DF5E5064E68F7392700 /* Support Files */ = {
+		B2DA3B4D4C58C73D0BB25119DE928705 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9C315A5D7BBC6887BE9268A7A675B182 /* Info.plist */,
-				4E2957A5BE62D5B219F20EE5A3CB09AB /* Info.plist */,
-				4E6B6FDB54CDAA45C1423EC581867D7D /* Swash-iOS.modulemap */,
-				F0B944C92092AE3265830E5DD76976C5 /* Swash-iOS.xcconfig */,
-				417E8EA2F915A9EA42B62B8B506D4B69 /* Swash-iOS-dummy.m */,
-				2F19195855616399FDF794A41B784D18 /* Swash-iOS-prefix.pch */,
-				F738F73C2EBE8656B0DF6B7B04BBDEA3 /* Swash-iOS-umbrella.h */,
-				FD68725CE8C48207438DF685B01908FA /* Swash-tvOS.modulemap */,
-				5944BCBBBD7E2B0F142F53F8ADA50A3A /* Swash-tvOS.xcconfig */,
-				1AA43FF1AE520C69E74452BE68EFE4ED /* Swash-tvOS-dummy.m */,
-				B1F089851352F069FC8E250C257C15FD /* Swash-tvOS-prefix.pch */,
-				02655EDB9915010485DB72D377B9AD0E /* Swash-tvOS-umbrella.h */,
+				E6F0713A423217F2A569270DC13820C3 /* Pods-Swash_Example */,
+				9D1FDFD8962A7BBEA03E810AF28C328F /* Pods-Swash_Tests */,
+				63B0E6BE22BC7E830697F7A76ABEA131 /* Pods-Swash_tvOS_Example */,
+				108FAA6EFE0046F1309A50AE540A5293 /* Pods-Swash_watchOS_Example Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0CDDD0283089515A09541F4C6067A7A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A25139FE94B7A208C5D63E5FE1B26218 /* Info.plist */,
+				2397A39277B9941406A92B5FA9F305EF /* Info.plist */,
+				F615841B22F727BCED091A4E8841026A /* Info.plist */,
+				414F6CF953E0BB91F17110B7F0333A6E /* Swash-iOS.modulemap */,
+				D767886F578C118F260AFE41069AFE84 /* Swash-iOS.xcconfig */,
+				E3CCCB5B101752B4EF2B6D9B0FB6AD9A /* Swash-iOS-dummy.m */,
+				37D72947505600C0667F0E80345BDC62 /* Swash-iOS-prefix.pch */,
+				DBF84900EF5D6ADAB3B9AF8E4BA5284D /* Swash-iOS-umbrella.h */,
+				43F2948AA2A34D25333284D859CEB1BD /* Swash-tvOS.modulemap */,
+				8BEEB479F9A5983815E185B58A3E496D /* Swash-tvOS.xcconfig */,
+				AF020BFA5D37C297D08DDA7DD210D5A5 /* Swash-tvOS-dummy.m */,
+				0CF5A9D356B56737D56A85CDA8480E01 /* Swash-tvOS-prefix.pch */,
+				8FA990CFC3B0B2A2BEFEBDFDD5F35830 /* Swash-tvOS-umbrella.h */,
+				C9ECAD048028A4B4990F8ED9B75B91E8 /* Swash-watchOS.modulemap */,
+				8CA5D22AE6DD9FDF739214FE801F4CCE /* Swash-watchOS.xcconfig */,
+				B1656A4141236B8571EC0C33962BB1A5 /* Swash-watchOS-dummy.m */,
+				82E444E36C5443DAA588EE48BFB553C0 /* Swash-watchOS-prefix.pch */,
+				FF403CF556B9E1D1C7BE03373ABFC624 /* Swash-watchOS-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Swash-iOS";
 			sourceTree = "<group>";
 		};
-		8B4431F8F78886B23B84144DABE6084D /* Pods-Swash_tvOS_Example */ = {
+		C5B41980B1580FA5F9625066CB410E26 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				90F26A12C015F2310C04BAB300B14A91 /* Info.plist */,
-				3085F4E742C081F0BC6B08DD95007BAD /* Pods-Swash_tvOS_Example.modulemap */,
-				4C63E7F4C88C1E6219BB24E1D3E25544 /* Pods-Swash_tvOS_Example-acknowledgements.markdown */,
-				F620B39FAC945534C7A7CA3BAE092E53 /* Pods-Swash_tvOS_Example-acknowledgements.plist */,
-				CC11879F2B0FE2D94EC50CAEF8904085 /* Pods-Swash_tvOS_Example-dummy.m */,
-				DCF415785D99CFFFF054A10A09903DD6 /* Pods-Swash_tvOS_Example-frameworks.sh */,
-				88C0DCD50C95050518B766F303A64A39 /* Pods-Swash_tvOS_Example-resources.sh */,
-				9D0172BDF9E8352E2448DA93FCDDC2CE /* Pods-Swash_tvOS_Example-umbrella.h */,
-				9DC5F93EEB8C3CA04723E03AC0DB30CC /* Pods-Swash_tvOS_Example.debug.xcconfig */,
-				9E228D9895BA8A8E547B63BC06AB1438 /* Pods-Swash_tvOS_Example.release.xcconfig */,
+				80BD18536CEBA1BA2EF2567175719C5A /* Foundation.framework */,
 			);
-			name = "Pods-Swash_tvOS_Example";
-			path = "Target Support Files/Pods-Swash_tvOS_Example";
+			name = tvOS;
 			sourceTree = "<group>";
 		};
-		8BCCA90B6C99C0D9D0F5571C2EDCB39C /* Swash */ = {
+		CCA609768686A35F12EE0FA29773C4D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED12F56EF662FBA50D1AFE2187E02819 /* Font.swift */,
-				4F656641875DDBD10312D0E48DF894D8 /* SystemFont.swift */,
-				57BC58A2C77DE13F624C687C3247034C /* Utils.swift */,
-				CF65CA4F61C418C347B719370EBD55DF /* Pod */,
-				85390EC324D14DF5E5064E68F7392700 /* Support Files */,
+				BFD967E4D6E273710A5C83205295B183 /* Pods_Swash_Example.framework */,
+				8B841BAACF66D1ED35A3F5AA4A8F2E13 /* Pods_Swash_Tests.framework */,
+				C07DE6DB1FC139FEDF347E6AFD395ED3 /* Pods_Swash_tvOS_Example.framework */,
+				DE102E29A667DC7DA27CD2400635DE60 /* Pods_Swash_watchOS_Example_Extension.framework */,
+				D3422C7EA8E88B9E74C8CBFE45200DEF /* Swash.framework */,
+				510234D7856B3190EB326B3072034BF4 /* Swash.framework */,
+				1D8035ABEF4D7A4B27723AFFB77F3F37 /* Swash.framework */,
 			);
-			name = Swash;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		A42F72DC1D780481325DD00969B19BB6 /* Frameworks */ = {
+		E6CFD8EDE4986335A49682875A8F8C27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				58996781A54EE964D7111D73083A18A5 /* iOS */,
-				20F731AE46C73F232AF0C168DC383CF9 /* tvOS */,
+				28D529E0008C6528422731CD7704C662 /* iOS */,
+				C5B41980B1580FA5F9625066CB410E26 /* tvOS */,
+				718AA62F846050FA14C8EB44CC0B172B /* watchOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ABCC55EE92718C00744D1A2B0A5DBE3F /* Pods-Swash_Example */ = {
+		E6F0713A423217F2A569270DC13820C3 /* Pods-Swash_Example */ = {
 			isa = PBXGroup;
 			children = (
-				5E315B2C0FCE1E3216E6E43EC2D777AB /* Info.plist */,
-				8B1092405CB1168AC1E206F67C2BC8B8 /* Pods-Swash_Example.modulemap */,
-				B305B31C1F2419269535931DADC74A45 /* Pods-Swash_Example-acknowledgements.markdown */,
-				ECFA4EAF1CF8ECA8CC53E02D22DD2328 /* Pods-Swash_Example-acknowledgements.plist */,
-				950DFAAF3D123E7FCBB94071CC6DF9DD /* Pods-Swash_Example-dummy.m */,
-				840062DDF763E33B7E649AE71B6527C8 /* Pods-Swash_Example-frameworks.sh */,
-				4AD43DBB710538D6B17F04B42C3B6DC5 /* Pods-Swash_Example-resources.sh */,
-				7BBC100D7D8C56499AD520F83B9064C9 /* Pods-Swash_Example-umbrella.h */,
-				34195F3A4A38334E9A4D277C25C95D22 /* Pods-Swash_Example.debug.xcconfig */,
-				C8F2312AD83CC8A3576A4F4AAAD728DA /* Pods-Swash_Example.release.xcconfig */,
+				C84221730ECE13A7D2E3908FF9C6AA09 /* Info.plist */,
+				16BFD264DEA4278EA854A9AF468D3138 /* Pods-Swash_Example.modulemap */,
+				878268266AC5CD8AFC00FEF9DE0314E9 /* Pods-Swash_Example-acknowledgements.markdown */,
+				F0A49A9427280BE3C141A0232A87FFE9 /* Pods-Swash_Example-acknowledgements.plist */,
+				EFB84CFA456110B98F2EBDCCCF1B2A00 /* Pods-Swash_Example-dummy.m */,
+				8BDCEEA5555465A2771A1B66EE37830C /* Pods-Swash_Example-frameworks.sh */,
+				C58568441506222DC040D5977216DA11 /* Pods-Swash_Example-resources.sh */,
+				C8CCFE1C87138749C20B1A2A37EFB834 /* Pods-Swash_Example-umbrella.h */,
+				22FA9AFC4FFFC5C215D2C8B5B48627A1 /* Pods-Swash_Example.debug.xcconfig */,
+				3B84A8FCCD1C33A0EA7E2A7CF5763A1D /* Pods-Swash_Example.release.xcconfig */,
 			);
 			name = "Pods-Swash_Example";
 			path = "Target Support Files/Pods-Swash_Example";
-			sourceTree = "<group>";
-		};
-		CF65CA4F61C418C347B719370EBD55DF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3324566FE12C814F59B0306AFDCA3089 /* LICENSE */,
-				428619B0586E18F71C9105C5BB9D73E6 /* README.md */,
-				CC171E6B54B179105FFCEEB0A06505EE /* Swash.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +423,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BE2761DD20265AC2922403528F92436 /* Swash-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D12CBA0AEE145DB7DE40545B73139DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4CA3118A1501BAA441BCE523D655AE /* Swash-watchOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +458,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D446352D3F231C51583A2A2333C4443B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277A0B16A85F9D663B473EE64A62BAAE /* Pods-Swash_watchOS_Example Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -381,7 +484,7 @@
 			);
 			name = "Pods-Swash_tvOS_Example";
 			productName = "Pods-Swash_tvOS_Example";
-			productReference = 44DD95780FF929AEF3681FAA839A1B0D /* Pods_Swash_tvOS_Example.framework */;
+			productReference = C07DE6DB1FC139FEDF347E6AFD395ED3 /* Pods_Swash_tvOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1749898C0944E1056C696105B55CDB66 /* Pods-Swash_Tests */ = {
@@ -399,7 +502,7 @@
 			);
 			name = "Pods-Swash_Tests";
 			productName = "Pods-Swash_Tests";
-			productReference = 1CC5628EEAD37C41102C4B4D6F877621 /* Pods_Swash_Tests.framework */;
+			productReference = 8B841BAACF66D1ED35A3F5AA4A8F2E13 /* Pods_Swash_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6AE5C61E778A19F478186DCD90566474 /* Swash-tvOS */ = {
@@ -416,7 +519,42 @@
 			);
 			name = "Swash-tvOS";
 			productName = "Swash-tvOS";
-			productReference = FE738EADD4E273EAFC8734734C1BF9D7 /* Swash.framework */;
+			productReference = 510234D7856B3190EB326B3072034BF4 /* Swash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D5DD24BA20B90C3E818DB03D5CAEEDA /* Pods-Swash_watchOS_Example Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306C855B2806BAE9716A491EEBEE3F4E /* Build configuration list for PBXNativeTarget "Pods-Swash_watchOS_Example Extension" */;
+			buildPhases = (
+				6290B71630E7ABD0168037103BC6D521 /* Sources */,
+				CCCF0B1F30694B06C6934F5DE82799C0 /* Frameworks */,
+				D446352D3F231C51583A2A2333C4443B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B996ACD56F8B75AEE88D07ADAEE99AEF /* PBXTargetDependency */,
+			);
+			name = "Pods-Swash_watchOS_Example Extension";
+			productName = "Pods-Swash_watchOS_Example Extension";
+			productReference = DE102E29A667DC7DA27CD2400635DE60 /* Pods_Swash_watchOS_Example_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94CEFF7EBA3DB63B6F842E6E5AEB7D08 /* Swash-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66ABA84089AFEAACC1FCBE711575476A /* Build configuration list for PBXNativeTarget "Swash-watchOS" */;
+			buildPhases = (
+				3E406EA5E7B567507039FE490E0B149F /* Sources */,
+				59028554A7E4E7F75919BC7623FC9232 /* Frameworks */,
+				2D12CBA0AEE145DB7DE40545B73139DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swash-watchOS";
+			productName = "Swash-watchOS";
+			productReference = 1D8035ABEF4D7A4B27723AFFB77F3F37 /* Swash.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C548C38257107A24928FFE9C239E62C3 /* Pods-Swash_Example */ = {
@@ -434,7 +572,7 @@
 			);
 			name = "Pods-Swash_Example";
 			productName = "Pods-Swash_Example";
-			productReference = 2B3219418AB678988C4BB8D217C41419 /* Pods_Swash_Example.framework */;
+			productReference = BFD967E4D6E273710A5C83205295B183 /* Pods_Swash_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CBB3B0099BC1BA12ACEBE2703804DF94 /* Swash-iOS */ = {
@@ -451,7 +589,7 @@
 			);
 			name = "Swash-iOS";
 			productName = "Swash-iOS";
-			productReference = B5EF61DEB8157230E73CC264ED17C62B /* Swash.framework */;
+			productReference = D3422C7EA8E88B9E74C8CBFE45200DEF /* Swash.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -471,15 +609,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 847506B58ED043B2FBAD5EBDCE5129DC /* Products */;
+			productRefGroup = CCA609768686A35F12EE0FA29773C4D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C548C38257107A24928FFE9C239E62C3 /* Pods-Swash_Example */,
 				1749898C0944E1056C696105B55CDB66 /* Pods-Swash_Tests */,
 				12475307F0418EAF97830468ABB016C1 /* Pods-Swash_tvOS_Example */,
+				8D5DD24BA20B90C3E818DB03D5CAEEDA /* Pods-Swash_watchOS_Example Extension */,
 				CBB3B0099BC1BA12ACEBE2703804DF94 /* Swash-iOS */,
 				6AE5C61E778A19F478186DCD90566474 /* Swash-tvOS */,
+				94CEFF7EBA3DB63B6F842E6E5AEB7D08 /* Swash-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -504,11 +644,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3E406EA5E7B567507039FE490E0B149F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF01BCED161CD0C3DCF2A6FAC9BB6C09 /* Font.swift in Sources */,
+				002186000D910114AF7ECDCAB489C2DF /* Swash-watchOS-dummy.m in Sources */,
+				D78CCF72F703240BB513B80E9B9483F7 /* SystemFont.swift in Sources */,
+				C4CF71B3EDA072A1148F5E8FDC3C27BF /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5FED60EAF15354A29EC71FF8F7F4E236 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1D28B8CB1F01BD62E9EC3F052A6A99E9 /* Pods-Swash_tvOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6290B71630E7ABD0168037103BC6D521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71ED19E84BF0595F467137D2E06ABDB /* Pods-Swash_watchOS_Example Extension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +699,12 @@
 			target = 6AE5C61E778A19F478186DCD90566474 /* Swash-tvOS */;
 			targetProxy = 53E077E77DBA10623A2949A2185B286D /* PBXContainerItemProxy */;
 		};
+		B996ACD56F8B75AEE88D07ADAEE99AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Swash-watchOS";
+			target = 94CEFF7EBA3DB63B6F842E6E5AEB7D08 /* Swash-watchOS */;
+			targetProxy = C5B6B7C58F9E4A558DCE6D1387BA8E99 /* PBXContainerItemProxy */;
+		};
 		C4EB40C94230678C28E7DDE8F422B0CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Swash-iOS";
@@ -557,7 +722,7 @@
 /* Begin XCBuildConfiguration section */
 		0BA70F3F7CC244A620D154E2A32A9E11 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0B944C92092AE3265830E5DD76976C5 /* Swash-iOS.xcconfig */;
+			baseConfigurationReference = D767886F578C118F260AFE41069AFE84 /* Swash-iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -587,7 +752,422 @@
 			};
 			name = Debug;
 		};
-		31A6E2DAB256920E712A5094926C25C8 /* Release */ = {
+		3AE620CF77D1C84E1233546B455CA281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D767886F578C118F260AFE41069AFE84 /* Swash-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swash-iOS/Swash-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swash-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Swash-iOS/Swash-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Swash;
+				PRODUCT_NAME = Swash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE34FF8670DA7557EEF384ACF3E6262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3DDDB30F846E92B0255746DB65B9658 /* Pods-Swash_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swash_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swash_Tests/Pods-Swash_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53B5BE455E19B2E2025089C0D0FDB0F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA5D22AE6DD9FDF739214FE801F4CCE /* Swash-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swash-watchOS/Swash-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swash-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Swash-watchOS/Swash-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Swash;
+				PRODUCT_NAME = Swash;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		55AAF85A4C3AE869E1B1FC4EABB7710E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF017C5543CD79231D76DEAF41BA50E3 /* Pods-Swash_tvOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swash_tvOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swash_tvOS_Example/Pods-Swash_tvOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F5BAA51724DD5F6D348675FF5DDE05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD7945DFC713119A21CD44BF231F801 /* Pods-Swash_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swash_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swash_Tests/Pods-Swash_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63DD8F381F79AA42E4EAEAADE3F5E6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BEEB479F9A5983815E185B58A3E496D /* Swash-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swash-tvOS/Swash-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swash-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Swash-tvOS/Swash-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = Swash;
+				PRODUCT_NAME = Swash;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		648B04F11C55584CF9B465F7526DB5F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BAE7F565AE1D42D5A09ED5096CF4430 /* Pods-Swash_tvOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swash_tvOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swash_tvOS_Example/Pods-Swash_tvOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		675A4AEAC62C29957B53B458F11399A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FA9AFC4FFFC5C215D2C8B5B48627A1 /* Pods-Swash_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swash_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swash_Example/Pods-Swash_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CFF75877308689C73207A2F6FF584A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9907FBE6787C12770C276C491FA9A91F /* Pods-Swash_watchOS_Example Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swash_watchOS_Example Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swash_watchOS_Example Extension/Pods-Swash_watchOS_Example Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		977F33EFE7A62D14D1B9B6B44C9CC269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BEEB479F9A5983815E185B58A3E496D /* Swash-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swash-tvOS/Swash-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swash-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Swash-tvOS/Swash-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = Swash;
+				PRODUCT_NAME = Swash;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9ACEF309B11C5DEC10EF13A6F6C44317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43BE9E4B3F135273F7BDA32643051C3 /* Pods-Swash_watchOS_Example Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swash_watchOS_Example Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swash_watchOS_Example Extension/Pods-Swash_watchOS_Example Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		9E4BC4D577C13130422AA385F946C992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA5D22AE6DD9FDF739214FE801F4CCE /* Swash-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swash-watchOS/Swash-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swash-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Swash-watchOS/Swash-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Swash;
+				PRODUCT_NAME = Swash;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		9F8CE1056055CE72D60ABE64F5776FE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -643,219 +1223,13 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				TVOS_DEPLOYMENT_TARGET = 12.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
-		3AE620CF77D1C84E1233546B455CA281 /* Release */ = {
+		F9809BD3CC032EAA40BE55E5ECD2899B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0B944C92092AE3265830E5DD76976C5 /* Swash-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Swash-iOS/Swash-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Swash-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Swash-iOS/Swash-iOS.modulemap";
-				PRODUCT_MODULE_NAME = Swash;
-				PRODUCT_NAME = Swash;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4BE34FF8670DA7557EEF384ACF3E6262 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94C4CE56EA39DB7BCCCDC3AD65A11AF3 /* Pods-Swash_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Swash_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Swash_Tests/Pods-Swash_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		55AAF85A4C3AE869E1B1FC4EABB7710E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DC5F93EEB8C3CA04723E03AC0DB30CC /* Pods-Swash_tvOS_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Swash_tvOS_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Swash_tvOS_Example/Pods-Swash_tvOS_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5F5BAA51724DD5F6D348675FF5DDE05D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F00E1F2640876A221756B0CF32251E95 /* Pods-Swash_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Swash_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Swash_Tests/Pods-Swash_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		63DD8F381F79AA42E4EAEAADE3F5E6B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5944BCBBBD7E2B0F142F53F8ADA50A3A /* Swash-tvOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Swash-tvOS/Swash-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Swash-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Swash-tvOS/Swash-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = Swash;
-				PRODUCT_NAME = Swash;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		648B04F11C55584CF9B465F7526DB5F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E228D9895BA8A8E547B63BC06AB1438 /* Pods-Swash_tvOS_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Swash_tvOS_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Swash_tvOS_Example/Pods-Swash_tvOS_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		675A4AEAC62C29957B53B458F11399A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34195F3A4A38334E9A4D277C25C95D22 /* Pods-Swash_Example.debug.xcconfig */;
+			baseConfigurationReference = 3B84A8FCCD1C33A0EA7E2A7CF5763A1D /* Pods-Swash_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -881,15 +1255,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		88F8CF58574C33DAD3D2483491B0CF8F /* Debug */ = {
+		FCED9FF014687EC2A676F7AFC4C25E92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -950,77 +1324,9 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 				TVOS_DEPLOYMENT_TARGET = 12.0;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
-		};
-		977F33EFE7A62D14D1B9B6B44C9CC269 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5944BCBBBD7E2B0F142F53F8ADA50A3A /* Swash-tvOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Swash-tvOS/Swash-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Swash-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Swash-tvOS/Swash-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = Swash;
-				PRODUCT_NAME = Swash;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F9809BD3CC032EAA40BE55E5ECD2899B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8F2312AD83CC8A3576A4F4AAAD728DA /* Pods-Swash_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Swash_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Swash_Example/Pods-Swash_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1037,8 +1343,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88F8CF58574C33DAD3D2483491B0CF8F /* Debug */,
-				31A6E2DAB256920E712A5094926C25C8 /* Release */,
+				FCED9FF014687EC2A676F7AFC4C25E92 /* Debug */,
+				9F8CE1056055CE72D60ABE64F5776FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306C855B2806BAE9716A491EEBEE3F4E /* Build configuration list for PBXNativeTarget "Pods-Swash_watchOS_Example Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFF75877308689C73207A2F6FF584A8 /* Debug */,
+				9ACEF309B11C5DEC10EF13A6F6C44317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1057,6 +1372,15 @@
 			buildConfigurations = (
 				0BA70F3F7CC244A620D154E2A32A9E11 /* Debug */,
 				3AE620CF77D1C84E1233546B455CA281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66ABA84089AFEAACC1FCBE711575476A /* Build configuration list for PBXNativeTarget "Swash-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4BC4D577C13130422AA385F946C992 /* Debug */,
+				53B5BE455E19B2E2025089C0D0FDB0F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

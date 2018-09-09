@@ -14,3 +14,8 @@ target 'Swash_tvOS_Example' do
     platform :tvos, '12.0'
     pod 'Swash', :path => '../'
 end
+
+target 'Swash_watchOS_Example Extension' do
+    platform :watchos, '5.0'
+    pod 'Swash', :path => '../'
+end
