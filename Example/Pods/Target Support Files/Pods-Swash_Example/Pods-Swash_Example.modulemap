@@ -1,6 +1,0 @@
-framework module Pods_Swash_Example {
-  umbrella header "Pods-Swash_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

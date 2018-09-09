@@ -80,9 +80,13 @@ class SystemFontTests: XCTestCase {
     }
     
     func testSystemSemiboldItalicOfSize() {
-        let font = SystemFont.semiboldItalic.of(size: 12)
+        let font = SystemFont.boldItalic.of(size: 12)
         XCTAssertEqual(font.pointSize, 12)
+        #if(iOS)
         XCTAssertEqual(font.fontName, ".SFUIText-SemiboldItalic")
+        #elseif (tvOS)
+        XCTAssertEqual(font.fontName, ".SFUIText-BoldItalic")
+        #endif
     }
     
     func testSystemCondensedOfSize() {
@@ -95,17 +99,31 @@ class SystemFontTests: XCTestCase {
     //MARK: - Dynamic Type
     
     func testSystemPreferredOfTextStyle() {
+        #if(iOS)
         XCTAssertEqual(SystemFont.preferred.of(textStyle: .body).fontName, ".SFUIText")
+        #elseif (tvOS)
+        XCTAssertEqual(SystemFont.preferred.of(textStyle: .body).fontName, ".SFUIText-Medium")
+        #endif
     }
     
     func testSystemRegularOfTextStyle() {
+        #if(iOS)
         XCTAssertEqual(SystemFont.italic.of(textStyle: .largeTitle).fontName, ".SFUIDisplay-Italic")
+        #elseif (tvOS)
+        XCTAssertEqual(SystemFont.italic.of(textStyle: .title1).fontName, ".SFUIDisplay-Italic")
+        #endif
     }
     
     func testSystemItalicOfTextStyleMax() {
+        #if(iOS)
         let font = SystemFont.italic.of(textStyle: .largeTitle, maxSize: 12)
         XCTAssertEqual(font.pointSize, 12)
         XCTAssertEqual(font.fontName, ".SFUIText-Italic")
+        #elseif (tvOS)
+        let font = SystemFont.italic.of(textStyle: .title1, maxSize: 12)
+        XCTAssertEqual(font.pointSize, 12)
+        XCTAssertEqual(font.fontName, ".SFUIText-Italic")
+        #endif
     }
     
 }
