@@ -1,8 +1,9 @@
 # Swash
 
 [![Version](https://img.shields.io/cocoapods/v/Swash.svg?style=flat)](http://cocoapods.org/pods/Swash)
-[![License](https://img.shields.io/cocoapods/l/Swash.svg?style=flat)](http://cocoapods.org/pods/Swash)
+[![License](https://img.shields.io/cocoapods/l/Swash.svg?style=flat)](http://doge.mit-license.org)
 [![Platform](https://img.shields.io/cocoapods/p/Swash.svg?style=flat)](http://cocoapods.org/pods/Swash)
+[![License](https://img.shields.io/github/license/Mindgrub/Swash.svg?style=flat)](http://doge.mit-license.org)
 
 Swash is a simple, safe, and expressive abstraction of `UIFont` with baked-in support for dynamic type.
 

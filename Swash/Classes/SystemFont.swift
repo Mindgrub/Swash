@@ -17,7 +17,35 @@ public enum SystemFont {
      For this case, `of(size:)` returns the direct result of `UIFont.systemFont(ofSize:)`. In addition, `of(textStyle:maxSize:)` returns the direct result of `UIFont.preferredFont(forTextStyle:)` when `maxSize` is `nil`. This is the only case which allows for labels and text views to automatically resize if `adjustsFontForContentSizeCategory` is `true`.
      */
     case preferred
-    case ultraLight, thin, light, regular, medium, semibold, bold, heavy, black, italic, semiboldItalic, condensed
+    
+    case ultraLight
+    case thin
+    case light
+    case regular
+    case medium
+    case semibold
+    case bold
+    case heavy
+    case black
+    
+    /**
+     Represents the system font generated with symbolic traits `[.traitCondensed]`.
+     */
+    case condensed
+    
+    /**
+     Represents the system font generated with symbolic traits `[.traitItalic, .traitBold]`.
+     
+     Findings: On iOS, this translates to `.SFUIText`. On tvOS, it translates to .SFUIText-Medium.
+    */
+    
+    case boldItalic
+    
+    /**
+     Represents the system font generated with symbolic traits `[.traitItalic]`.
+     */
+    case italic
+    
     
     private enum Style {
         case weight(UIFont.Weight)
@@ -39,7 +67,8 @@ public enum SystemFont {
         case .black: return .weight(.black)
             
         case .condensed: return .traits([.traitCondensed])
-        case .semiboldItalic: return .traits([.traitItalic, .traitBold])
+        /// On iOS, this translates to .SFUIText-SemiboldItalic. On tvOS, it translates to .SFUIText-BoldItalic
+        case .boldItalic: return .traits([.traitItalic, .traitBold])
         case .italic: return .traits([.traitItalic])
         }
     }

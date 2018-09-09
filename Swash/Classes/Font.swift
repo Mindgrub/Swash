@@ -13,10 +13,12 @@ import UIKit
 public protocol Font: RawRepresentable where Self.RawValue == String {
     func of(size: CGFloat) -> UIFont?
     
-    @available(iOS 11.0, *)
+    @available(iOS 11.0, watchOS 4.0, tvOS 11.0, *)
     func of(textStyle: UIFont.TextStyle, maxSize: CGFloat?, defaultSize: CGFloat?) -> UIFont?
     
     @available(iOS, introduced: 8.2, deprecated: 11.0, message: "Use `of(textStyle:maxSize:defaultSize:)` instead")
+    @available(watchOS, introduced: 2.0, deprecated: 4.0, message: "Use `of(textStyle:maxSize:defaultSize:)` instead")
+    @available(tvOS, introduced: 9.0, deprecated: 11.0, message: "Use `of(textStyle:maxSize:defaultSize:)` instead")
     func of(style: UIFont.TextStyle, maxSize: CGFloat?) -> UIFont?
 }
 
@@ -57,12 +59,15 @@ public extension Font {
      
      - Returns: A dynamic font object corresponding to the given parameters. `nil` if the font cannot be initialized.
      */
-    @available(iOS 11.0, *)
+    @available(iOS 11.0, watchOS 4.0, tvOS 11.0, *)
     public func of(textStyle: UIFont.TextStyle,
                    maxSize: CGFloat? = nil,
                    defaultSize: CGFloat? = nil) -> UIFont? {
         // If no default size provided, use the default specified in Apple's HIG
-        let defaultSize = defaultSize ?? defaultSizes[textStyle] ?? 17
+        guard let defaultSize = defaultSize ?? defaultSizes[textStyle] else {
+            assertionFailure("New text style \(textStyle.rawValue) is not accounted for in Swash's default size dictionary 🤭. You must provide a default size for this text style until the library is updated. GitHub issues and pull requests are much appreciated!")
+            return nil
+        }
         
         guard let font = of(size: defaultSize) else { return nil }
         let fontMetrics = UIFontMetrics(forTextStyle: textStyle)
@@ -86,6 +91,8 @@ public extension Font {
      - Returns: A font object corresponding to the given parameters. `nil` if the font cannot be initialized.
      */
     @available(iOS, introduced: 8.2, deprecated: 11.0, message: "Use `of(textStyle:maxSize:defaultSize:)` instead")
+    @available(watchOS, introduced: 2.0, deprecated: 4.0, message: "Use `of(textStyle:maxSize:defaultSize:)` instead")
+    @available(tvOS, introduced: 9.0, deprecated: 11.0, message: "Use `of(textStyle:maxSize:defaultSize:)` instead")
     public func of(style: UIFont.TextStyle, maxSize: CGFloat? = nil) -> UIFont? {
         let pointSize = UIFont.preferredFont(forTextStyle: style).pointSize
         
@@ -100,15 +107,60 @@ public extension Font {
 /**
  Default text sizes taken from Apple's [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/). These sizes correspond to `UIContentSizeCategory.large`, the default category used by `UIFontMetrics` for dynamic type.
  */
+#if os(iOS)
 @available(iOS 11.0, *)
-fileprivate let defaultSizes: [UIFont.TextStyle: CGFloat] = [.caption2: 11,
-                                                             .caption1: 12,
-                                                             .footnote: 13,
-                                                             .subheadline: 15,
-                                                             .callout: 16,
-                                                             .body: 17,
-                                                             .headline: 17,
-                                                             .title3: 20,
-                                                             .title2: 22,
-                                                             .title1: 28,
-                                                             .largeTitle: 34]
+fileprivate let defaultSizes: [UIFont.TextStyle: CGFloat] =
+    [.caption2: 11,
+     .caption1: 12,
+     .footnote: 13,
+     .subheadline: 15,
+     .callout: 16,
+     .body: 17,
+     .headline: 17,
+     .title3: 20,
+     .title2: 22,
+     .title1: 28,
+     .largeTitle: 34]
+
+#elseif os(watchOS)
+fileprivate let defaultSizes: [UIFont.TextStyle: CGFloat] = {
+    if #available(watchOS 5.0, *) {
+        return [.caption2: 11,
+                .caption1: 12,
+                .footnote: 13,
+                .subheadline: 15,
+                .callout: 16,
+                .body: 17,
+                .headline: 17,
+                .title3: 20,
+                .title2: 22,
+                .title1: 28,
+                .largeTitle: 34]
+    } else {
+        return [.caption2: 11,
+                .caption1: 12,
+                .footnote: 13,
+                .subheadline: 15,
+                .callout: 16,
+                .body: 17,
+                .headline: 17,
+                .title3: 20,
+                .title2: 22,
+                .title1: 28]
+    }
+}()
+
+#elseif os(tvOS)
+@available(tvOS 11.0, *)
+fileprivate let defaultSizes: [UIFont.TextStyle: CGFloat] =
+    [.caption2: 11,
+     .caption1: 12,
+     .footnote: 13,
+     .subheadline: 15,
+     .callout: 16,
+     .body: 17,
+     .headline: 17,
+     .title3: 20,
+     .title2: 22,
+     .title1: 28]
+#endif
