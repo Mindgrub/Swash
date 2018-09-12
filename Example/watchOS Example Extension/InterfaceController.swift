@@ -1,9 +1,9 @@
 //
 //  InterfaceController.swift
-//  watchOS Example Extension
+//  Swash
 //
 //  Created by Sam Francis on 9/8/18.
-//  Copyright © 2018 CocoaPods. All rights reserved.
+//  Copyright © 2018 Mindgrub. All rights reserved.
 //
 
 import WatchKit

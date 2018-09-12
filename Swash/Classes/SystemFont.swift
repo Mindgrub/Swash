@@ -67,7 +67,6 @@ public enum SystemFont {
         case .black: return .weight(.black)
             
         case .condensed: return .traits([.traitCondensed])
-        /// On iOS, this translates to .SFUIText-SemiboldItalic. On tvOS, it translates to .SFUIText-BoldItalic
         case .boldItalic: return .traits([.traitItalic, .traitBold])
         case .italic: return .traits([.traitItalic])
         }

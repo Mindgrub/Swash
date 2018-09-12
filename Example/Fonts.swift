@@ -3,7 +3,7 @@
 //  Swash
 //
 //  Created by Sam Francis on 2/6/18.
-//  Copyright (c) 2018 Mindgrub. All rights reserved.
+//  Copyright © 2018 Mindgrub. All rights reserved.
 //
 
 import Swash
