@@ -2,18 +2,11 @@
 
 [![Version](https://img.shields.io/cocoapods/v/Swash.svg?style=flat)](#installation)
 ![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)
-![Platforms](https://img.shields.io/cocoapods/p/Swash.svg?style=flat)   
+![Platforms](https://img.shields.io/cocoapods/p/Swash.svg?style=flat)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Swash.svg?style=flat)](http://doge.mit-license.org)
 
 Swash is a simple, safe, and expressive abstraction of `UIFont` with baked-in support for dynamic type.
-
-## Installation
-
-Swash is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
-
-```ruby
-pod 'Swash'
-```
 
 ## Usage
 To define a custom font, just create a `String` enum that conforms to the `Font` protocol.
@@ -37,8 +30,8 @@ Uses [`UIFontMetrics`](https://developer.apple.com/documentation/uikit/uifontmet
 label1.adjustsFontForContentSizeCategory = true
 label2.adjustsFontForContentSizeCategory = true
 
-label1.font = Papyrus.condensed.of(textStyle: .headline, defaultSize: 17)
-// Optional size cutoff
+label1.font = Papyrus.condensed.of(textStyle: .headline)
+// Optional size cutoff and default size.
 label2.font = GillSans.bold.of(textStyle: .title1, defaultSize: 28, maxSize: 38)
 ```
 ![Dynamic Type Demo](https://raw.githubusercontent.com/Mindgrub/Swash/master/Swash/Assets/dynamic_type_demo.gif)
@@ -46,9 +39,9 @@ label2.font = GillSans.bold.of(textStyle: .title1, defaultSize: 28, maxSize: 38)
 #### Dynamic Type (Before iOS 11)
 Uses system font scaling, no default size value. [`adjustsFontForContentSizeCategory`](https://developer.apple.com/documentation/uikit/uicontentsizecategoryadjusting/1771731-adjustsfontforcontentsizecategor) requires the use of [`UIFontMetrics`](https://developer.apple.com/documentation/uikit/uifontmetrics), so it is of no use for custom fonts before iOS 11. You'll have to update the fonts manually, either in [`traitCollectionDidChange(_:)`](https://developer.apple.com/documentation/uikit/uitraitenvironment/1623516-traitcollectiondidchange) or by observing the [`UIContentSizeCategoryDidChange`](https://developer.apple.com/documentation/foundation/nsnotification.name/1622948-uicontentsizecategorydidchange) notification.
 ```swift
-label.font = Papyrus.condensed.of(textStyle: .headline)
+label.font = Papyrus.condensed.of(style: .headline)
 // Optional size cutoff
-label.font = GillSans.bold.of(textStyle: .title1, maxSize: 30)
+label.font = GillSans.bold.of(style: .title1, maxSize: 30)
 ```
 
 #### System Font
@@ -64,7 +57,7 @@ label3.font = SystemFont.semiboldItalic.of(textStyle: .body, maxSize: 30)
 #### Generate Boilerplate
 Swash can attempt to log your font boilerplate for you!
 ```swift
-Swash.logFontBoilerplate(filter: "gill")
+Swash.logBoilerplate(forFontsWithFamilyNamesContaining: "gill")
 ```
 Output:
 ```
@@ -84,6 +77,20 @@ Just copy-paste the output into your project. You'll probably still need to doct
 
 #### Debug Crashing
 If your custom font fails to initialize, [`assertionFailure(_:file:line:)`](https://developer.apple.com/documentation/swift/1539616-assertionfailure) is called. This will crash debug builds with the default `-Onone` compiler optimization set. This is to help identify failed font initializations which can otherwise be hard to catch. **Release builds with higher optimization levels will NOT crash**, so you don't have to worry about your app crashing in production over a silly font.
+
+## Installation
+
+#### CocoaPods
+
+```ruby
+pod 'Swash'
+```
+
+#### Carthage
+
+```
+github "Mindgrub/Swash"
+```
 
 ## License
 

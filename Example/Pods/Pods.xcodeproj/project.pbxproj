@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		01F1EAA8DCB8454F509272774C88CA47 /* Pods-iOS Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E57BDA56A45DA7987CFCEAA7AE88C4 /* Pods-iOS Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22C82DB321534047009598C2 /* DefaultSizes+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C82DB221534047009598C2 /* DefaultSizes+iOS.swift */; };
+		22C82DB721534084009598C2 /* DefaultSizes+tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C82DB621534084009598C2 /* DefaultSizes+tvOS.swift */; };
+		22C82DB9215340BF009598C2 /* DefaultSizes+watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C82DB8215340BF009598C2 /* DefaultSizes+watchOS.swift */; };
 		27BD3B696829A115D1EC66F3184B97E8 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD61B08BC8408409AF54DE2EE22AE75 /* Font.swift */; };
 		3674BB7279621AB52DEEED047D568E82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4FF81B92149622508E028C0801E207 /* Foundation.framework */; };
 		3CCFC8F64BB876172E9D74BBF7C75458 /* Pods-tvOS Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02ED88CA1AE805061D7029D8592139B7 /* Pods-tvOS Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -95,13 +98,16 @@
 		19306D0260DF0057FBBD1467AF583EA9 /* Pods-tvOS Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tvOS Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1F38DD6DEC28EDA52A9638472929112D /* SystemFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemFont.swift; path = Swash/Classes/SystemFont.swift; sourceTree = "<group>"; };
 		20CF0173814E5D7BC10537182CDFE2BD /* Pods-watchOS Example Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watchOS Example Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		22C82DB221534047009598C2 /* DefaultSizes+iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DefaultSizes+iOS.swift"; sourceTree = "<group>"; };
+		22C82DB621534084009598C2 /* DefaultSizes+tvOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DefaultSizes+tvOS.swift"; sourceTree = "<group>"; };
+		22C82DB8215340BF009598C2 /* DefaultSizes+watchOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DefaultSizes+watchOS.swift"; sourceTree = "<group>"; };
 		2397A39277B9941406A92B5FA9F305EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Swash-watchOS/Info.plist"; sourceTree = "<group>"; };
 		2FA627EEFAF8B4313D5B9D1D0A556E6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37D72947505600C0667F0E80345BDC62 /* Swash-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swash-iOS-prefix.pch"; sourceTree = "<group>"; };
-		3FAE0F7AD4C8F874E337C583A83B784C /* Pods_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_Example.framework; path = "Pods-iOS Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAE0F7AD4C8F874E337C583A83B784C /* Pods_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		414F6CF953E0BB91F17110B7F0333A6E /* Swash-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Swash-iOS.modulemap"; sourceTree = "<group>"; };
 		43F2948AA2A34D25333284D859CEB1BD /* Swash-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Swash-tvOS.modulemap"; path = "../Swash-tvOS/Swash-tvOS.modulemap"; sourceTree = "<group>"; };
-		47F9BF23B4D4CC5C356B99C66115C9E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		47F9BF23B4D4CC5C356B99C66115C9E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		50A206784CFFA2E7D77DFB3CE4C7A294 /* Pods-tvOS Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tvOS Tests-resources.sh"; sourceTree = "<group>"; };
 		52281E7A82E8703E2F9C5E7B31589673 /* Pods-iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
 		565C8D349028FD31E799A3E11F47F6D4 /* Pods-watchOS Example Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-watchOS Example Extension.modulemap"; sourceTree = "<group>"; };
@@ -110,13 +116,13 @@
 		6459489171A0C2023A26F743D81AA7BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65C65BF4448920A8B87F3B1B9B3D933D /* Pods-iOS Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS Tests-dummy.m"; sourceTree = "<group>"; };
 		6AB493B2626DEBB6F4834C40006C89FF /* Pods-iOS Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6C70F1B67C345A35E39F4B08E279D35F /* Pods_tvOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tvOS_Tests.framework; path = "Pods-tvOS Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C70F1B67C345A35E39F4B08E279D35F /* Pods_tvOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tvOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7042B3AD32CCD4B3A6D6912D940777E9 /* Pods-iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS Example.release.xcconfig"; sourceTree = "<group>"; };
 		713E4CA7A695E2D21025C5CECAF0594F /* Pods-iOS Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS Tests-resources.sh"; sourceTree = "<group>"; };
-		71D4D00CB2B3547C8219AA3627E94558 /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swash.framework; path = "Swash-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D4D00CB2B3547C8219AA3627E94558 /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7792FD59345096E93E515D5B76035BEF /* Pods-iOS Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS Tests-frameworks.sh"; sourceTree = "<group>"; };
 		80BD18536CEBA1BA2EF2567175719C5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		815F058BA350E95D2C82A20FCB54E9F5 /* Swash.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Swash.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		815F058BA350E95D2C82A20FCB54E9F5 /* Swash.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Swash.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		82E444E36C5443DAA588EE48BFB553C0 /* Swash-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Swash-watchOS-prefix.pch"; path = "../Swash-watchOS/Swash-watchOS-prefix.pch"; sourceTree = "<group>"; };
 		836DF6D1284DFAAE2577824D1341D759 /* Pods-iOS Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS Tests.modulemap"; sourceTree = "<group>"; };
 		84D736508F81C90331AF2F1FC481C42B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -126,16 +132,16 @@
 		8CA5D22AE6DD9FDF739214FE801F4CCE /* Swash-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Swash-watchOS.xcconfig"; path = "../Swash-watchOS/Swash-watchOS.xcconfig"; sourceTree = "<group>"; };
 		8F9B5EC2D478C36542C63556CCB1BEDD /* Pods-tvOS Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tvOS Example.modulemap"; sourceTree = "<group>"; };
 		8FA990CFC3B0B2A2BEFEBDFDD5F35830 /* Swash-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Swash-tvOS-umbrella.h"; path = "../Swash-tvOS/Swash-tvOS-umbrella.h"; sourceTree = "<group>"; };
-		916A1DB47503D61F65DAFE8A1C5E9C0F /* Pods_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_Tests.framework; path = "Pods-iOS Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		916A1DB47503D61F65DAFE8A1C5E9C0F /* Pods_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E2596DF41692B31F674B94C65B8C25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		940134770118319A0ECE8F5580F6C90F /* Pods-tvOS Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tvOS Example-dummy.m"; sourceTree = "<group>"; };
-		943A0139BFD80D2C58D9DBA16D000A7A /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swash.framework; path = "Swash-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943A0139BFD80D2C58D9DBA16D000A7A /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCFFB3A7736A0053084188D0BA17C34 /* Pods-iOS Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS Example.modulemap"; sourceTree = "<group>"; };
 		A166058A22E857021D43868ADEA4AD6C /* Pods-tvOS Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tvOS Example-frameworks.sh"; sourceTree = "<group>"; };
 		A25139FE94B7A208C5D63E5FE1B26218 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Swash-tvOS/Info.plist"; sourceTree = "<group>"; };
 		A6FBB6457DAEB30F4E4F14A598ABCF60 /* Pods-tvOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tvOS Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AA26BCDA0FBA8F8ADA56DB750389B8B8 /* Pods_watchOS_Example_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_watchOS_Example_Extension.framework; path = "Pods-watchOS Example Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA26BCDA0FBA8F8ADA56DB750389B8B8 /* Pods_watchOS_Example_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watchOS_Example_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6E8A4FC8FD199EA197F64D3EB1A7A0 /* Pods-iOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF020BFA5D37C297D08DDA7DD210D5A5 /* Swash-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Swash-tvOS-dummy.m"; path = "../Swash-tvOS/Swash-tvOS-dummy.m"; sourceTree = "<group>"; };
 		B1656A4141236B8571EC0C33962BB1A5 /* Swash-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Swash-watchOS-dummy.m"; path = "../Swash-watchOS/Swash-watchOS-dummy.m"; sourceTree = "<group>"; };
@@ -143,12 +149,12 @@
 		BA276FF8833C8F79393C8BE15AB287D8 /* Pods-watchOS Example Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watchOS Example Extension-frameworks.sh"; sourceTree = "<group>"; };
 		BAB0354A42F52ACA209D45AF5CCD1871 /* Pods-tvOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tvOS Example.release.xcconfig"; sourceTree = "<group>"; };
 		BDF28FE2CD174D9CA7669D9267337C37 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Swash/Classes/Utils.swift; sourceTree = "<group>"; };
-		C2D96B6845CDC731713CCDFD32B14C4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C9B9F50ACF578F87FB0B86E781682F9B /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swash.framework; path = "Swash-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D96B6845CDC731713CCDFD32B14C4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C9B9F50ACF578F87FB0B86E781682F9B /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9ECAD048028A4B4990F8ED9B75B91E8 /* Swash-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Swash-watchOS.modulemap"; path = "../Swash-watchOS/Swash-watchOS.modulemap"; sourceTree = "<group>"; };
 		CB8D66BCFDD25FDC2FB31FA8A119EE06 /* Pods-watchOS Example Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-watchOS Example Extension-umbrella.h"; sourceTree = "<group>"; };
 		CDA8DBBB5FA07B660CC95A3D49A703F8 /* Pods-watchOS Example Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-watchOS Example Extension-dummy.m"; sourceTree = "<group>"; };
-		D225DEF6382E7C6D63113871B82A7938 /* Pods_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tvOS_Example.framework; path = "Pods-tvOS Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D225DEF6382E7C6D63113871B82A7938 /* Pods_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tvOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D274BF5420A9DF35C05B9E6B055E138D /* Pods-iOS Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS Example-resources.sh"; sourceTree = "<group>"; };
 		D767886F578C118F260AFE41069AFE84 /* Swash-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Swash-iOS.xcconfig"; sourceTree = "<group>"; };
 		D7E0AE41986799FA3EB5156F5F17A233 /* Pods-iOS Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS Example-dummy.m"; sourceTree = "<group>"; };
@@ -237,6 +243,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22C82DB121534023009598C2 /* Default Sizes */ = {
+			isa = PBXGroup;
+			children = (
+				22C82DB221534047009598C2 /* DefaultSizes+iOS.swift */,
+				22C82DB621534084009598C2 /* DefaultSizes+tvOS.swift */,
+				22C82DB8215340BF009598C2 /* DefaultSizes+watchOS.swift */,
+			);
+			path = "Default Sizes";
+			sourceTree = "<group>";
+		};
 		28D529E0008C6528422731CD7704C662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,6 +286,7 @@
 		4339D048BCCA569FDB0ACED6B9618327 /* Swash */ = {
 			isa = PBXGroup;
 			children = (
+				22C82DB121534023009598C2 /* Default Sizes */,
 				0BD61B08BC8408409AF54DE2EE22AE75 /* Font.swift */,
 				1F38DD6DEC28EDA52A9638472929112D /* SystemFont.swift */,
 				BDF28FE2CD174D9CA7669D9267337C37 /* Utils.swift */,
@@ -709,6 +726,7 @@
 				C1D33F6357C814E642D2203C9D736495 /* Swash-tvOS-dummy.m in Sources */,
 				7997EFCAE274B8BC0755B8728547D572 /* SystemFont.swift in Sources */,
 				94374385B12323A388BD1453B7E9B34B /* Utils.swift in Sources */,
+				22C82DB721534084009598C2 /* DefaultSizes+tvOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -751,6 +769,7 @@
 				59CA4D88BCA4EBF5243ABD5B19DABF83 /* Font.swift in Sources */,
 				484C26DA12090CA63E3F51D1F3CDF3D3 /* Swash-iOS-dummy.m in Sources */,
 				922DA2D8A98FD7F12BA8DB7C0492B480 /* SystemFont.swift in Sources */,
+				22C82DB321534047009598C2 /* DefaultSizes+iOS.swift in Sources */,
 				C7326F69357C8562C1D9332D95FB1284 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -767,6 +786,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C82DB9215340BF009598C2 /* DefaultSizes+watchOS.swift in Sources */,
 				27BD3B696829A115D1EC66F3184B97E8 /* Font.swift in Sources */,
 				4BF55F9A7A2074B871A6B92D802E1BDE /* Swash-watchOS-dummy.m in Sources */,
 				4631388862F4DBECCEDBEC73BAEF0E7A /* SystemFont.swift in Sources */,

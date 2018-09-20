@@ -50,7 +50,7 @@ public extension Font {
      
      Uses `UIFontMetrics` to initialize the dynamic font. If the font fails to initialize in a debug build (using `-Onone` optimization), a fatal error will be thrown. This is done to help catch boilerplate typos in development.
      
-     If no default size is provided, the default specified in Apple's [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/) is used.
+     If no default size is provided, the default specified in Apple's Human Interface Guidelines ([iOS](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/), [watchOS](https://developer.apple.com/design/human-interface-guidelines/watchos/visual-design/typography/), [tvOS](https://developer.apple.com/design/human-interface-guidelines/tvos/visual-design/typography/)) is used.
      
      - Parameters:
         - textStyle: The text style used to scale the text.
@@ -65,7 +65,9 @@ public extension Font {
                    defaultSize: CGFloat? = nil) -> UIFont? {
         // If no default size provided, use the default specified in Apple's HIG
         guard let defaultSize = defaultSize ?? defaultSizes[textStyle] else {
-            assertionFailure("New text style \(textStyle.rawValue) is not accounted for in Swash's default size dictionary 🤭. You must provide a default size for this text style until the library is updated. GitHub issues and pull requests are much appreciated!")
+            assertionFailure("""
+                Text style \(textStyle.rawValue) is not accounted for in Swash's default size dictionary 🤭. Either Apple's HIG has not specified a default size for \(textStyle.rawValue) for the device you are using, or it was recently added and this library needs to be updated (GitHub issues and pull requests are much appreciated!). In any case, at least for now, you must provide a default size to use this text style.
+                """)
             return nil
         }
         
@@ -103,64 +105,3 @@ public extension Font {
         }
     }
 }
-
-/**
- Default text sizes taken from Apple's [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/). These sizes correspond to `UIContentSizeCategory.large`, the default category used by `UIFontMetrics` for dynamic type.
- */
-#if os(iOS)
-@available(iOS 11.0, *)
-fileprivate let defaultSizes: [UIFont.TextStyle: CGFloat] =
-    [.caption2: 11,
-     .caption1: 12,
-     .footnote: 13,
-     .subheadline: 15,
-     .callout: 16,
-     .body: 17,
-     .headline: 17,
-     .title3: 20,
-     .title2: 22,
-     .title1: 28,
-     .largeTitle: 34]
-
-#elseif os(watchOS)
-fileprivate let defaultSizes: [UIFont.TextStyle: CGFloat] = {
-    if #available(watchOS 5.0, *) {
-        return [.caption2: 11,
-                .caption1: 12,
-                .footnote: 13,
-                .subheadline: 15,
-                .callout: 16,
-                .body: 17,
-                .headline: 17,
-                .title3: 20,
-                .title2: 22,
-                .title1: 28,
-                .largeTitle: 34]
-    } else {
-        return [.caption2: 11,
-                .caption1: 12,
-                .footnote: 13,
-                .subheadline: 15,
-                .callout: 16,
-                .body: 17,
-                .headline: 17,
-                .title3: 20,
-                .title2: 22,
-                .title1: 28]
-    }
-}()
-
-#elseif os(tvOS)
-@available(tvOS 11.0, *)
-fileprivate let defaultSizes: [UIFont.TextStyle: CGFloat] =
-    [.caption2: 11,
-     .caption1: 12,
-     .footnote: 13,
-     .subheadline: 15,
-     .callout: 16,
-     .body: 17,
-     .headline: 17,
-     .title3: 20,
-     .title2: 22,
-     .title1: 28]
-#endif
