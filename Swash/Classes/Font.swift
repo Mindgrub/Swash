@@ -66,7 +66,12 @@ public extension Font {
         // If no default size provided, use the default specified in Apple's HIG
         guard let defaultSize = defaultSize ?? defaultSizes[textStyle] else {
             assertionFailure("""
-                Text style \(textStyle.rawValue) is not accounted for in Swash's default size dictionary 🤭. Either Apple's HIG has not specified a default size for \(textStyle.rawValue) for the device you are using, or it was recently added and this library needs to be updated (GitHub issues and pull requests are much appreciated!). In any case, at least for now, you must provide a default size to use this text style.
+                Text style \(textStyle.rawValue) is not accounted for in Swash's
+                default size dictionary 🤭. Either Apple's HIG has not specified a
+                default size for \(textStyle.rawValue) for the device you are using,
+                or it was recently added and this library needs to be updated (GitHub
+                issues and pull requests are much appreciated!). In any case, at
+                least for now, you must provide a default size to use this text style.
                 """)
             return nil
         }

@@ -7,17 +7,16 @@
 //
 
 import UIKit
-import Swash
 
 class ViewController: UIViewController {
-    @IBOutlet weak var label: UILabel!
+    
+    @IBOutlet private weak var label: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         label.font = Avenir.roman.of(textStyle: .title1)
         label.text = label.font.fontName
     }
-
 
 }
 

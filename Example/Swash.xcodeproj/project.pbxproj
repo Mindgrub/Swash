@@ -230,10 +230,18 @@
 			path = "watchOS Example Extension";
 			sourceTree = "<group>";
 		};
-		607FACC71AFB9204008FA782 = {
+		22C82DBA21535E87009598C2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				829D74F8202A5D8C00DE3217 /* Fonts.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				22C82DBA21535E87009598C2 /* Shared */,
 				607FACD21AFB9204008FA782 /* iOS Example */,
 				2282AD782144748A00E20C3E /* tvOS Example */,
 				2282ADBF2144A30500E20C3E /* watchOS Example */,
@@ -475,7 +483,6 @@
 					};
 					2282AD862144748C00E20C3E = {
 						CreatedOnToolsVersion = 10.0;
-						DevelopmentTeam = YY7FKCXAZ6;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2282AD762144748A00E20C3E;
 					};
@@ -945,7 +952,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = YY7FKCXAZ6;
+				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -973,7 +980,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YY7FKCXAZ6;
+				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1210,6 +1217,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mindgrub.Swash-iOS-Example";
@@ -1225,6 +1233,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mindgrub.Swash-iOS-Example";

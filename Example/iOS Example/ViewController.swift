@@ -11,13 +11,18 @@ import Swash
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak private var label1: UILabel!
-    @IBOutlet weak private var label2: UILabel!
-    @IBOutlet weak private var label3: UILabel!
-    @IBOutlet weak private var label4: UILabel!
+    @IBOutlet private weak var label1: UILabel!
+    @IBOutlet private weak var label2: UILabel!
+    @IBOutlet private weak var label3: UILabel!
+    @IBOutlet private weak var label4: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // These are set in interface builder, so no need to set them here.
+//        label1.adjustsFontForContentSizeCategory = true
+//        label2.adjustsFontForContentSizeCategory = true
+//        label3.adjustsFontForContentSizeCategory = true
+//        label4.adjustsFontForContentSizeCategory = true
         
         label1.font = Futura.condensedMedium.of(textStyle: .headline, maxSize: 24)
         label2.font = Avenir.light.of(style: .title1)

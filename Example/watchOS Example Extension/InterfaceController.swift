@@ -12,7 +12,7 @@ import Swash
 
 class InterfaceController: WKInterfaceController {
     
-    @IBOutlet weak var label: WKInterfaceLabel!
+    @IBOutlet private weak var label: WKInterfaceLabel!
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
