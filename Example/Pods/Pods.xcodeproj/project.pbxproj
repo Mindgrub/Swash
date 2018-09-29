@@ -250,7 +250,8 @@
 				22C82DB621534084009598C2 /* DefaultSizes+tvOS.swift */,
 				22C82DB8215340BF009598C2 /* DefaultSizes+watchOS.swift */,
 			);
-			path = "Default Sizes";
+			name = "Default Sizes";
+			path = "Swash/Classes/Default Sizes";
 			sourceTree = "<group>";
 		};
 		28D529E0008C6528422731CD7704C662 /* iOS */ = {
