@@ -1,0 +1,6 @@
+framework module Swash {
+  umbrella header "Swash-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

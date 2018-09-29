@@ -1,11 +1,26 @@
 use_frameworks!
 
-target 'Swash_Example' do
-  pod 'Swash', :path => '../'
+target 'iOS Example' do
+    platform :ios, '12.0'
+    pod 'Swash', :path => '../'
+end
 
-  target 'Swash_Tests' do
-    inherit! :search_paths
+target 'tvOS Example' do
+    platform :tvos, '12.0'
+    pod 'Swash', :path => '../'
+end
 
-    
-  end
+target 'watchOS Example Extension' do
+    platform :watchos, '5.0'
+    pod 'Swash', :path => '../'
+end
+
+target 'iOS Tests' do
+    platform :ios, '12.0'
+    pod 'Swash', :path => '../'
+end
+
+target 'tvOS Tests' do
+    platform :tvos, '12.0'
+    pod 'Swash', :path => '../'
 end

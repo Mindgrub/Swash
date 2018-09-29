@@ -1,18 +1,12 @@
 # Swash
 
-[![Version](https://img.shields.io/cocoapods/v/Swash.svg?style=flat)](http://cocoapods.org/pods/Swash)
-[![License](https://img.shields.io/cocoapods/l/Swash.svg?style=flat)](http://cocoapods.org/pods/Swash)
-[![Platform](https://img.shields.io/cocoapods/p/Swash.svg?style=flat)](http://cocoapods.org/pods/Swash)
+[![Version](https://img.shields.io/cocoapods/v/Swash.svg?style=flat)](#installation)
+![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)
+![Platforms](https://img.shields.io/cocoapods/p/Swash.svg?style=flat)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![License](https://img.shields.io/cocoapods/l/Swash.svg?style=flat)](http://doge.mit-license.org)
 
 Swash is a simple, safe, and expressive abstraction of `UIFont` with baked-in support for dynamic type.
-
-## Installation
-
-Swash is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
-
-```ruby
-pod 'Swash'
-```
 
 ## Usage
 To define a custom font, just create a `String` enum that conforms to the `Font` protocol.
@@ -25,32 +19,32 @@ enum Papyrus: String, Font {
 
 That's all you need to start using your font in your project!
 
-#### Static Sizes
+### Static Sizes
 ```swift
 label.font = Papyrus.regular.of(size: 17)
 ```
 
-#### Dynamic Type (iOS 11+)
-Uses [`UIFontMetrics`](https://developer.apple.com/documentation/uikit/uifontmetrics) for scaling. Setting [`adjustsFontForContentSizeCategory`](https://developer.apple.com/documentation/uikit/uicontentsizecategoryadjusting/1771731-adjustsfontforcontentsizecategor) to `true` tells the label to automatically update the font when the user changes their content size preference. See our [blog post](https://blog.mindgrub.com/custom-fonts-in-ios-made-simple-yet-powerful) for guidance on choosing default sizes for text styles.
+### Dynamic Type (iOS 11+)
+Uses [`UIFontMetrics`](https://developer.apple.com/documentation/uikit/uifontmetrics) for scaling. Setting [`adjustsFontForContentSizeCategory`](https://developer.apple.com/documentation/uikit/uicontentsizecategoryadjusting/1771731-adjustsfontforcontentsizecategor) to `true` tells the label to automatically update the font when the user changes their content size preference. See our [blog post](https://blog.mindgrub.com/custom-fonts-in-ios-made-simple-yet-powerful) for guidance on choosing default sizes for text styles, or just use Swash's provided defaults pulled from Apple's Human Interface Guidelines for [iOS](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/), [watchOS](https://developer.apple.com/design/human-interface-guidelines/watchos/visual-design/typography/), and [tvOS](https://developer.apple.com/design/human-interface-guidelines/tvos/visual-design/typography/).
 ```swift
 label1.adjustsFontForContentSizeCategory = true
 label2.adjustsFontForContentSizeCategory = true
 
-label1.font = Papyrus.condensed.of(textStyle: .headline, defaultSize: 17)
-// Optional size cutoff
+label1.font = Papyrus.condensed.of(textStyle: .headline)
+// Optional size cutoff and default size.
 label2.font = GillSans.bold.of(textStyle: .title1, defaultSize: 28, maxSize: 38)
 ```
 ![Dynamic Type Demo](https://raw.githubusercontent.com/Mindgrub/Swash/master/Swash/Assets/dynamic_type_demo.gif)
 
-#### Dynamic Type (Before iOS 11)
+### Dynamic Type (Before iOS 11)
 Uses system font scaling, no default size value. [`adjustsFontForContentSizeCategory`](https://developer.apple.com/documentation/uikit/uicontentsizecategoryadjusting/1771731-adjustsfontforcontentsizecategor) requires the use of [`UIFontMetrics`](https://developer.apple.com/documentation/uikit/uifontmetrics), so it is of no use for custom fonts before iOS 11. You'll have to update the fonts manually, either in [`traitCollectionDidChange(_:)`](https://developer.apple.com/documentation/uikit/uitraitenvironment/1623516-traitcollectiondidchange) or by observing the [`UIContentSizeCategoryDidChange`](https://developer.apple.com/documentation/foundation/nsnotification.name/1622948-uicontentsizecategorydidchange) notification.
 ```swift
-label.font = Papyrus.condensed.of(textStyle: .headline)
+label.font = Papyrus.condensed.of(style: .headline)
 // Optional size cutoff
-label.font = GillSans.bold.of(textStyle: .title1, maxSize: 30)
+label.font = GillSans.bold.of(style: .title1, maxSize: 30)
 ```
 
-#### System Font
+### System Font
 You can use `SystemFont` to support dynamic type for different weights and further unify the font syntax in your project.
 ```swift
 label1.font = SystemFont.light.of(size: 17)
@@ -58,12 +52,12 @@ label2.adjustsFontForContentSizeCategory = true
 label2.font = SystemFont.preferred.of(textStyle: .body)
 label3.font = SystemFont.semiboldItalic.of(textStyle: .body, maxSize: 30)
 ```
-**Important note:** [`adjustsFontForContentSizeCategory`](https://developer.apple.com/documentation/uikit/uicontentsizecategoryadjusting/1771731-adjustsfontforcontentsizecategor) only works for `SystemFont` for the `preferred` weight with a nil `maxSize` value. In any other case, you will need to update the font either in [`traitCollectionDidChange(_:)`](https://developer.apple.com/documentation/uikit/uitraitenvironment/1623516-traitcollectiondidchange) or by observing the [`UIContentSizeCategoryDidChange`](https://developer.apple.com/documentation/foundation/nsnotification.name/1622948-uicontentsizecategorydidchange) notification. This is because the `preferred` weight directly returns the result of [`UIFont.preferredFont(forTextStyle:)`](https://developer.apple.com/documentation/uikit/uifont/1619030-preferredfont).
+**Important note:** [`adjustsFontForContentSizeCategory`](https://developer.apple.com/documentation/uikit/uicontentsizecategoryadjusting/1771731-adjustsfontforcontentsizecategor) only works with `SystemFont` for the `preferred` weight with a nil `maxSize` value. In any other case, you will need to update the font either in [`traitCollectionDidChange(_:)`](https://developer.apple.com/documentation/uikit/uitraitenvironment/1623516-traitcollectiondidchange) or by observing the [`UIContentSizeCategoryDidChange`](https://developer.apple.com/documentation/foundation/nsnotification.name/1622948-uicontentsizecategorydidchange) notification. This is because the `preferred` weight directly returns the result of [`UIFont.preferredFont(forTextStyle:)`](https://developer.apple.com/documentation/uikit/uifont/1619030-preferredfont).
 
-#### Generate Boilerplate
+### Generate Boilerplate
 Swash can attempt to log your font boilerplate for you!
 ```swift
-Swash.logFontBoilerplate(filter: "gill")
+Swash.logBoilerplate(forFontsWithFamilyNamesContaining: "gill")
 ```
 Output:
 ```
@@ -81,8 +75,22 @@ enum GillSans: String, Font {
 ```
 Just copy-paste the output into your project. You'll probably still need to doctor the case names a bit.
 
-#### Debug Crashing
+### Debug Crashing
 If your custom font fails to initialize, [`assertionFailure(_:file:line:)`](https://developer.apple.com/documentation/swift/1539616-assertionfailure) is called. This will crash debug builds with the default `-Onone` compiler optimization set. This is to help identify failed font initializations which can otherwise be hard to catch. **Release builds with higher optimization levels will NOT crash**, so you don't have to worry about your app crashing in production over a silly font.
+
+## Installation
+
+### CocoaPods
+
+```ruby
+pod 'Swash'
+```
+
+### Carthage
+
+```
+github "Mindgrub/Swash"
+```
 
 ## License
 
