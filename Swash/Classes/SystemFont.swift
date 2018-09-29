@@ -28,17 +28,20 @@ public enum SystemFont {
     case heavy
     case black
     
+    #if os(iOS) || os(tvOS)
     /**
      Represents the system font generated with symbolic traits `[.traitCondensed]`.
+     
+     Findings: On watchOS, this translates to `.SFCompactText-Heavy` up to 19pt and `.SFCompactText-Black` for larger sizes. So I've excluded this option from watchOS.
      */
     case condensed
+    #endif
     
     /**
      Represents the system font generated with symbolic traits `[.traitItalic, .traitBold]`.
      
-     Findings: On iOS, this translates to `.SFUIText`. On tvOS, it translates to .SFUIText-Medium.
+     Findings: On iOS, this translates to `.SFUIText-SemiboldItalic`. On tvOS, it translates to `.SFUIText-BoldItalic`. On watchOS, `.SFCompactText-BoldItalic`.
     */
-    
     case boldItalic
     
     /**
@@ -66,7 +69,9 @@ public enum SystemFont {
         case .heavy: return .weight(.heavy)
         case .black: return .weight(.black)
             
+            #if os(iOS) || os(tvOS)
         case .condensed: return .traits([.traitCondensed])
+            #endif
         case .boldItalic: return .traits([.traitItalic, .traitBold])
         case .italic: return .traits([.traitItalic])
         }
@@ -90,7 +95,7 @@ public enum SystemFont {
         case .weight(let weight):
             return .systemFont(ofSize: size, weight: weight)
         case .traits(let traits):
-            if let descriptor = UIFont.systemFont(ofSize: size).fontDescriptor.withSymbolicTraits(traits) {
+            if let descriptor = UIFont.systemFont(ofSize: size, weight: .regular).fontDescriptor.withSymbolicTraits(traits) {
                 return UIFont(descriptor: descriptor, size: size)
             } else {
                 // Should never be reached
