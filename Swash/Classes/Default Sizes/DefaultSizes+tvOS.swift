@@ -5,6 +5,7 @@
 //  Created by Sam Francis on 9/19/18.
 //
 
+#if os(tvOS)
 import UIKit
 
 /**
@@ -22,3 +23,4 @@ internal let defaultSizes: [UIFont.TextStyle: CGFloat] =
      .title3: 48,
      .title2: 57,
      .title1: 76]
+#endif
