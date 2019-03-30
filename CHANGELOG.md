@@ -1,5 +1,9 @@
 # Swash Change Log
 
+## 2.0.1
+- Swift 5.0
+- Restructured the project files
+
 ## 2.0.0
 - Swift 4.2
 - Default values for `defaultSize` based on Apple’s Human Interface Guidelines
