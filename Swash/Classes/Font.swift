@@ -36,7 +36,7 @@ public extension Font {
      
      - Returns: A font object of the specified size. `nil` if the font cannot be initialized.
      */
-    public func of(size: CGFloat) -> UIFont? {
+    func of(size: CGFloat) -> UIFont? {
         guard let font = UIFont(name: rawValue, size: size) else {
             // If font not found, crash debug builds
             assertionFailure("Font not found: \(rawValue)")
@@ -60,7 +60,7 @@ public extension Font {
      - Returns: A dynamic font object corresponding to the given parameters. `nil` if the font cannot be initialized.
      */
     @available(iOS 11.0, watchOS 4.0, tvOS 11.0, *)
-    public func of(textStyle: UIFont.TextStyle,
+    func of(textStyle: UIFont.TextStyle,
                    maxSize: CGFloat? = nil,
                    defaultSize: CGFloat? = nil) -> UIFont? {
         // If no default size provided, use the default specified in Apple's HIG
@@ -100,7 +100,7 @@ public extension Font {
     @available(iOS, introduced: 8.2, deprecated: 11.0, message: "Use `of(textStyle:maxSize:defaultSize:)` instead")
     @available(watchOS, introduced: 2.0, deprecated: 4.0, message: "Use `of(textStyle:maxSize:defaultSize:)` instead")
     @available(tvOS, introduced: 9.0, deprecated: 11.0, message: "Use `of(textStyle:maxSize:defaultSize:)` instead")
-    public func of(style: UIFont.TextStyle, maxSize: CGFloat? = nil) -> UIFont? {
+    func of(style: UIFont.TextStyle, maxSize: CGFloat? = nil) -> UIFont? {
         let pointSize = UIFont.preferredFont(forTextStyle: style).pointSize
         
         if let maxSize = maxSize, pointSize > maxSize {
