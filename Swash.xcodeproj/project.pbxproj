@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224BAC0D224F41F200316608 /* Swash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224BAC03224F41F100316608 /* Swash.framework */; };
+		224BAC14224F41F200316608 /* Swash.h in Headers */ = {isa = PBXBuildFile; fileRef = 224BAC06224F41F100316608 /* Swash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224BAC24224F442200316608 /* DefaultSizes+tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC21224F442200316608 /* DefaultSizes+tvOS.swift */; };
+		224BAC26224F442200316608 /* DefaultSizes+watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC22224F442200316608 /* DefaultSizes+watchOS.swift */; };
+		224BAC28224F442200316608 /* DefaultSizes+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC23224F442200316608 /* DefaultSizes+iOS.swift */; };
+		224BAC2D224F443700316608 /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2A224F443700316608 /* SystemFont.swift */; };
+		224BAC2F224F443700316608 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2B224F443700316608 /* Utils.swift */; };
+		224BAC31224F443700316608 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2C224F443700316608 /* Font.swift */; };
+		224BAC38224F44AE00316608 /* SystemFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC35224F44AE00316608 /* SystemFontTests.swift */; };
+		224BAC39224F44AE00316608 /* CustomFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC36224F44AE00316608 /* CustomFontTests.swift */; };
+		224BAC3C224F459500316608 /* TestFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC3B224F459500316608 /* TestFonts.swift */; };
+		224BAC4B224FF35400316608 /* Swash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224BAC42224FF35300316608 /* Swash.framework */; };
+		224BAC59224FF37C00316608 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2C224F443700316608 /* Font.swift */; };
+		224BAC5A224FF37C00316608 /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2A224F443700316608 /* SystemFont.swift */; };
+		224BAC5B224FF37C00316608 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2B224F443700316608 /* Utils.swift */; };
+		224BAC5C224FF37C00316608 /* DefaultSizes+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC23224F442200316608 /* DefaultSizes+iOS.swift */; };
+		224BAC5D224FF37C00316608 /* DefaultSizes+tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC21224F442200316608 /* DefaultSizes+tvOS.swift */; };
+		224BAC5E224FF37C00316608 /* DefaultSizes+watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC22224F442200316608 /* DefaultSizes+watchOS.swift */; };
+		224BAC5F224FF4B500316608 /* TestFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC3B224F459500316608 /* TestFonts.swift */; };
+		224BAC60224FF4B500316608 /* SystemFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC35224F44AE00316608 /* SystemFontTests.swift */; };
+		224BAC61224FF4B500316608 /* CustomFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC36224F44AE00316608 /* CustomFontTests.swift */; };
+		224BAC6F224FF64C00316608 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2C224F443700316608 /* Font.swift */; };
+		224BAC70224FF64C00316608 /* SystemFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2A224F443700316608 /* SystemFont.swift */; };
+		224BAC71224FF64C00316608 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC2B224F443700316608 /* Utils.swift */; };
+		224BAC72224FF64C00316608 /* DefaultSizes+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC23224F442200316608 /* DefaultSizes+iOS.swift */; };
+		224BAC73224FF64C00316608 /* DefaultSizes+tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC21224F442200316608 /* DefaultSizes+tvOS.swift */; };
+		224BAC74224FF64C00316608 /* DefaultSizes+watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC22224F442200316608 /* DefaultSizes+watchOS.swift */; };
+		224BAC75224FF65300316608 /* Swash.h in Headers */ = {isa = PBXBuildFile; fileRef = 224BAC06224F41F100316608 /* Swash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224BAC76224FF65400316608 /* Swash.h in Headers */ = {isa = PBXBuildFile; fileRef = 224BAC06224F41F100316608 /* Swash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		224BAC0E224F41F200316608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224BABFA224F41F100316608 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224BAC02224F41F100316608;
+			remoteInfo = Swash;
+		};
+		224BAC4C224FF35400316608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224BABFA224F41F100316608 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224BAC41224FF35300316608;
+			remoteInfo = "Swash tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		224BAC03224F41F100316608 /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224BAC06224F41F100316608 /* Swash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swash.h; sourceTree = "<group>"; };
+		224BAC07224F41F100316608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224BAC0C224F41F200316608 /* Swash iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swash iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		224BAC21224F442200316608 /* DefaultSizes+tvOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DefaultSizes+tvOS.swift"; sourceTree = "<group>"; };
+		224BAC22224F442200316608 /* DefaultSizes+watchOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DefaultSizes+watchOS.swift"; sourceTree = "<group>"; };
+		224BAC23224F442200316608 /* DefaultSizes+iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DefaultSizes+iOS.swift"; sourceTree = "<group>"; };
+		224BAC2A224F443700316608 /* SystemFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemFont.swift; sourceTree = "<group>"; };
+		224BAC2B224F443700316608 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		224BAC2C224F443700316608 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		224BAC35224F44AE00316608 /* SystemFontTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemFontTests.swift; sourceTree = "<group>"; };
+		224BAC36224F44AE00316608 /* CustomFontTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFontTests.swift; sourceTree = "<group>"; };
+		224BAC37224F44AE00316608 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224BAC3B224F459500316608 /* TestFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFonts.swift; sourceTree = "<group>"; };
+		224BAC42224FF35300316608 /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224BAC4A224FF35400316608 /* Swash tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swash tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		224BAC67224FF62200316608 /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224BAC78224FF84600316608 /* Swash.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Swash.podspec; sourceTree = "<group>"; };
+		224BAC79224FF85D00316608 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		224BAC98224FFE7400316608 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		224BAC99224FFEB900316608 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224BAC00224F41F100316608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC09224F41F200316608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224BAC0D224F41F200316608 /* Swash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC3F224FF35300316608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC47224FF35400316608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224BAC4B224FF35400316608 /* Swash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC64224FF62200316608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224BABF9224F41F100316608 = {
+			isa = PBXGroup;
+			children = (
+				224BAC77224FF82C00316608 /* Deployment */,
+				224BAC05224F41F100316608 /* Source */,
+				224BAC34224F44AE00316608 /* Tests */,
+				224BAC04224F41F100316608 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		224BAC04224F41F100316608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224BAC03224F41F100316608 /* Swash.framework */,
+				224BAC0C224F41F200316608 /* Swash iOS Tests.xctest */,
+				224BAC42224FF35300316608 /* Swash.framework */,
+				224BAC4A224FF35400316608 /* Swash tvOS Tests.xctest */,
+				224BAC67224FF62200316608 /* Swash.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		224BAC05224F41F100316608 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				224BAC2C224F443700316608 /* Font.swift */,
+				224BAC2A224F443700316608 /* SystemFont.swift */,
+				224BAC2B224F443700316608 /* Utils.swift */,
+				224BAC20224F43F200316608 /* Default Sizes */,
+				224BAC33224F444B00316608 /* Supporting Files */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		224BAC20224F43F200316608 /* Default Sizes */ = {
+			isa = PBXGroup;
+			children = (
+				224BAC23224F442200316608 /* DefaultSizes+iOS.swift */,
+				224BAC21224F442200316608 /* DefaultSizes+tvOS.swift */,
+				224BAC22224F442200316608 /* DefaultSizes+watchOS.swift */,
+			);
+			path = "Default Sizes";
+			sourceTree = "<group>";
+		};
+		224BAC33224F444B00316608 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				224BAC06224F41F100316608 /* Swash.h */,
+				224BAC07224F41F100316608 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		224BAC34224F44AE00316608 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				224BAC3B224F459500316608 /* TestFonts.swift */,
+				224BAC35224F44AE00316608 /* SystemFontTests.swift */,
+				224BAC36224F44AE00316608 /* CustomFontTests.swift */,
+				224BAC37224F44AE00316608 /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		224BAC77224FF82C00316608 /* Deployment */ = {
+			isa = PBXGroup;
+			children = (
+				224BAC98224FFE7400316608 /* README.md */,
+				224BAC99224FFEB900316608 /* CHANGELOG.md */,
+				224BAC78224FF84600316608 /* Swash.podspec */,
+				224BAC79224FF85D00316608 /* LICENSE */,
+			);
+			name = Deployment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		224BABFE224F41F100316608 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224BAC14224F41F200316608 /* Swash.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC3D224FF35300316608 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224BAC75224FF65300316608 /* Swash.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC62224FF62200316608 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224BAC76224FF65400316608 /* Swash.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		224BAC02224F41F100316608 /* Swash iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224BAC17224F41F200316608 /* Build configuration list for PBXNativeTarget "Swash iOS" */;
+			buildPhases = (
+				224BABFE224F41F100316608 /* Headers */,
+				224BABFF224F41F100316608 /* Sources */,
+				224BAC00224F41F100316608 /* Frameworks */,
+				224BAC01224F41F100316608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swash iOS";
+			productName = Swash;
+			productReference = 224BAC03224F41F100316608 /* Swash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		224BAC0B224F41F200316608 /* Swash iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224BAC1A224F41F200316608 /* Build configuration list for PBXNativeTarget "Swash iOS Tests" */;
+			buildPhases = (
+				224BAC08224F41F200316608 /* Sources */,
+				224BAC09224F41F200316608 /* Frameworks */,
+				224BAC0A224F41F200316608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				224BAC0F224F41F200316608 /* PBXTargetDependency */,
+			);
+			name = "Swash iOS Tests";
+			productName = SwashTests;
+			productReference = 224BAC0C224F41F200316608 /* Swash iOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		224BAC41224FF35300316608 /* Swash tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224BAC53224FF35400316608 /* Build configuration list for PBXNativeTarget "Swash tvOS" */;
+			buildPhases = (
+				224BAC3D224FF35300316608 /* Headers */,
+				224BAC3E224FF35300316608 /* Sources */,
+				224BAC3F224FF35300316608 /* Frameworks */,
+				224BAC40224FF35300316608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swash tvOS";
+			productName = "Swash tvOS";
+			productReference = 224BAC42224FF35300316608 /* Swash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		224BAC49224FF35400316608 /* Swash tvOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224BAC56224FF35400316608 /* Build configuration list for PBXNativeTarget "Swash tvOS Tests" */;
+			buildPhases = (
+				224BAC46224FF35400316608 /* Sources */,
+				224BAC47224FF35400316608 /* Frameworks */,
+				224BAC48224FF35400316608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				224BAC4D224FF35400316608 /* PBXTargetDependency */,
+			);
+			name = "Swash tvOS Tests";
+			productName = "Swash tvOSTests";
+			productReference = 224BAC4A224FF35400316608 /* Swash tvOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		224BAC66224FF62200316608 /* Swash watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224BAC6C224FF62200316608 /* Build configuration list for PBXNativeTarget "Swash watchOS" */;
+			buildPhases = (
+				224BAC62224FF62200316608 /* Headers */,
+				224BAC63224FF62200316608 /* Sources */,
+				224BAC64224FF62200316608 /* Frameworks */,
+				224BAC65224FF62200316608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swash watchOS";
+			productName = "Swash watchOS";
+			productReference = 224BAC67224FF62200316608 /* Swash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		224BABFA224F41F100316608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Mindgrub;
+				TargetAttributes = {
+					224BAC02224F41F100316608 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+					224BAC0B224F41F200316608 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					224BAC41224FF35300316608 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					224BAC49224FF35400316608 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					224BAC66224FF62200316608 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 224BABFD224F41F100316608 /* Build configuration list for PBXProject "Swash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 224BABF9224F41F100316608;
+			productRefGroup = 224BAC04224F41F100316608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224BAC02224F41F100316608 /* Swash iOS */,
+				224BAC0B224F41F200316608 /* Swash iOS Tests */,
+				224BAC41224FF35300316608 /* Swash tvOS */,
+				224BAC49224FF35400316608 /* Swash tvOS Tests */,
+				224BAC66224FF62200316608 /* Swash watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224BAC01224F41F100316608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC0A224F41F200316608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC40224FF35300316608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC48224FF35400316608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC65224FF62200316608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224BABFF224F41F100316608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224BAC2F224F443700316608 /* Utils.swift in Sources */,
+				224BAC28224F442200316608 /* DefaultSizes+iOS.swift in Sources */,
+				224BAC31224F443700316608 /* Font.swift in Sources */,
+				224BAC26224F442200316608 /* DefaultSizes+watchOS.swift in Sources */,
+				224BAC24224F442200316608 /* DefaultSizes+tvOS.swift in Sources */,
+				224BAC2D224F443700316608 /* SystemFont.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC08224F41F200316608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224BAC3C224F459500316608 /* TestFonts.swift in Sources */,
+				224BAC39224F44AE00316608 /* CustomFontTests.swift in Sources */,
+				224BAC38224F44AE00316608 /* SystemFontTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC3E224FF35300316608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224BAC5E224FF37C00316608 /* DefaultSizes+watchOS.swift in Sources */,
+				224BAC59224FF37C00316608 /* Font.swift in Sources */,
+				224BAC5A224FF37C00316608 /* SystemFont.swift in Sources */,
+				224BAC5C224FF37C00316608 /* DefaultSizes+iOS.swift in Sources */,
+				224BAC5B224FF37C00316608 /* Utils.swift in Sources */,
+				224BAC5D224FF37C00316608 /* DefaultSizes+tvOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC46224FF35400316608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224BAC5F224FF4B500316608 /* TestFonts.swift in Sources */,
+				224BAC61224FF4B500316608 /* CustomFontTests.swift in Sources */,
+				224BAC60224FF4B500316608 /* SystemFontTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224BAC63224FF62200316608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224BAC74224FF64C00316608 /* DefaultSizes+watchOS.swift in Sources */,
+				224BAC6F224FF64C00316608 /* Font.swift in Sources */,
+				224BAC70224FF64C00316608 /* SystemFont.swift in Sources */,
+				224BAC72224FF64C00316608 /* DefaultSizes+iOS.swift in Sources */,
+				224BAC71224FF64C00316608 /* Utils.swift in Sources */,
+				224BAC73224FF64C00316608 /* DefaultSizes+tvOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		224BAC0F224F41F200316608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224BAC02224F41F100316608 /* Swash iOS */;
+			targetProxy = 224BAC0E224F41F200316608 /* PBXContainerItemProxy */;
+		};
+		224BAC4D224FF35400316608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224BAC41224FF35300316608 /* Swash tvOS */;
+			targetProxy = 224BAC4C224FF35400316608 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		224BAC15224F41F200316608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		224BAC16224F41F200316608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		224BAC18224F41F200316608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindgrub.Swash;
+				PRODUCT_NAME = Swash;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		224BAC19224F41F200316608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindgrub.Swash;
+				PRODUCT_NAME = Swash;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		224BAC1B224F41F200316608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mindgrub.SwashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		224BAC1C224F41F200316608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mindgrub.SwashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		224BAC54224FF35400316608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindgrub.Swash;
+				PRODUCT_NAME = Swash;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		224BAC55224FF35400316608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindgrub.Swash;
+				PRODUCT_NAME = Swash;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		224BAC57224FF35400316608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mindgrub.Swash-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Debug;
+		};
+		224BAC58224FF35400316608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mindgrub.Swash-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Release;
+		};
+		224BAC6D224FF62200316608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindgrub.Swash;
+				PRODUCT_NAME = Swash;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		224BAC6E224FF62200316608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindgrub.Swash;
+				PRODUCT_NAME = Swash;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224BABFD224F41F100316608 /* Build configuration list for PBXProject "Swash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224BAC15224F41F200316608 /* Debug */,
+				224BAC16224F41F200316608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224BAC17224F41F200316608 /* Build configuration list for PBXNativeTarget "Swash iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224BAC18224F41F200316608 /* Debug */,
+				224BAC19224F41F200316608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224BAC1A224F41F200316608 /* Build configuration list for PBXNativeTarget "Swash iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224BAC1B224F41F200316608 /* Debug */,
+				224BAC1C224F41F200316608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224BAC53224FF35400316608 /* Build configuration list for PBXNativeTarget "Swash tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224BAC54224FF35400316608 /* Debug */,
+				224BAC55224FF35400316608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224BAC56224FF35400316608 /* Build configuration list for PBXNativeTarget "Swash tvOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224BAC57224FF35400316608 /* Debug */,
+				224BAC58224FF35400316608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224BAC6C224FF62200316608 /* Build configuration list for PBXNativeTarget "Swash watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224BAC6D224FF62200316608 /* Debug */,
+				224BAC6E224FF62200316608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 224BABFA224F41F100316608 /* Project object */;
+}
