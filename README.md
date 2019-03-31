@@ -91,6 +91,7 @@ pod 'Swash'
 ```
 github "Mindgrub/Swash"
 ```
+Make sure to specify your platform when you update (e.g. `carthage update --platform iOS`). Otherwise all 3 frameworks (iOS, tvOS, and watchOS) will be added.
 
 ## License
 
