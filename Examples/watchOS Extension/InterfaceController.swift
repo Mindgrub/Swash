@@ -15,11 +15,10 @@ class InterfaceController: WKInterfaceController {
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        if let font = Avenir.oblique.of(textStyle: .body) {
-            let text = NSAttributedString(string: font.fontName,
-                                          attributes: [.font: font])
-            label.setAttributedText(text)
-        }
+        let font = Avenir.oblique.of(textStyle: .body)
+        let text = NSAttributedString(string: font.fontName,
+                                      attributes: [.font: font])
+        label.setAttributedText(text)
     }
 
 }

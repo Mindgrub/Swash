@@ -14,47 +14,53 @@ class CustomFontTests: XCTestCase {
     //MARK: - Of Size
     
     func testOfSize() {
-        guard let font = Avenir.roman.of(size: 23) else {
-            return XCTFail("Avenir font failed to initialize.")
-        }
+        let font = Avenir.roman.of(size: 23)
         XCTAssertEqual(font.pointSize, 23)
         XCTAssertEqual(font.fontName, "Avenir-Roman")
     }
     
     func testInvalidOfSize() {
-        XCTAssertNil(InvalidFont.doesNotExist.of(size: 12))
+        let font = InvalidFont.doesNotExist.of(size: 12)
+        XCTAssertEqual(font.fontName, ".SFUIText")
     }
     
     //MARK: - Dynamic Type
     
     func testOfTextStyle() {
-        XCTAssertNotNil(Avenir.blackOblique.of(textStyle: .title1))
+        let font = Avenir.blackOblique.of(textStyle: .title1)
+        XCTAssertEqual(font.fontName, "Avenir-BlackOblique")
     }
     
     func testOfTextStyleMax() {
-        XCTAssertNotNil(Avenir.light.of(textStyle: .title2, maxSize: 30))
+        let font = Avenir.light.of(textStyle: .title2, maxSize: 30)
+        XCTAssertEqual(font.fontName, "Avenir-Light")
     }
     
     func testOfTextStyleMaxDefault() {
-        XCTAssertNotNil(Futura.condensedMedium.of(textStyle: .body, maxSize: 30, defaultSize: 17))
+        let font = Futura.condensedMedium.of(textStyle: .body, maxSize: 30, defaultSize: 17)
+        XCTAssertEqual(font.fontName, "Futura-CondensedMedium")
     }
     
     func testInvalidOfTextStyle() {
-        XCTAssertNil(InvalidFont.doesNotExist.of(textStyle: .footnote))
+        let font = InvalidFont.doesNotExist.of(textStyle: .footnote)
+        XCTAssertEqual(font.fontName, ".SFUIText")
     }
     
     //MARK: - Dynamic Type - Deprecated in iOS 11
     
     func testOfStyle() {
-        XCTAssertNotNil(Futura.medium.of(style: .title3))
+        let font = Futura.medium.of(style: .title3)
+        XCTAssertEqual(font.fontName, "Futura-Medium")
     }
     
     func testOfStyleMax() {
-        XCTAssertNotNil(Futura.medium.of(style: .title3, maxSize: 10))
+        let font = Futura.medium.of(style: .title3, maxSize: 10)
+        XCTAssertEqual(font.fontName, "Futura-Medium")
     }
     
     func testInvalidOfStyle() {
-        XCTAssertNil(InvalidFont.doesNotExist.of(style: .caption1))
+        let font = InvalidFont.doesNotExist.of(style: .caption1)
+        XCTAssertEqual(font.fontName, ".SFUIText")
     }
     
     //MARK: - Log Boilerplate
