@@ -1,5 +1,8 @@
 # Swash Change Log
 
+## 3.0.0
+- Font methods no longer return optionals, for practical reasons
+
 ## 2.0.1
 - Swift 5.0
 - Restructured the project files
