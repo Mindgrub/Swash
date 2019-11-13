@@ -1,5 +1,8 @@
 # Swash Change Log
 
+## 3.1.0
+- Added bold text setting support
+
 ## 3.0.0
 - Font methods no longer return optionals, for practical reasons
 
