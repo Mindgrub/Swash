@@ -10,7 +10,23 @@ import UIKit
 /**
  A type that represents a font and can generate a `UIFont` object.
  */
-public protocol Font: RawRepresentable where Self.RawValue == String {
+public protocol Font: RawRepresentable, Hashable where Self.RawValue == String {
+    
+    /**
+     Defines a mapping convert one Font weight to another in the case that `UIAccessibility.isBoldTextEnabled` is true. Does not apply to watchOS.
+     
+     Example:
+     ```
+     static let boldTextMapping: [MyFont: MyFont]? = [
+        .regular: .bold
+     ]
+     ```
+     Now every regular `MyFont` instance will become bold if the user has "Bold Text" turned on in their device settings.
+     
+     If you'd like, you can observe `UIAccessibility.boldTextStatusDidChangeNotification` via `NotificationCenter` and set your fonts when that updates.
+     */
+    static var boldTextMapping: [Self: Self]? { get }
+    
     func of(size: CGFloat) -> UIFont
     
     @available(iOS 11.0, watchOS 4.0, tvOS 11.0, *)
@@ -23,6 +39,9 @@ public protocol Font: RawRepresentable where Self.RawValue == String {
 }
 
 public extension Font {
+    
+    static var boldTextMapping: [Self: Self]? { nil }
+    
     /**
      Creates a font object of the specified size.
      
@@ -37,7 +56,20 @@ public extension Font {
      - Returns: A font object of the specified size.
      */
     func of(size: CGFloat) -> UIFont {
-        guard let font = UIFont(name: rawValue, size: size) else {
+        let fontName: String
+
+        #if os(iOS) || os(tvOS)
+        if UIAccessibility.isBoldTextEnabled {
+            let boldFont = Self.boldTextMapping?[self] ?? self
+            fontName = boldFont.rawValue
+        } else {
+            fontName = rawValue
+        }
+        #else
+        fontName = rawValue
+        #endif
+        
+        guard let font = UIFont(name: fontName, size: size) else {
             // If font not found, crash debug builds.
             assertionFailure("Font not found: \(rawValue)")
             return .systemFont(ofSize: size)

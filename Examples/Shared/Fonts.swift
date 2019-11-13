@@ -21,6 +21,18 @@ enum Avenir: String, Font {
     case oblique = "Avenir-Oblique"
     case roman = "Avenir-Roman"
     case mediumOblique = "Avenir-MediumOblique"
+    
+    static let boldTextMapping: [Avenir : Avenir]? = [
+        light: book,
+        book: roman,
+        roman: medium,
+        medium: heavy,
+        heavy: black,
+        lightOblique: bookOblique,
+        bookOblique: mediumOblique,
+        mediumOblique: heavyOblique,
+        heavyOblique: blackOblique,
+    ]
 }
 
 enum Futura: String, Font {
