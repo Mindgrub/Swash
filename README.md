@@ -54,6 +54,14 @@ label3.font = SystemFont.semiboldItalic.of(textStyle: .body, maxSize: 30)
 ```
 **Important note:** [`adjustsFontForContentSizeCategory`](https://developer.apple.com/documentation/uikit/uicontentsizecategoryadjusting/1771731-adjustsfontforcontentsizecategor) only works with `SystemFont` for the `preferred` weight with a nil `maxSize` value. In any other case, you will need to update the font either in [`traitCollectionDidChange(_:)`](https://developer.apple.com/documentation/uikit/uitraitenvironment/1623516-traitcollectiondidchange) or by observing the [`UIContentSizeCategoryDidChange`](https://developer.apple.com/documentation/foundation/nsnotification.name/1622948-uicontentsizecategorydidchange) notification. This is because the `preferred` weight directly returns the result of [`UIFont.preferredFont(forTextStyle:)`](https://developer.apple.com/documentation/uikit/uifont/1619030-preferredfont).
 
+### Bold Text Device Setting
+You can implement the static `boldTextMapping` property on any `Font` in order to support the "Bold Text" device setting on iOS and tvOS.
+```
+static let boldTextMapping: [MyFont: MyFont]? = [
+   .regular: .bold
+]
+```
+
 ### Generate Boilerplate
 Swash can attempt to log your font boilerplate for you!
 ```swift

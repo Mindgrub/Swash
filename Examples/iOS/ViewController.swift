@@ -24,6 +24,20 @@ class ViewController: UIViewController {
 //        label3.adjustsFontForContentSizeCategory = true
 //        label4.adjustsFontForContentSizeCategory = true
         
+        updateFonts()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(updateFonts), name: UIAccessibility.boldTextStatusDidChangeNotification, object: nil)
+    }
+    
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        if traitCollection.preferredContentSizeCategory != previousTraitCollection?.preferredContentSizeCategory {
+            label2.font = Avenir.light.of(style: .title1)
+            label4.font = SystemFont.heavy.of(textStyle: .body)
+        }
+    }
+    
+    @objc private func updateFonts() {
         label1.font = Futura.condensedMedium.of(textStyle: .headline, maxSize: 24)
         label2.font = Avenir.light.of(style: .title1)
         label3.font = SystemFont.preferred.of(textStyle: .caption1)
@@ -35,12 +49,7 @@ class ViewController: UIViewController {
         label4.text = label4.font.fontName
     }
     
-    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
-        super.traitCollectionDidChange(previousTraitCollection)
-        if traitCollection.preferredContentSizeCategory != previousTraitCollection?.preferredContentSizeCategory {
-            label2.font = Avenir.light.of(style: .title1)
-            label4.font = SystemFont.heavy.of(textStyle: .body)
-        }
+    deinit {
+        NotificationCenter.default.removeObserver(self, name: UIAccessibility.boldTextStatusDidChangeNotification, object: nil)
     }
-    
 }
