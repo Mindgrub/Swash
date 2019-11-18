@@ -1,7 +1,7 @@
 # Swash
 
 [![Version](https://img.shields.io/cocoapods/v/Swash.svg?style=flat)](#installation)
-![Swift 5](https://img.shields.io/badge/Swift-5.0-orange.svg)
+![Swift 5.1](https://img.shields.io/badge/Swift-5.1-orange.svg)
 ![Platforms](https://img.shields.io/cocoapods/p/Swash.svg?style=flat)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Swash.svg?style=flat)](http://doge.mit-license.org)
@@ -61,6 +61,9 @@ static let boldTextMapping: [MyFont: MyFont]? = [
    .regular: .bold
 ]
 ```
+Now every regular `MyFont` instance will become bold if the user has "Bold Text" turned on in their device settings.
+
+If you'd like, you can observe `UIAccessibility.boldTextStatusDidChangeNotification` via `NotificationCenter` and set your fonts when that updates.
 
 ### Generate Boilerplate
 Swash can attempt to log your font boilerplate for you!
