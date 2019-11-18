@@ -21,7 +21,7 @@ class CustomFontTests: XCTestCase {
     
     func testInvalidOfSize() {
         let font = InvalidFont.doesNotExist.of(size: 12)
-        XCTAssertEqual(font.fontName, ".SFUIText")
+        XCTAssertEqual(font.fontName, ".SFUI-Regular")
     }
     
     //MARK: - Dynamic Type
@@ -43,7 +43,7 @@ class CustomFontTests: XCTestCase {
     
     func testInvalidOfTextStyle() {
         let font = InvalidFont.doesNotExist.of(textStyle: .footnote)
-        XCTAssertEqual(font.fontName, ".SFUIText")
+        XCTAssertEqual(font.fontName, ".SFUI-Regular")
     }
     
     //MARK: - Dynamic Type - Deprecated in iOS 11
@@ -60,7 +60,7 @@ class CustomFontTests: XCTestCase {
     
     func testInvalidOfStyle() {
         let font = InvalidFont.doesNotExist.of(style: .caption1)
-        XCTAssertEqual(font.fontName, ".SFUIText")
+        XCTAssertEqual(font.fontName, ".SFUI-Regular")
     }
     
     //MARK: - Log Boilerplate

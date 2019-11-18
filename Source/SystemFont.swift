@@ -69,9 +69,9 @@ public enum SystemFont {
         case .heavy: return .weight(.heavy)
         case .black: return .weight(.black)
             
-            #if os(iOS) || os(tvOS)
+        #if os(iOS) || os(tvOS)
         case .condensed: return .traits([.traitCondensed])
-            #endif
+        #endif
         case .boldItalic: return .traits([.traitItalic, .traitBold])
         case .italic: return .traits([.traitItalic])
         }

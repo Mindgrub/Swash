@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Swash'
-  s.version          = '3.0.0'
+  s.version          = '3.1.0'
   s.summary          = 'A simple, safe, and expressive abstraction of UIFont with baked-in support for dynamic type.'
   s.homepage         = 'https://github.com/Mindgrub/Swash'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.2'
   s.tvos.deployment_target = "9.0"
   s.watchos.deployment_target = "2.0"
-  s.swift_version = '5.0'
+  s.swift_version = '5.1'
 
   s.source_files = 'Source/**/*.swift'
 end

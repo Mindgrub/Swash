@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		224BAC95224FFB4300316608 /* Swash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224BAC85224FF9E500316608 /* Swash.framework */; };
-		224BAC96224FFB5600316608 /* Swash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224BAC89224FF9E500316608 /* Swash.framework */; };
-		224BAC97224FFB6700316608 /* Swash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224BAC8D224FF9E500316608 /* Swash.framework */; };
 		2282AD7A2144748A00E20C3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2282AD792144748A00E20C3E /* AppDelegate.swift */; };
 		2282AD7C2144748A00E20C3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2282AD7B2144748A00E20C3E /* ViewController.swift */; };
 		2282AD7F2144748A00E20C3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2282AD7D2144748A00E20C3E /* Main.storyboard */; };
@@ -23,6 +20,12 @@
 		2282ADD42144A30600E20C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2282ADD32144A30600E20C3E /* Assets.xcassets */; };
 		2282ADD82144A30600E20C3E /* watchOS Example.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2282ADBE2144A30500E20C3E /* watchOS Example.app */; };
 		2282ADE12144A58B00E20C3E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D74F8202A5D8C00DE3217 /* Fonts.swift */; };
+		22CA249623822FF000AA8743 /* Swash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224BAC85224FF9E500316608 /* Swash.framework */; };
+		22CA249723822FF000AA8743 /* Swash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 224BAC85224FF9E500316608 /* Swash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22CA249E2382300D00AA8743 /* Swash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224BAC89224FF9E500316608 /* Swash.framework */; };
+		22CA249F2382300D00AA8743 /* Swash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 224BAC89224FF9E500316608 /* Swash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22CA24A12382304800AA8743 /* Swash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224BAC8D224FF9E500316608 /* Swash.framework */; };
+		22CA24A22382304800AA8743 /* Swash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 224BAC8D224FF9E500316608 /* Swash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -106,6 +109,39 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22CA249823822FF000AA8743 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22CA249723822FF000AA8743 /* Swash.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CA24A02382300D00AA8743 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22CA249F2382300D00AA8743 /* Swash.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CA24A32382304800AA8743 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22CA24A22382304800AA8743 /* Swash.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -140,7 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224BAC96224FFB5600316608 /* Swash.framework in Frameworks */,
+				22CA249E2382300D00AA8743 /* Swash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224BAC97224FFB6700316608 /* Swash.framework in Frameworks */,
+				22CA24A12382304800AA8743 /* Swash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224BAC95224FFB4300316608 /* Swash.framework in Frameworks */,
+				22CA249623822FF000AA8743 /* Swash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +314,7 @@
 				2282AD732144748A00E20C3E /* Sources */,
 				2282AD742144748A00E20C3E /* Frameworks */,
 				2282AD752144748A00E20C3E /* Resources */,
+				22CA24A02382300D00AA8743 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -313,6 +350,7 @@
 				2282ADC62144A30600E20C3E /* Sources */,
 				2282ADC72144A30600E20C3E /* Frameworks */,
 				2282ADC82144A30600E20C3E /* Resources */,
+				22CA24A32382304800AA8743 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,6 +369,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				2282ADE02144A30600E20C3E /* Embed Watch Content */,
+				22CA249823822FF000AA8743 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
