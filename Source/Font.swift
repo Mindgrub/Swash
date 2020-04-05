@@ -37,7 +37,11 @@ public protocol Font: RawRepresentable, Hashable where Self.RawValue == String {
      Example:
      ```
      var cascadeList: [CascadingFontProperties] {
-         [.init(Damascus.regular)]
+         switch self {
+         case .regular:
+             return [.init(Damascus.regular)]
+         case .bold:
+             return [.init(Damascus.bold)]
      }
      ```
      */
