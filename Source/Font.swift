@@ -13,19 +13,35 @@ import UIKit
 public protocol Font: RawRepresentable, Hashable where Self.RawValue == String {
     
     /**
-     Defines a mapping convert one Font weight to another in the case that `UIAccessibility.isBoldTextEnabled` is true. Does not apply to watchOS.
+     Defines a mapping to convert one Font weight to another in the case that `UIAccessibility.isBoldTextEnabled` is true. Does not apply to watchOS.
      
      Example:
      ```
-     static let boldTextMapping: [MyFont: MyFont]? = [
-        .regular: .bold
-     ]
+     var boldTextMapping: MyFont {
+         switch self {
+         case .regular: return .bold
+         case .bold: return .black
+         case .black: return self
+         }
+     }
      ```
      Now every regular `MyFont` instance will become bold if the user has "Bold Text" turned on in their device settings.
      
      If you'd like, you can observe `UIAccessibility.boldTextStatusDidChangeNotification` via `NotificationCenter` and set your fonts when that updates.
      */
-    static var boldTextMapping: [Self: Self]? { get }
+    var boldTextMapping: Self { get }
+    
+    /**
+     Defines a list of fonts to fall back to in the case that characters are used which the font does not support. Uses `UIFontDescriptor.AttributeName.cascadeList`.
+     
+     Example:
+     ```
+     var cascadeList: [CascadingFontProperties] {
+         [.init(Damascus.regular)]
+     }
+     ```
+     */
+    var cascadeList: [CascadingFontProperties] { get }
     
     func of(size: CGFloat) -> UIFont
     
@@ -40,7 +56,8 @@ public protocol Font: RawRepresentable, Hashable where Self.RawValue == String {
 
 public extension Font {
     
-    static var boldTextMapping: [Self: Self]? { nil }
+    var boldTextMapping: Self { self }
+    var cascadeList: [CascadingFontProperties] { [] }
     
     /**
      Creates a font object of the specified size.
@@ -57,16 +74,19 @@ public extension Font {
      */
     func of(size: CGFloat) -> UIFont {
         let fontName: String
+        let cascadeNames: [String]
 
         #if os(iOS) || os(tvOS)
-        if UIAccessibility.isBoldTextEnabled {
-            let boldFont = Self.boldTextMapping?[self] ?? self
-            fontName = boldFont.rawValue
-        } else {
-            fontName = rawValue
-        }
+        fontName = UIAccessibility.isBoldTextEnabled
+            ? boldTextMapping.rawValue
+            : rawValue
+        
+        cascadeNames = UIAccessibility.isBoldTextEnabled
+            ? cascadeList.map { $0.boldFontName ?? $0.fontName }
+            : cascadeList.map(\.fontName)
         #else
         fontName = rawValue
+        cascadeNames = cascadeList.map(\.fontName)
         #endif
         
         guard let font = UIFont(name: fontName, size: size) else {
@@ -75,7 +95,9 @@ public extension Font {
             return .systemFont(ofSize: size)
         }
         
-        return font
+        let cascadeDescriptors = cascadeNames.map { UIFontDescriptor(fontAttributes: [.name: $0]) }
+        let cascadedFontDescriptor = font.fontDescriptor.addingAttributes([.cascadeList: cascadeDescriptors])
+        return UIFont(descriptor: cascadedFontDescriptor, size: size)
     }
     
     /**

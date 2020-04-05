@@ -36,6 +36,11 @@
 		224BAC74224FF64C00316608 /* DefaultSizes+watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BAC22224F442200316608 /* DefaultSizes+watchOS.swift */; };
 		224BAC75224FF65300316608 /* Swash.h in Headers */ = {isa = PBXBuildFile; fileRef = 224BAC06224F41F100316608 /* Swash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		224BAC76224FF65400316608 /* Swash.h in Headers */ = {isa = PBXBuildFile; fileRef = 224BAC06224F41F100316608 /* Swash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22886BA8242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */; };
+		22886BA9242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */; };
+		22886BAA242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */; };
+		22886BAB242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */; };
+		22886BAC242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +82,7 @@
 		224BAC79224FF85D00316608 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		224BAC98224FFE7400316608 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		224BAC99224FFEB900316608 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CascadingFontProperties.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +153,7 @@
 			children = (
 				224BAC2C224F443700316608 /* Font.swift */,
 				224BAC2A224F443700316608 /* SystemFont.swift */,
+				22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */,
 				224BAC2B224F443700316608 /* Utils.swift */,
 				224BAC20224F43F200316608 /* Default Sizes */,
 				224BAC33224F444B00316608 /* Supporting Files */,
@@ -414,6 +421,7 @@
 				224BAC26224F442200316608 /* DefaultSizes+watchOS.swift in Sources */,
 				224BAC24224F442200316608 /* DefaultSizes+tvOS.swift in Sources */,
 				224BAC2D224F443700316608 /* SystemFont.swift in Sources */,
+				22886BA8242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				224BAC3C224F459500316608 /* TestFonts.swift in Sources */,
+				22886BA9242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */,
 				224BAC39224F44AE00316608 /* CustomFontTests.swift in Sources */,
 				224BAC38224F44AE00316608 /* SystemFontTests.swift in Sources */,
 			);
@@ -437,6 +446,7 @@
 				224BAC5C224FF37C00316608 /* DefaultSizes+iOS.swift in Sources */,
 				224BAC5B224FF37C00316608 /* Utils.swift in Sources */,
 				224BAC5D224FF37C00316608 /* DefaultSizes+tvOS.swift in Sources */,
+				22886BAA242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				224BAC5F224FF4B500316608 /* TestFonts.swift in Sources */,
+				22886BAB242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */,
 				224BAC61224FF4B500316608 /* CustomFontTests.swift in Sources */,
 				224BAC60224FF4B500316608 /* SystemFontTests.swift in Sources */,
 			);
@@ -460,6 +471,7 @@
 				224BAC72224FF64C00316608 /* DefaultSizes+iOS.swift in Sources */,
 				224BAC71224FF64C00316608 /* Utils.swift in Sources */,
 				224BAC73224FF64C00316608 /* DefaultSizes+tvOS.swift in Sources */,
+				22886BAC242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
