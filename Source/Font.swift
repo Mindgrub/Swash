@@ -87,10 +87,10 @@ public extension Font {
         
         cascadeNames = UIAccessibility.isBoldTextEnabled
             ? cascadeList.map { $0.boldFontName ?? $0.fontName }
-            : cascadeList.map(\.fontName)
+            : cascadeList.map { $0.fontName }
         #else
         fontName = rawValue
-        cascadeNames = cascadeList.map(\.fontName)
+        cascadeNames = cascadeList.map { $0.fontName }
         #endif
         
         guard let font = UIFont(name: fontName, size: size) else {
