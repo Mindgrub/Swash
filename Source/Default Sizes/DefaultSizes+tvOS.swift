@@ -1,10 +1,3 @@
-//
-//  DefaultSizes+tvOS.swift
-//  Swash-tvOS
-//
-//  Created by Sam Francis on 9/19/18.
-//
-
 #if os(tvOS)
 import UIKit
 

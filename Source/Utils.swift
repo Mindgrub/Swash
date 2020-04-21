@@ -1,10 +1,3 @@
-//
-//  Utils.swift
-//  Swash
-//
-//  Created by Sam Francis on 1/29/18.
-//
-
 import UIKit
 
 /// A namespace for Swash utility methods.

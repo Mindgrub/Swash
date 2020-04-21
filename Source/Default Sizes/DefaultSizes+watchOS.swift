@@ -1,10 +1,3 @@
-//
-//  DefaultSizes+watchOS.swift
-//  Swash-watchOS
-//
-//  Created by Sam Francis on 9/19/18.
-//
-
 #if os(watchOS)
 import WatchKit
 

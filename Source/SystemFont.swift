@@ -1,10 +1,3 @@
-//
-//  SystemFont.swift
-//  Swash
-//
-//  Created by Sam Francis on 1/26/18.
-//
-
 import UIKit
 
 /**

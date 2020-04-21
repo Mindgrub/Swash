@@ -1,10 +1,3 @@
-//
-//  DefaultSizes+iOS.swift
-//  Swash-iOS
-//
-//  Created by Sam Francis on 9/19/18.
-//
-
 #if os(iOS)
 import UIKit
 
