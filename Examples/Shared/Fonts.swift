@@ -22,17 +22,21 @@ enum Avenir: String, Font {
     case roman = "Avenir-Roman"
     case mediumOblique = "Avenir-MediumOblique"
     
-    static let boldTextMapping: [Avenir : Avenir]? = [
-        light: book,
-        book: roman,
-        roman: medium,
-        medium: heavy,
-        heavy: black,
-        lightOblique: bookOblique,
-        bookOblique: mediumOblique,
-        mediumOblique: heavyOblique,
-        heavyOblique: blackOblique,
-    ]
+    var boldTextMapping: Avenir {
+        switch self {
+        case .light: return .book
+        case .book: return .roman
+        case .roman: return .medium
+        case .medium: return .heavy
+        case .heavy: return .black
+        case .lightOblique: return .bookOblique
+        case .bookOblique: return .mediumOblique
+        case .mediumOblique: return .oblique
+        case .oblique: return .heavyOblique
+        case .heavyOblique: return .blackOblique
+        case .blackOblique, .black: return self
+        }
+    }
 }
 
 enum Futura: String, Font {
@@ -41,6 +45,23 @@ enum Futura: String, Font {
     case condensedExtraBold = "Futura-CondensedExtraBold"
     case condensedMedium = "Futura-CondensedMedium"
     case medium = "Futura-Medium"
+}
+
+enum Papyrus: String, Font {
+    case condensed = "Papyrus-Condensed"
+    case regular = "Papyrus"
+    
+    var cascadeList: [CascadingFontProperties] {
+        [.init(Damascus.regular)]
+    }
+}
+
+enum Damascus: String, Font {
+    case bold = "DamascusBold"
+    case light = "DamascusLight"
+    case regular = "Damascus"
+    case medium = "DamascusMedium"
+    case semiBold = "DamascusSemiBold"
 }
 
 enum InvalidFont: String, Font {

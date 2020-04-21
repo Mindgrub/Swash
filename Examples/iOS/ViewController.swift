@@ -38,12 +38,12 @@ class ViewController: UIViewController {
     }
     
     @objc private func updateFonts() {
-        label1.font = Futura.condensedMedium.of(textStyle: .headline, maxSize: 24)
+        label1.font = Papyrus.regular.of(textStyle: .headline, maxSize: 24)
         label2.font = Avenir.light.of(style: .title1)
         label3.font = SystemFont.preferred.of(textStyle: .caption1)
         label4.font = SystemFont.heavy.of(textStyle: .body)
         
-        label1.text = label1.font.fontName
+        label1.text = "فهو يتحدّث بلغة يونيكود. تسجّل الآن Papyrus -> Damascus"
         label2.text = label2.font.fontName
         label3.text = label3.font.fontName
         label4.text = label4.font.fontName
