@@ -634,7 +634,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 4.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mindgrub.Swash;
 				PRODUCT_NAME = Swash;
 				SKIP_INSTALL = YES;
@@ -663,7 +663,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 4.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mindgrub.Swash;
 				PRODUCT_NAME = Swash;
 				SKIP_INSTALL = YES;
@@ -725,7 +725,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 4.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mindgrub.Swash;
 				PRODUCT_NAME = Swash;
 				SDKROOT = appletvos;
@@ -753,7 +753,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 4.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mindgrub.Swash;
 				PRODUCT_NAME = Swash;
 				SDKROOT = appletvos;
@@ -821,7 +821,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 4.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mindgrub.Swash;
 				PRODUCT_NAME = Swash;
 				SDKROOT = watchos;
@@ -849,7 +849,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 4.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mindgrub.Swash;
 				PRODUCT_NAME = Swash;
 				SDKROOT = watchos;
