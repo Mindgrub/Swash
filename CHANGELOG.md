@@ -1,5 +1,9 @@
 # Swash Change Log
 
+## 4.0.0
+- Added font cascading support
+- Changed `boldTextMapping` from `static` to instance (breaking change)
+
 ## 3.1.0
 - Added bold text setting support
 

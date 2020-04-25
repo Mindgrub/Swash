@@ -55,15 +55,33 @@ label3.font = SystemFont.semiboldItalic.of(textStyle: .body, maxSize: 30)
 **Important note:** [`adjustsFontForContentSizeCategory`](https://developer.apple.com/documentation/uikit/uicontentsizecategoryadjusting/1771731-adjustsfontforcontentsizecategor) only works with `SystemFont` for the `preferred` weight with a nil `maxSize` value. In any other case, you will need to update the font either in [`traitCollectionDidChange(_:)`](https://developer.apple.com/documentation/uikit/uitraitenvironment/1623516-traitcollectiondidchange) or by observing the [`UIContentSizeCategoryDidChange`](https://developer.apple.com/documentation/foundation/nsnotification.name/1622948-uicontentsizecategorydidchange) notification. This is because the `preferred` weight directly returns the result of [`UIFont.preferredFont(forTextStyle:)`](https://developer.apple.com/documentation/uikit/uifont/1619030-preferredfont).
 
 ### Bold Text Device Setting
-You can implement the static `boldTextMapping` property on any `Font` in order to support the "Bold Text" device setting on iOS and tvOS.
+You can implement the `boldTextMapping` property on any `Font` in order to support the "Bold Text" device setting on iOS and tvOS.
 ```
-static let boldTextMapping: [MyFont: MyFont]? = [
-   .regular: .bold
-]
+var boldTextMapping: MyFont {
+    switch self {
+    case .regular: return .bold
+    case .bold: return .black
+    case .black: return self
+    }
+}
 ```
 Now every regular `MyFont` instance will become bold if the user has "Bold Text" turned on in their device settings.
 
 If you'd like, you can observe `UIAccessibility.boldTextStatusDidChangeNotification` via `NotificationCenter` and set your fonts when that updates.
+
+### Font Cascading
+You can implement the static `cascadeList` property on any `Font` in order to support font cascading. In the event that your font does not support a character that is used in a label, this list will provide fallback fonts to use.
+```
+enum Papyrus: String, Font {
+    case condensed = "Papyrus-Condensed"
+    case regular = "Papyrus"
+    
+    var cascadeList: [CascadingFontProperties] {
+        [.init(Damascus.regular)]
+    }
+}
+```
+Papyrus does not support Arabic characters. So, here we've provided Damascus as a fallback. If no fallback is provided, the system font will be used for unsupported characters.
 
 ### Generate Boilerplate
 Swash can attempt to log your font boilerplate for you!

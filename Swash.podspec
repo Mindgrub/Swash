@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Swash'
-  s.version          = '3.1.0'
+  s.version          = '4.0.0'
   s.summary          = 'A simple, safe, and expressive abstraction of UIFont with baked-in support for dynamic type.'
   s.homepage         = 'https://github.com/Mindgrub/Swash'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
