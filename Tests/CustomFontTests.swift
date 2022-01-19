@@ -49,17 +49,17 @@ class CustomFontTests: XCTestCase {
     //MARK: - Dynamic Type - Deprecated in iOS 11
     
     func testOfStyle() {
-        let font = Futura.medium.of(style: .title3)
+        let font = Futura.medium.of(textStyle: .title3)
         XCTAssertEqual(font.fontName, "Futura-Medium")
     }
     
     func testOfStyleMax() {
-        let font = Futura.medium.of(style: .title3, maxSize: 10)
+        let font = Futura.medium.of(textStyle: .title3, maxSize: 10)
         XCTAssertEqual(font.fontName, "Futura-Medium")
     }
     
     func testInvalidOfStyle() {
-        let font = InvalidFont.doesNotExist.of(style: .caption1)
+        let font = InvalidFont.doesNotExist.of(textStyle: .caption1)
         XCTAssertEqual(font.fontName, ".SFUI-Regular")
     }
     
