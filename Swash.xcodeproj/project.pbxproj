@@ -76,7 +76,6 @@
 		224BAC42224FF35300316608 /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		224BAC4A224FF35400316608 /* Swash tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swash tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		224BAC67224FF62200316608 /* Swash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		224BAC78224FF84600316608 /* Swash.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Swash.podspec; sourceTree = "<group>"; };
 		224BAC79224FF85D00316608 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		224BAC98224FFE7400316608 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		224BAC99224FFEB900316608 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
@@ -190,7 +189,6 @@
 				CB8EBC112798670600CFBB98 /* Package.swift */,
 				224BAC98224FFE7400316608 /* README.md */,
 				224BAC99224FFEB900316608 /* CHANGELOG.md */,
-				224BAC78224FF84600316608 /* Swash.podspec */,
 				224BAC79224FF85D00316608 /* LICENSE */,
 				224BAC07224F41F100316608 /* Info.plist */,
 			);
