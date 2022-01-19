@@ -5,11 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "Swash",
-    platforms: [
-        .iOS("12.2"),
-        .tvOS("12.2"),
-        .watchOS("2.0")
-    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -25,9 +20,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "Swash",
-            dependencies: []),
-        .testTarget(
-            name: "SwashTests",
-            dependencies: ["Swash"]),
+            dependencies: [])
     ]
 )
