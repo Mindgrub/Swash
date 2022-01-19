@@ -37,9 +37,7 @@
 		224BAC75224FF65300316608 /* Swash.h in Headers */ = {isa = PBXBuildFile; fileRef = 224BAC06224F41F100316608 /* Swash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		224BAC76224FF65400316608 /* Swash.h in Headers */ = {isa = PBXBuildFile; fileRef = 224BAC06224F41F100316608 /* Swash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22886BA8242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */; };
-		22886BA9242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */; };
 		22886BAA242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */; };
-		22886BAB242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */; };
 		22886BAC242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +81,7 @@
 		224BAC98224FFE7400316608 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		224BAC99224FFEB900316608 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CascadingFontProperties.swift; sourceTree = "<group>"; };
+		CB8EBC112798670600CFBB98 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				224BAC77224FF82C00316608 /* Deployment */,
-				224BAC05224F41F100316608 /* Source */,
+				224BAC05224F41F100316608 /* Sources */,
 				224BAC34224F44AE00316608 /* Tests */,
 				224BAC04224F41F100316608 /* Products */,
 			);
@@ -148,17 +147,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		224BAC05224F41F100316608 /* Source */ = {
+		224BAC05224F41F100316608 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				224BAC2C224F443700316608 /* Font.swift */,
-				224BAC2A224F443700316608 /* SystemFont.swift */,
-				22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */,
-				224BAC2B224F443700316608 /* Utils.swift */,
-				224BAC20224F43F200316608 /* Default Sizes */,
-				224BAC33224F444B00316608 /* Supporting Files */,
+				CB8EBC102798665400CFBB98 /* Swash */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		224BAC20224F43F200316608 /* Default Sizes */ = {
@@ -175,7 +169,6 @@
 			isa = PBXGroup;
 			children = (
 				224BAC06224F41F100316608 /* Swash.h */,
-				224BAC07224F41F100316608 /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,12 +187,27 @@
 		224BAC77224FF82C00316608 /* Deployment */ = {
 			isa = PBXGroup;
 			children = (
+				CB8EBC112798670600CFBB98 /* Package.swift */,
 				224BAC98224FFE7400316608 /* README.md */,
 				224BAC99224FFEB900316608 /* CHANGELOG.md */,
 				224BAC78224FF84600316608 /* Swash.podspec */,
 				224BAC79224FF85D00316608 /* LICENSE */,
+				224BAC07224F41F100316608 /* Info.plist */,
 			);
 			name = Deployment;
+			sourceTree = "<group>";
+		};
+		CB8EBC102798665400CFBB98 /* Swash */ = {
+			isa = PBXGroup;
+			children = (
+				224BAC2C224F443700316608 /* Font.swift */,
+				224BAC2A224F443700316608 /* SystemFont.swift */,
+				22886BA7242C6E1C009871B7 /* CascadingFontProperties.swift */,
+				224BAC2B224F443700316608 /* Utils.swift */,
+				224BAC20224F43F200316608 /* Default Sizes */,
+				224BAC33224F444B00316608 /* Supporting Files */,
+			);
+			path = Swash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,7 +438,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				224BAC3C224F459500316608 /* TestFonts.swift in Sources */,
-				22886BA9242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */,
 				224BAC39224F44AE00316608 /* CustomFontTests.swift in Sources */,
 				224BAC38224F44AE00316608 /* SystemFontTests.swift in Sources */,
 			);
@@ -455,7 +462,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				224BAC5F224FF4B500316608 /* TestFonts.swift in Sources */,
-				22886BAB242C6E1C009871B7 /* CascadingFontProperties.swift in Sources */,
 				224BAC61224FF4B500316608 /* CustomFontTests.swift in Sources */,
 				224BAC60224FF4B500316608 /* SystemFontTests.swift in Sources */,
 			);
@@ -626,9 +632,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Deployment/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -655,9 +661,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Deployment/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -718,7 +724,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Deployment/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -732,7 +738,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
 			};
 			name = Debug;
 		};
@@ -746,7 +752,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Deployment/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -760,7 +766,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
 			};
 			name = Release;
 		};
@@ -814,7 +820,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Deployment/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -842,7 +848,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Deployment/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

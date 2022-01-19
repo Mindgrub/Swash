@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "2.0"
   s.swift_version = '5.1'
 
-  s.source_files = 'Source/**/*.swift'
+  s.source_files = 'Sources/Swash/**/*.swift'
 end
